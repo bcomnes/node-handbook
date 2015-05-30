@@ -47,6 +47,7 @@ Javascript is the programming language that your web browser comes with, but the
 Douglas Crockford gave a good presentation that effectivly answers the question: "What is Javascript?" in his 2012 "Javascript: Your New Overlord" presentation:
 
 [![Javascript: Your New Overlord](img/crockford.gif)](https://www.youtube.com/watch?v=Trurfqh_6fQ)
+
 [Javascript: Your New Overlord](https://www.youtube.com/watch?v=Trurfqh_6fQ)
 
 ## What is node?
@@ -56,9 +57,11 @@ Node was created by [Ryan Dahl](http://tinyclouds.org).  He has since pulled a [
 The best way to understand what node is to listen to Ryan describe it himself.
 
 [![Ryan Dahl: Original Node.js presentation](https://i.ytimg.com/vi/ztspvPYybIY/hqdefault.jpg)](https://www.youtube.com/watch?v=ztspvPYybIY)
+
 [Ryan Dahl: Original Node.js presentation](https://www.youtube.com/watch?v=ztspvPYybIY)
 
 [![Ryan Dahl Talk - NodeConf Theatre 2012.ogv](img/ry2.gif)](https://www.youtube.com/watch?v=GhFrlX0LdFA)
+
 [Ryan Dahl Talk - NodeConf Theatre 2012.ogv](https://www.youtube.com/watch?v=GhFrlX0LdFA)
 
 

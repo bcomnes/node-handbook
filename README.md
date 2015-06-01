@@ -31,12 +31,25 @@ There is a vibrant and active community that is on-line at all hours of the day 
 Before we get started, we need to be somewhat prepared to face what lies ahead.  In order to communicate with the local populous you need to learn how to speak javascript
 
 ### [Javascript for Cats](http://jsforcats.com)
-If your a cat, like to have fun or learn like a cat, this will teach you the basics of javascript. A+
+If your a cat, like to have fun or learn like a cat, this will teach you the basics of javascript.
 
 ![](img/jsforcats.png)
 
+### [nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)
+
+We will revisit [nodeschool.io](http://nodeschool.io/) in the soon, but for now the `javascripting` nodeschool adventure is a good place to start learning javascript.  It may be a bit steep for absolute beginners.  Read through the [`get going`](http://nodeschool.io/#get-going) section to get up and running.
+
+For those who know their way around `npm` already:
+
+```sh
+npm install -g javascripting
+
+```
+
+![](img/javascripting.png)
+
 ### [Codecademy](http://www.codecademy.com/en/tracks/javascript)
-If you tend to be a bit more serious, Codecademy's Javascript is also a good place to start.  Don't feel bad if you get bored and don't finish.  It's picking up the syntax that counts. B+
+If you tend to be a bit more serious, Codecademy's Javascript is also a good place to start.  Don't feel bad if you get bored and don't finish.  It's picking up the syntax that counts.
 
 ![](img/codecademy.png)
 
@@ -52,11 +65,11 @@ Douglas Crockford gave a good presentation that effectivly answers the question:
 
 ## What is node?
 
-Node was created by [Ryan Dahl](http://tinyclouds.org).  He has since pulled a [Mark Pilgrim](http://www.diveintomark.link) and [HTTP 410](http://en.wikipedia.org/wiki/Mark_Pilgrim#.22Disappearance.22_from_the_Internet)'d himself from the INTERNET, but occasionally will post interesting undocumented code projects to his [github](https://github.com/ry).
+Node was created by [Ryan Dahl](http://tinyclouds.org).  He has since pulled a [Mark Pilgrim](http://www.diveintomark.link) and [HTTP 410](http://en.wikipedia.org/wiki/Mark_Pilgrim#.22Disappearance.22_from_the_Internet)'d himself from the INTERNET, but occasionally will post interesting undocumented code projects to his [github](https://github.com/ry) or [post to the node mailing list](https://groups.google.com/forum/#!activity/nodejs/2JvBi5ikhDgJ).
 
 The best way to understand what node is to listen to Ryan describe it himself.
 
-[![Ryan Dahl: Original Node.js presentation](https://i.ytimg.com/vi/ztspvPYybIY/hqdefault.jpg)](https://www.youtube.com/watch?v=ztspvPYybIY)
+[![Ryan Dahl: Original Node.js presentation](img/ry1.gif)](https://www.youtube.com/watch?v=ztspvPYybIY)
 
 [Ryan Dahl: Original Node.js presentation](https://www.youtube.com/watch?v=ztspvPYybIY)
 

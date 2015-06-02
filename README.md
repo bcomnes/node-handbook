@@ -73,9 +73,40 @@ The best way to understand what node is to listen to Ryan describe it himself.
 
 [Ryan Dahl: Original Node.js presentation](https://www.youtube.com/watch?v=ztspvPYybIY)
 
+[Ryan Dahl: Original Node.js presentation Slide Deck](doc/jsconf.pdf) (pdf)
+
 [![Ryan Dahl Talk - NodeConf Theatre 2012.ogv](img/ry2.gif)](https://www.youtube.com/watch?v=GhFrlX0LdFA)
 
 [Ryan Dahl Talk - NodeConf Theatre 2012.ogv](https://www.youtube.com/watch?v=GhFrlX0LdFA)
+
+[Ryan Dahl Talk NodeConf Theatre 2012 Slides](doc/nodeconf2012.pdf) (pdf)
+
+## How to know node
+
+Now that we have seen a bit about the history and motivations behind node, lets actually start learning more about it.
+
+### [The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)
+
+[![](img/art-of-node.png)](https://github.com/maxogden/art-of-node#the-art-of-node)
+
+Written by the prolific [Max Ogden](http://maxogden.com),
+
+![thanks http://substack.net/art](img/max.gif)
+
+the-art-of-node gives a thorough explanation of how node works, how to write node flavored javascript, callbacks and async programming, writing and using modules and how to best be apart of the node community.  Its full of insight and clear reasoning, but when you are new to js and/or node, all of the subtleties can fly by pretty quickly.  It's a short and easily digestible read, that you should probably read through a few times.
+
+### [Node.js in Action](http://www.manning.com/cantelon/)
+
+[![node.js in action image cover](img/inaction.jpg)](http://www.manning.com/cantelon/)
+
+([2nd Edition Coming Soon](http://www.manning.com/cantelon2/))
+
+Written by a slew of node.js superstars, this book is totally great and totally flawed, and a bit dated at this point as well.  For those that learn by example, this is the book for you.
+
+It covers the basics of all the well known [Visionmedia](https://github.com/visionmedia)  modules (e.g. [express](http://expressjs.com), [mocha](http://mochajs.org), [connect](https://github.com/senchalabs/connect#readme), [jade](http://jade-lang.com), [ejs](http://www.embeddedjs.com) etc...).  You will learn to use all of these early node tools, including core node modules, async programming, testing, templating, CLI programs, and even node clustering from this book through the various included projects and examples.
+
+Despite having moved on from many of these tools, I revisit this book a lot.
+
 
 ## ... [WIP]
 

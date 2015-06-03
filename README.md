@@ -37,7 +37,7 @@ If your a cat, like to have fun or learn like a cat, this will teach you the bas
 
 ### [nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)
 
-We will revisit [nodeschool.io](http://nodeschool.io/) in the soon, but for now the `javascripting` nodeschool adventure is a good place to start learning javascript.  It may be a bit steep for absolute beginners.  Read through the [`get going`](http://nodeschool.io/#get-going) section to get up and running.
+We will revisit [nodeschool.io](http://nodeschool.io/) in the near future, but for now the `javascripting` nodeschool adventure is a good place to start learning javascript.  It may be a bit steep for absolute beginners.  Read through the [`get going`](http://nodeschool.io/#get-going) section to get up and running.
 
 For those who know their way around `npm` already:
 
@@ -93,7 +93,7 @@ Written by the prolific [Max Ogden](http://maxogden.com),
 
 ![thanks http://substack.net/art](img/max.gif)
 
-the-art-of-node gives a thorough explanation of how node works, how to write node flavored javascript, callbacks and async programming, writing and using modules and how to best be apart of the node community.  Its full of insight and clear reasoning, but when you are new to js and/or node, all of the subtleties can fly by pretty quickly.  It's a short and easily digestible read, that you should probably read through a few times.
+the-art-of-node gives a thorough explanation of how node works, how to write node flavored javascript, callbacks and async programming, writing and using modules and how to be apart of the node/js community and do your best.  Its full of insight and clear reasoning, but when you are new to js and/or node, all of the subtleties can fly by pretty quickly.  It's a short and easily digestible read, that you should probably read through a few times.
 
 ### [Node.js in Action](http://www.manning.com/cantelon/)
 
@@ -107,6 +107,10 @@ It covers the basics of all the well known [Visionmedia](https://github.com/visi
 
 Despite having moved on from many of these tools, I revisit this book a lot.
 
+#### What this book does well:
+
+- Introduction to node
+- socket.io examples (abit out dated)
+
 
 ## ... [WIP]
-

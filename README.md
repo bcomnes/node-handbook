@@ -81,6 +81,32 @@ The best way to understand what node is to listen to Ryan describe it himself.
 
 [Ryan Dahl Talk NodeConf Theatre 2012 Slides](doc/nodeconf2012.pdf) (pdf)
 
+## How to get node
+
+There are lots of ways to install node.  Lets visit some of the better ways.
+
+### OSX
+
+OSX gets a choice of 3 ways to install node:
+
+#### [Homebrew]():
+
+#### The installer `node-v*.pkg`
+
+Quick n dirty
+
+#### NVM
+
+Using NVM
+
+### Linux
+
+### Windows
+
+## `node` or `iojs`?
+
+Talk about which one to use quickly.
+
 ## How to know node
 
 Now that we have seen a bit about the history and motivations behind node, lets actually start learning more about it.
@@ -99,18 +125,44 @@ the-art-of-node gives a thorough explanation of how node works, how to write nod
 
 [![node.js in action image cover](img/inaction.jpg)](http://www.manning.com/cantelon/)
 
-([2nd Edition Coming Soon](http://www.manning.com/cantelon2/))
+([2nd Edition Coming Soon](http://www.manning.com/cantelon2/))x
 
-Written by a slew of node.js superstars, this book is totally great and totally flawed, and a bit dated at this point as well.  For those that learn by example, this is the book for you.
+Written by a crew of early prolific node.js module developers, this book is totally great and somewhat  flawed, and a bit dated at this point as well.  But for those that learn by example, this is the book for you.
 
 It covers the basics of all the well known [Visionmedia](https://github.com/visionmedia)  modules (e.g. [express](http://expressjs.com), [mocha](http://mochajs.org), [connect](https://github.com/senchalabs/connect#readme), [jade](http://jade-lang.com), [ejs](http://www.embeddedjs.com) etc...).  You will learn to use all of these early node tools, including core node modules, async programming, testing, templating, CLI programs, and even node clustering from this book through the various included projects and examples.
 
-Despite having moved on from many of these tools, I revisit this book a lot.
+Despite the fact that many of the modules discussed have changed their APIs, this is still a great reference and useful for learning node.
 
 #### What this book does well:
 
-- Introduction to node
-- socket.io examples (abit out dated)
+- Introduction to node, events async programming and flow control
+- [socket.io](http://socket.io) examples
+- Module resolution and loading (a.k.a. [require('foo')](https://nodejs.org/api/modules.html#modules_module_require_id))
+- http
+- ORMs and Databases
+- Middleware and [Connect](https://github.com/senchalabs/connect)
+- [Express](http://expressjs.com) photo hosting and microblogging app
+- Testing (mostly Mocha)
+- EJS and Jade templating
+- Node application deployment
+- System Calls
+- Raw TCP/IP
+- CLI Tools
 
+Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd.  
+
+### [Nodeschool.io](http://nodeschool.io/): `learnyounode`
+
+To get
+
+```sh
+npm i learnyounode -g
+```
+
+![](img/learnyounode.png)
+
+No, not [learnyouhaskell](http://learnyouahaskell.com/), that lives on a different planet.  
+
+##
 
 ## ... [WIP]

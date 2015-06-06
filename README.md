@@ -94,33 +94,97 @@ The best way to understand what node is to listen to Ryan describe it himself.
 
 ## How to get node
 
-There are lots of ways to install node.  Lets visit some of the better ways.
+There are lots of ways to install node.  Lets visit some of the better ways of this contentious topic.
 
 ### OSX
 
 ![](img/osx.png)
 
-OSX gets a choice of 3 ways to install node:
+The only prequisite to installing node is that you have a copy of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).  This installs the OS X build toolchain.  This is a really complicated set of programs that let you build software from source.  Some node modues use `c` "native addons" which require that you have a `c` compiler on your computer.  Its free and the only place to get it is from App store (boooo).
 
-#### [Homebrew](http://brew.sh):
+![](img/xcode.png)
 
-Homebrew is a package manager for OS X.  It's written in ruby, and uses git as
+OSX Terminal.app is pretty great for everything you need to do (although historically it used to suck).  Just use OSX's terminal unless you have a reason not to.
 
-#### The installer `node-v*.pkg`
+![](img/terminal.png)
 
-Quick n dirty
+There are two great options to install `node` on OSX: Homebrew and the Offical Installer.
 
-#### NVM
+- #### [Homebrew](http://brew.sh)
 
-Using NVM
+  ![](img/brew.png)
+
+  Homebrew is a lightwheight package manager for OS X.  Homebrew:
+
+    - downloads and installs Unix CLI programs from source code
+    - keeps track of which programs you installed and at what version
+    - updates your programs when updates are available
+    - download non-npm programs and utilities
+
+  Until npm has packages for all external dependencies, having `brew` installed can be really helpful.
+
+  Visit the [Homebrew](http://brew.sh) website for the latest instructctions on how get `brew` installed.  Once you have homebrew installed installing node is as easy as running:
+
+  ```sh
+  $ brew install node
+  ```
+
+  To get new releases of node in the future download run:
+
+  ```sh
+  $ brew update
+  $ brew upgrade node
+  ```
+
+  Easy.
+
+  A quick brew `101` so that you know what you just did:
+
+    - `/usr/local` is a special unix folder where 'userspace' (e.g. not managed by the OS) programs can be safely installed.
+    - Homebrew turns `/usr/local` into a git repo
+    - `brew` uses "Formula" written as simple ruby scripts to download, build and install programs to `/usr/local/Cellar`
+    - The active version of a program installed by `brew` is symlinked to `/usr/local/{bin,lib,...}`
+    - `brew update` updates the `/usr/local` repo so that you have the latest 'Formula' available
+    - All Formula can be built from source, but most have precompiled 'Bottles' (a.k.a. binaries) to save time and battery.
+    - Old versions of programs can be installed by going back into the git history.
+
+
+- #### [The official node installer `node-v*.pkg`](https://nodejs.org/download/)
+
+  ![](img/osxinstaller.png)
+
+  Easy.  You go to the node website, you download the .pkg, and install it.  It installs to the same location that homebrew installs to: `/usr/local/bin`.
+
 
 ### Linux
 
+Running Linux? (👍btw)
+
+![](img/stop.gif)
+
+don't just reach for your systems package manager.  Linux distributions almost universally ship painfully dated versions of node and npm, and install them in ways that make them a total pain to use for the sake of 'stability'.  This sucks.  
+
+Luckily there is a comprensive resource on how to add software channels that have updated versions of node to common package mangers:
+
+[Installing-Node.js-via-package-manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
+
+Don't sudo with npm!  (even -g).  Set up `npm` so that it works without sudo:
+
+[Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+
 ### Windows
 
-## `node` or `iojs`?
+> Windows is very important.  Just like PHP
+-- [Ryan Dahl](https://youtu.be/jo_B4LTHi3I?t=56s)
 
-Talk about which one to use quickly.
+On windows, pretty much stick with the official installer:
+
+[Official Installer](https://nodejs.org/download/)
+
+There are a few package managers on windows which you are free to explore on your own time:
+
+- [Chocolatey](https://chocolatey.org)
+- [Scoop](https://github.com/lukesampson/scoop)
 
 ## How to know node
 
@@ -164,7 +228,7 @@ Despite the fact that many of the modules discussed have changed their APIs, thi
 - Raw TCP/IP
 - CLI Tools
 
-Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd.  
+Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd.
 
 ### [Nodeschool.io](http://nodeschool.io/): `learnyounode`
 
@@ -176,7 +240,7 @@ npm i learnyounode -g
 
 ![](img/learnyounode.png)
 
-No, not [learnyouhaskell](http://learnyouahaskell.com/), that lives on a different planet.  
+No, not [learnyouhaskell](http://learnyouahaskell.com/), that lives on a different planet.
 
 ##
 

@@ -1,8 +1,19 @@
-# node-safari
+# node-learnbook
 
-Lets go on a node safari! 🐪 🙈
+Lets learn node the node way! 🐪 🙈
+
+![](img/sparkle.gif)
 
 It's uncertain where this trek will take us, but we will try to strike a balance between instructional material, history, and philosophies on node, javascript, software, programming, engineering, communication, and tooling.
+
+We may also cover a few other useful places to learn cool tools and skils like:
+
+- html
+- css
+- git
+- irc
+- unix
+- app deployment
 
 ## Required Provisions
 
@@ -87,9 +98,13 @@ There are lots of ways to install node.  Lets visit some of the better ways.
 
 ### OSX
 
+![](img/osx.png)
+
 OSX gets a choice of 3 ways to install node:
 
-#### [Homebrew]():
+#### [Homebrew](http://brew.sh):
+
+Homebrew is a package manager for OS X.  It's written in ruby, and uses git as
 
 #### The installer `node-v*.pkg`
 

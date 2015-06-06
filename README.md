@@ -186,6 +186,12 @@ There are a few package managers on windows which you are free to explore on you
 - [Chocolatey](https://chocolatey.org)
 - [Scoop](https://github.com/lukesampson/scoop)
 
+Windows support for node is pretty good.  Windows support for most npm modules is pretty bad.  
+
+You will also need to install a free version of Visual Studio for building modules that have native addons:
+
+[Visual Studio Express](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
+
 ## How to know node
 
 Now that we have seen a bit about the history and motivations behind node, lets actually start learning more about it.
@@ -216,6 +222,7 @@ Despite the fact that many of the modules discussed have changed their APIs, thi
 
 - Introduction to node, events async programming and flow control
 - [socket.io](http://socket.io) examples
+- npm modules: publishing and consuming
 - Module resolution and loading (a.k.a. [require('foo')](https://nodejs.org/api/modules.html#modules_module_require_id))
 - http
 - ORMs and Databases
@@ -230,9 +237,15 @@ Despite the fact that many of the modules discussed have changed their APIs, thi
 
 Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd.
 
-### [Nodeschool.io](http://nodeschool.io/): `learnyounode`
+### [Nodeschool.io](http://nodeschool.io/) Core
 
-To get
+![](img/schoolhouse.svg)
+
+Nodeschool is a free resource that offers lessions and tutorials on tons of topcis, mostly relating to node and js.  The key is that the lessons are written for `node` and you install them with `npm` (usually).  
+
+#### [Node School Core](http://nodeschool.io/#workshopper-list)
+
+Start with [learnyounode](https://github.com/workshopper/learnyounode) which can be installed with
 
 ```sh
 npm i learnyounode -g
@@ -240,8 +253,39 @@ npm i learnyounode -g
 
 ![](img/learnyounode.png)
 
-No, not [learnyouhaskell](http://learnyouahaskell.com/), that lives on a different planet.
+(No, not [learnyouhaskell](http://learnyouahaskell.com/), that lives on a different planet)
 
-##
+After this, brush up on your `git` in `git-it`:
+
+```sh
+npm i git-it -g
+```
+
+![](img/git-it.png)
+
+Finally, wrap your head around `npm`
+
+
+```sh
+npm i how-to-npm -g
+```
+
+![](img/how-to-npm.png)
+
+## Mastering Javascript
+
+Javascript is easy to learn, but hard to master.  It's a flawed language with lots of subtle pitfalls that need to learn to navigate.  
+
+
+##  [Nodeschool.io](http://nodeschool.io/) Core Redux
+
+If you haven't already, finish up the core nodeschool workshops.  The last two are the most conceptually difficult:
+
+`scope-chains-closures` teaches you all about scopes and closures!  
+
+```sh
+npm i -g scope-chains-closures
+```
+
 
 ## ... [WIP]

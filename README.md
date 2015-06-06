@@ -277,7 +277,7 @@ npm i how-to-npm -g
 Javascript is easy to learn, but hard to master.  It's a flawed language with lots of subtle pitfalls that need to learn to navigate.  
 
 
-##  [Nodeschool.io](http://nodeschool.io/) Core Redux
+###  [Nodeschool.io](http://nodeschool.io/) Core Redux
 
 If you haven't already, finish up the core nodeschool workshops.  The last two are the most conceptually difficult:
 
@@ -286,6 +286,45 @@ If you haven't already, finish up the core nodeschool workshops.  The last two a
 ```sh
 npm i -g scope-chains-closures
 ```
+
+streams adventure
+
+### Effective Javascript
+
+### Eloquent Javascript
+
+## Node in the browser?
+
+- Browserify-handbook
+
+## Streams
+
+- Streams handbook
+
+## html + css
+
+- Dive into html5
+- HTML5 and css Jon Ducket
+
+## Community
+
+- irc
+- github
+- twitter
+- conferences
+- gitter/slack?
+
+## Mastering git
+
+- orily git
+- git for 5 year olds
+
+## Electron?
+
+- yay desktop apps
+- electron handbook
+
+## Popular modules and authors
 
 
 ## ... [WIP]

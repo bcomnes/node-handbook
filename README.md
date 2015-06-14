@@ -162,7 +162,7 @@ Running Linux? (👍btw)
 
 ![](img/stop.gif)
 
-don't just reach for your systems package manager.  Linux distributions almost universally ship painfully dated versions of node and npm, and install them in ways that make them a total pain to use for the sake of 'stability'.  This sucks.  
+don't just reach for your systems package manager.  Linux distributions almost universally ship painfully dated versions of node and npm, and install them in ways that make them a total pain to use for the sake of 'stability'.  This sucks.
 
 Luckily there is a comprensive resource on how to add software channels that have updated versions of node to common package mangers:
 
@@ -186,7 +186,7 @@ There are a few package managers on windows which you are free to explore on you
 - [Chocolatey](https://chocolatey.org)
 - [Scoop](https://github.com/lukesampson/scoop)
 
-Windows support for node is pretty good.  Windows support for most npm modules is pretty bad.  
+Windows support for node is pretty good.  Windows support for most npm modules is pretty bad.
 
 You will also need to install a free version of Visual Studio for building modules that have native addons:
 
@@ -241,7 +241,7 @@ Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd.
 
 ![](img/schoolhouse.svg)
 
-Nodeschool is a free resource that offers lessions and tutorials on tons of topcis, mostly relating to node and js.  The key is that the lessons are written for `node` and you install them with `npm` (usually).  
+Nodeschool is a free resource that offers lessions and tutorials on tons of topcis, mostly relating to node and js.  The key is that the lessons are written for `node` and you install them with `npm` (usually).
 
 #### [Node School Core](http://nodeschool.io/#workshopper-list)
 
@@ -274,14 +274,14 @@ npm i how-to-npm -g
 
 ## Mastering Javascript
 
-Javascript is easy to learn, but hard to master.  It's a flawed language with lots of subtle pitfalls that need to learn to navigate.  
+Javascript is easy to learn, but hard to master.  It's a flawed language with lots of subtle pitfalls that need to learn to navigate.
 
 
 ###  [Nodeschool.io](http://nodeschool.io/) Core Redux
 
 If you haven't already, finish up the core nodeschool workshops.  The last two are the most conceptually difficult:
 
-`scope-chains-closures` teaches you all about scopes and closures!  
+`scope-chains-closures` teaches you all about scopes and closures!
 
 ```sh
 npm i -g scope-chains-closures
@@ -300,6 +300,19 @@ streams adventure
 ## Streams
 
 - Streams handbook
+
+## Semver
+
+- http://semver.org/
+- http://semver-ftw.org/
+
+## Frameworks
+
+- http://lebron.technology/
+- http://hapijs.com/
+- http://expressjs.com/
+- https://github.com/Raynos/http-framework
+- https://github.com/Raynos/mercury
 
 ## html + css
 
@@ -324,7 +337,9 @@ streams adventure
 - yay desktop apps
 - electron handbook
 
-## Popular modules and authors
+## Cool modules
+
+## People to watch
 
 
 ## ... [WIP]

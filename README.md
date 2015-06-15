@@ -31,9 +31,9 @@ Getting through all the material is going to take time.  Visit the places that s
 
 Don't go at it alone.  Get in touch with your local javascript and node community and make friends.  Don't live near anyone?
 
-![](img/hermit.jpg)
+![](http://bret.io/media/ownyourgram.com/igiRHQt1.jpg)
 
-There is a vibrant and active community that is on-line at all hours of the day so you can [remain isolated but still be connected with thousands of people](http://bret.io/2015/05/23/thousand-isolation-d/).
+There is a vibrant and active community that is on-line at all hours of the day so you can remain isolated but still be connected with thousands of people.
 
 
 

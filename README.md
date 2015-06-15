@@ -297,6 +297,12 @@ streams adventure
 
 - Browserify-handbook
 
+## `npm` stuffs
+
+- npm scripts
+- package.json
+- SPDX license expression
+
 ## Streams
 
 - Streams handbook
@@ -313,6 +319,7 @@ streams adventure
 - http://expressjs.com/
 - https://github.com/Raynos/http-framework
 - https://github.com/Raynos/mercury
+- https://jshttp.github.io/
 
 ## html + css
 

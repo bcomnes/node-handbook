@@ -98,22 +98,22 @@ There are lots of ways to install node.  Lets visit some of the better ways of t
 
 ### OSX
 
-![](img/osx.png)
+<img src="img/osx.png" height="175">
 
 The only prequisite to installing node is that you have a copy of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).  This installs the OS X build toolchain.  This is a really complicated set of programs that let you build software from source.  Some node modues use `c` "native addons" which require that you have a `c` compiler on your computer.  Its free and the only place to get it is from App store (boooo).
 
-![](img/xcode.png)
+<img src="img/xcode.png" height="175">
 
 OSX Terminal.app is pretty great for everything you need to do (although historically it used to suck).  Just use OSX's terminal unless you have a reason not to.
 
-![](img/terminal.png)
+<img src="img/terminal.png" height="175">
 
 There are two great options to install `node` on OSX: Homebrew and the Offical Installer.
 
 - #### [Homebrew](http://brew.sh)
 
-  ![](img/brew.png)
-
+  <img src="img/brew.png" height="175">
+  
   Homebrew is a lightwheight package manager for OS X.  Homebrew:
 
     - downloads and installs Unix CLI programs from source code
@@ -153,7 +153,7 @@ There are two great options to install `node` on OSX: Homebrew and the Offical I
 
   ![](img/osxinstaller.png)
 
-  Easy.  You go to the node website, you download the .pkg, and install it.  It installs to the same location that homebrew installs to: `/usr/local/bin`.
+  Easy.  You go to the node website, you [download the .pkg](https://nodejs.org/download/), and install it.  It installs to the same location that homebrew installs to: `/usr/local/bin`.
 
 
 ### Linux
@@ -162,7 +162,7 @@ Running Linux? (👍btw)
 
 ![](img/stop.gif)
 
-don't just reach for your systems package manager.  Linux distributions almost universally ship painfully dated versions of node and npm, and install them in ways that make them a total pain to use for the sake of 'stability'.  This sucks.
+Don't just reach for your systems package manager.  Linux distributions almost universally ship painfully dated versions of node and npm (unless you are running something like [Arch Linux](https://www.archlinux.org)), and install them in ways that make them a total pain to use for the sake of 'stability'.  This sucks.
 
 Luckily there is a comprensive resource on how to add software channels that have updated versions of node to common package mangers:
 
@@ -202,7 +202,7 @@ Now that we have seen a bit about the history and motivations behind node, lets 
 
 Written by the prolific [Max Ogden](http://maxogden.com),
 
-![thanks http://substack.net/art](img/max.gif)
+<img src="img/max.gif" alt="thanks http://substack.net/art" height="200">
 
 the-art-of-node gives a thorough explanation of how node works, how to write node flavored javascript, callbacks and async programming, writing and using modules and how to be apart of the node/js community and do your best.  Its full of insight and clear reasoning, but when you are new to js and/or node, all of the subtleties can fly by pretty quickly.  It's a short and easily digestible read, that you should probably read through a few times.
 
@@ -239,7 +239,7 @@ Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd.
 
 ### [Nodeschool.io](http://nodeschool.io/) Core
 
-![](img/schoolhouse.svg)
+<img src="https://cdn.rawgit.com/bcomnes/node-learnbook/master/img/schoolhouse.svg">
 
 Nodeschool is a free resource that offers lessions and tutorials on tons of topcis, mostly relating to node and js.  The key is that the lessons are written for `node` and you install them with `npm` (usually).
 

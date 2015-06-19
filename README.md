@@ -15,6 +15,51 @@ We may also cover a few other useful places to learn cool tools and skils like:
 - unix
 - app deployment
 
+## TOC
+
+<!-- TOC depth:6 withLinks:1 updateOnSave:1 -->
+- [node-learnbook](#node-learnbook)
+	- [TOC](#toc)
+	- [Required Provisions](#required-provisions)
+	- [Company and Time-line](#company-and-time-line)
+	- [Getting started.](#getting-started)
+		- [[Javascript for Cats](http://jsforcats.com)](#javascript-for-catshttpjsforcatscom)
+		- [[nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)](#nodeschoolio-javascriptinghttpsgithubcomsethvincentjavascripting)
+		- [[Codecademy](http://www.codecademy.com/en/tracks/javascript)](#codecademyhttpwwwcodecademycomentracksjavascript)
+	- [What is javascript?](#what-is-javascript)
+	- [What is node?](#what-is-node)
+	- [How to get node](#how-to-get-node)
+		- [OSX](#osx)
+		- [Linux](#linux)
+		- [Windows](#windows)
+	- [How to know node](#how-to-know-node)
+		- [[The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)](#the-art-of-nodehttpsgithubcommaxogdenart-of-nodethe-art-of-node)
+		- [[Node.js in Action](http://www.manning.com/cantelon/)](#nodejs-in-actionhttpwwwmanningcomcantelon)
+			- [What this book does well:](#what-this-book-does-well)
+		- [[Nodeschool.io](http://nodeschool.io/) Core](#nodeschooliohttpnodeschoolio-core)
+			- [[Node School Core](http://nodeschool.io/#workshopper-list)](#node-school-corehttpnodeschoolioworkshopper-list)
+	- [Mastering Javascript](#mastering-javascript)
+		- [[Nodeschool.io](http://nodeschool.io/) Core Redux](#nodeschooliohttpnodeschoolio-core-redux)
+		- [Effective Javascript](#effective-javascript)
+		- [Eloquent Javascript](#eloquent-javascript)
+	- [Node in the browser?](#node-in-the-browser)
+	- [`npm` stuffs](#npm-stuffs)
+	- [Tools to write Node](#tools-to-write-node)
+	- [Spellcheck for Javascript](#spellcheck-for-javascript)
+	- [ES6 and Beyond](#es6-and-beyond)
+	- [JS is the webs assembly](#js-is-the-webs-assembly)
+	- [Streams](#streams)
+	- [Semver](#semver)
+	- [Frameworks](#frameworks)
+	- [html + css](#html-css)
+	- [Community](#community)
+	- [Mastering git](#mastering-git)
+	- [Electron?](#electron)
+	- [Cool modules](#cool-modules)
+	- [People to watch](#people-to-watch)
+	- [... [WIP]](#-wip)
+<!-- /TOC -->
+
 ## Required Provisions
 
 * A computer 💻 (hopefully running a flavor of unix)
@@ -113,7 +158,7 @@ There are two great options to install `node` on OSX: Homebrew and the Offical I
 - #### [Homebrew](http://brew.sh)
 
   <img src="img/brew.png" height="175">
-  
+
   Homebrew is a lightwheight package manager for OS X.  Homebrew:
 
     - downloads and installs Unix CLI programs from source code

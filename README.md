@@ -170,7 +170,7 @@ There are lots of ways to install node.  Lets visit some of the better ways of t
 
 The only prerequisite to installing node is that you have a copy of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).  This installs the OS X build toolchain.  This is a really complicated set of programs that let you build software from source.  Some node modues use `c` "native addons" which require that you have a `c` compiler on your computer.  Its free and the only place to get it is from App store (boooo).
 
-<a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12"<img src="img/xcode.png" height="175"></a>
+<a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12"><img src="img/xcode.png" height="175"></a>
 
 OSX Terminal.app is pretty great for everything you need to do (although historically it used to suck).  Just use OSX's terminal unless you have a reason not to.
 
@@ -180,7 +180,7 @@ There are two great options to install `node` on OSX: Homebrew and the Offical I
 
 - ### [Homebrew](http://brew.sh)
 
-  <a href="http://brew.sh"<img src="img/brew.png" height="175"></a>
+  <a href="http://brew.sh"><img src="img/brew.png" height="175"></a>
 
   Homebrew is a lightweight package manager for OS X.  Homebrew:
 

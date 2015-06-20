@@ -290,7 +290,7 @@ Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd (e
 
 ## [Nodeschool.io](http://nodeschool.io/) Core
 
-<img src="https://cdn.rawgit.com/bcomnes/node-learnbook/master/img/schoolhouse.svg">
+<a href="http://nodeschool.io/"><img src="https://cdn.rawgit.com/bcomnes/node-learnbook/master/img/schoolhouse.svg"></a>
 
 Nodeschool is a free resource that offers lessions and tutorials on tons of topcis, mostly relating to node and js.  The key is that the lessons are written for `node` and you install them with `npm` (usually).
 
@@ -341,7 +341,7 @@ Lets take a look:
 
 1. First, we define `fs.readFile`.  Typically you import this as a module (e.g. `var fs = require('fs')`), but for this example we want get an idea of what is going on internally.  The code to actually read files is omitted, but at the end of the function we see that the `callback` argument is invoked as a function (e.g. `callback(err, data)` where the `err` and `data` variables would be defined inside the function somewhere when reading the file.)
 
-2. Next we invoke `fs.readFile` passing in string containing the path to the file we wish to read, encoding options, and a callback function that accepts `err` and `data` arguments to match the arguments that the `callback` placeholder defines in step 1.  The file is read and the placeholder callback is replaced with our callback function that we passed as an argument.
+2. Next we invoke `fs.readFile` passing in a string containing the path to the file we wish to read, encoding options, and a callback function that accepts `err` and `data` arguments to match the arguments that the `callback` placeholder defines in step 1.  The file is read and the placeholder callback is replaced with our callback function that we passed as an argument.
 
 3. After `fs.readFile` is done trying to read the file, it calls our callback function, passing to it `err` and `data` as arguments and our callback function then begins execution.  If there was no error when reading the file, `err` will be `undefined`/falsy so we can easily test for errors and handle them, or pass them along.
 
@@ -349,7 +349,7 @@ Lets clean it up a little.
 
 ![](img/visualcb2.png)
 
-We replace the anonymous function with an independent named function `logger` that we pass as the callback.  It's nearly the exact same thing as the first example, except now the function can be implemented independently from where we invoke fs.readFile.
+We replace the anonymous function with a named function `logger` that we pass as the callback.  It's nearly the exact same thing as the first example, except now the function can be implemented independently from where we invoke fs.readFile.
 
 Ok, so it's not always practical to go digging around the internals of a module to locate the callback signature (e.g. the arguments) that it expects of your callback.  This is where the module's `README.md` comes in.
 
@@ -365,9 +365,9 @@ We can write our own callback functions just as easily.
 
 ![](img/visualcb3.png)
 
-Here write an async function that wraps the fs.readFile asynchronous function.
+Here we write an async function that wraps the fs.readFile async function.
 
-We write a function that accepts a callback as the last argument.  We do some asynchronous work, modify its output and then pass it into our callback.
+We write a function that accepts a callback as the last argument.  We do some asynchronous work inside of it, modify the output and then pass it into our callback.
 
 Easy!
 
@@ -406,15 +406,15 @@ npm i -g streams-adventure
 
 ## [Effective Javascript](http://effectivejs.com)
 
-![](img/ejs.jpg)
+[![](img/ejs.jpg)](http://effectivejs.com)
 
 [Effecitve Javascript](http://effectivejs.com) is an excellent book focusing only on Javascritpt the Language.  It has answers and clarifications for the more confusing aspects of the languages, explains the prototype chain in a clear way, and covers the more advanced aspects of JS.  The only downside is the cost of the book, but is well worth it if you can afford it. A+
 
 ## [Eloquent Javascript](http://eloquentjavascript.net)
 
-![](img/eloquent.png)
+[![](img/eloquent.png)](http://eloquentjavascript.net)
 
-This is a free
+This is a free e-book (paper version is available too).  It seems to reside somewhere between [Effective Javascript](#effective-javascript) and [Node.JS in Action](#nodejs-in-action)
 
 ## [Javascript: The Good Parts]()
 
@@ -549,6 +549,8 @@ This document was created  after amassing a large collection of node related lin
 - https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6
 - https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
 - https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
+- https://gist.github.com/dominictarr/2401787
+- https://github.com/felixge/node-style-guide
 
 
 # ... [WIP]

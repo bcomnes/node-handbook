@@ -272,9 +272,9 @@ npm i how-to-npm -g
 
 ![](img/how-to-npm.png)
 
-## Mastering Javascript
+## Javascript the hard parts
 
-Javascript is easy to learn, but hard to master.  It's a flawed language with lots of subtle pitfalls that need to learn to navigate.
+Javascript is easy to learn, but hard to master.  It's a flawed language with lots of subtle pitfalls to be navigated.  These materials will help you master the more subtle and difficult aspects of the language.
 
 
 ###  [Nodeschool.io](http://nodeschool.io/) Core Redux
@@ -289,9 +289,19 @@ npm i -g scope-chains-closures
 
 streams adventure
 
-### Effective Javascript
+### [Effective Javascript](http://effectivejs.com)
 
-### Eloquent Javascript
+![](img/ejs.jpg)
+
+[Effecitve Javascript](http://effectivejs.com) is an excellent book focusing only on Javascritpt the Language.  It has answers and clarifications for the more confusing aspects of the languages, explains the prototype chain in a clear way, and covers the more advanced aspects of JS.  The only downside is the cost of the book, but is well worth it if you can afford it. A+
+
+### [Eloquent Javascript](http://eloquentjavascript.net)
+
+![](img/eloquent.png)
+
+This is a free
+
+### [Javascript: The Good Parts]()
 
 ## Node in the browser?
 

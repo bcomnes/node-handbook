@@ -21,11 +21,11 @@ We may also cover a few other useful places to learn cool tools and skils like:
 - [node-learnbook](#node-learnbook)
 	- [TOC](#toc)
 	- [Required Provisions](#required-provisions)
-	- [Company and Time-line](#company-and-time-line)
+	- [How long is this adventure going to last](#how-long-is-this-adventure-going-to-last)
 	- [Getting started.](#getting-started)
 		- [[Javascript for Cats](http://jsforcats.com)](#javascript-for-catshttpjsforcatscom)
-		- [[nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)](#nodeschoolio-javascriptinghttpsgithubcomsethvincentjavascripting)
 		- [[Codecademy](http://www.codecademy.com/en/tracks/javascript)](#codecademyhttpwwwcodecademycomentracksjavascript)
+		- [[nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)](#nodeschoolio-javascriptinghttpsgithubcomsethvincentjavascripting)
 	- [What is javascript?](#what-is-javascript)
 	- [What is node?](#what-is-node)
 	- [How to get node](#how-to-get-node)
@@ -38,10 +38,11 @@ We may also cover a few other useful places to learn cool tools and skils like:
 			- [What this book does well:](#what-this-book-does-well)
 		- [[Nodeschool.io](http://nodeschool.io/) Core](#nodeschooliohttpnodeschoolio-core)
 			- [[Node School Core](http://nodeschool.io/#workshopper-list)](#node-school-corehttpnodeschoolioworkshopper-list)
-	- [Mastering Javascript](#mastering-javascript)
+	- [Javascript the hard parts](#javascript-the-hard-parts)
 		- [[Nodeschool.io](http://nodeschool.io/) Core Redux](#nodeschooliohttpnodeschoolio-core-redux)
-		- [Effective Javascript](#effective-javascript)
-		- [Eloquent Javascript](#eloquent-javascript)
+		- [[Effective Javascript](http://effectivejs.com)](#effective-javascripthttpeffectivejscom)
+		- [[Eloquent Javascript](http://eloquentjavascript.net)](#eloquent-javascripthttpeloquentjavascriptnet)
+		- [[Javascript: The Good Parts]()](#javascript-the-good-parts)
 	- [Node in the browser?](#node-in-the-browser)
 	- [`npm` stuffs](#npm-stuffs)
 	- [Tools to write Node](#tools-to-write-node)
@@ -57,8 +58,8 @@ We may also cover a few other useful places to learn cool tools and skils like:
 	- [Electron?](#electron)
 	- [Cool modules](#cool-modules)
 	- [People to watch](#people-to-watch)
+	- [Link Dump](#link-dump)
 	- [... [WIP]](#-wip)
-
 <!-- /TOC -->
 
 ## Required Provisions
@@ -256,7 +257,7 @@ Written by the prolific [Max Ogden](http://maxogden.com),
 
 [![node.js in action image cover](img/inaction.jpg)](http://www.manning.com/cantelon/)
 
-([2nd Edition Coming Soon](http://www.manning.com/cantelon2/))x
+([2nd Edition Coming Soon](http://www.manning.com/cantelon2/))
 
 Written by a crew of early prolific node.js module developers, this book is *totally great* and *somewhat flawed*, and a bit dated at this point as well.  But for those that learn by example, *this is the book for you*.
 
@@ -444,6 +445,41 @@ This document was created  after amassing a large collection of node related lin
 - http://blog.izs.me/post/25906678790/on-es-6-modules
 - http://tomdale.net/2012/01/amd-is-not-the-answer/
 - https://en.wikipedia.org/wiki/Modular_programming
+- http://blog.nodejs.org/2012/12/20/streams2/
+- https://dl.dropboxusercontent.com/u/3685/presentations/streams2/streams2-ko.pdf
+- https://iojs.org/api/stream.html
+- https://github.com/nodejs/readable-stream
+- https://strongloop.com/strongblog/whats-new-io-js-beta-streams3/
+- http://stackoverflow.com/questions/21538812/what-is-streams3-in-node-js-and-how-does-it-differ-from-streams2
+- https://github.com/joyent/node/issues/5860
+- http://nodejs.org/docs/v0.11.5/api/stream.html
+- http://brycebaril.github.io/streams2-presentation/#/21/7
+- https://www.npmjs.com/package/through2-spy
+- https://www.npmjs.com/package/stream-meter
+- https://github.com/brycebaril/node-stream-spigot
+- https://github.com/brycebaril
+- https://www.npmjs.com/package/through2
+- https://www.npmjs.com/package/through2-filter
+- https://www.npmjs.com/package/stream-spigot#star
+- https://blog.domenic.me/youre-missing-the-point-of-promises/
+- http://www.slideshare.net/domenicdenicola/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript
+- https://nodejs.org/api/domain.html
+- https://github.com/petkaantonov/bluebird#what-are-promises-and-why-should-i-use-them
+- https://spion.github.io/posts/why-i-am-switching-to-promises.html
+- https://twitter.com/rvagg/status/608577853601398784
+- https://iojs.org/api/stream.html#stream_simplified_constructor_api
+- http://nrn.io/view/javascript-common-pitfalls
+- http://callbackhell.com/
+- http://words.jessekeane.me/front-end-streams/
+- http://neversaw.us/2014/12/20/classifying-asynchrony/
+- https://cloud.githubusercontent.com/assets/37303/5728694/f9a3e300-9b20-11e4-9e14-a6938b3327f0.png
+- http://lin-clark.com/blog/2014/07/01/authoring-nodejs-workshopper-lessons/
+- http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+- https://github.com/jlevy/the-art-of-command-line
+- https://brendaneich.com/2015/06/from-asm-js-to-webassembly/
+- https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6
+- https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
+- https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
 
 
 ## ... [WIP]

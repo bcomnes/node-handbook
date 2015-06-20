@@ -58,6 +58,7 @@ We may also cover a few other useful places to learn cool tools and skils like:
 	- [Cool modules](#cool-modules)
 	- [People to watch](#people-to-watch)
 	- [... [WIP]](#-wip)
+
 <!-- /TOC -->
 
 ## Required Provisions
@@ -70,7 +71,7 @@ We may also cover a few other useful places to learn cool tools and skils like:
 
 We will be acquiring items and tools along the way.
 
-## Company and Time-line
+## How long is this adventure going to last
 
 Getting through all the material is going to take time.  Visit the places that seem most interesting, and don't get stuck on something you find boring or overwhelming.  Programming is [more fun and effective as a hobby](https://twitter.com/substack/status/586438480164589568) and you will learn more if you treat it that way.
 
@@ -78,9 +79,7 @@ Don't go at it alone.  Get in touch with your local javascript and node communit
 
 ![](http://bret.io/media/ownyourgram.com/igiRHQt1.jpg)
 
-There is a vibrant and active community that is on-line at all hours of the day so you can remain isolated but still be connected with thousands of people.
-
-
+There is a vibrant and active community that is on-line at all hours of the day so you can remain isolated but still be connected with thousands of people.  Don't go at it alone! Skip ahead to [#community](https://github.com/bcomnes/node-learnbook#community) to find your way into the node community.
 
 ## Getting started.
 
@@ -90,6 +89,11 @@ Before we get started, we need to be somewhat prepared to face what lies ahead. 
 If your a cat, like to have fun or learn like a cat, this will teach you the basics of javascript.
 
 ![](img/jsforcats.png)
+
+### [Codecademy](http://www.codecademy.com/en/tracks/javascript)
+If you tend to be a bit more serious, Codecademy's Javascript is also a good place to start.  Don't feel bad if you get bored and don't finish.  It's picking up the syntax that counts.
+
+![](img/codecademy.png)
 
 ### [nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)
 
@@ -104,20 +108,17 @@ npm install -g javascripting
 
 ![](img/javascripting.png)
 
-### [Codecademy](http://www.codecademy.com/en/tracks/javascript)
-If you tend to be a bit more serious, Codecademy's Javascript is also a good place to start.  Don't feel bad if you get bored and don't finish.  It's picking up the syntax that counts.
-
-![](img/codecademy.png)
-
 ## What is javascript?
 
-Javascript is the programming language that your web browser comes with, but these days its becoming a lot more.  Its pretty okay.  Its not the best language and has a lot of warts, but it gets a lot right, and you don't really have a choice about using it or not.  You pretty much have to.
+Javascript is the programming language that your web browser comes with, but these days its becoming a lot more.  Its pretty okay.  Its not the best language and has a lot of warts, but it gets a lot right, and you don't really have a choice about using it or not (although this is changing, for better or for worse).  You should shouldn't skip javascript though.
 
-Douglas Crockford gave a good presentation that effectivly answers the question: "What is Javascript?" in his 2012 "Javascript: Your New Overlord" presentation:
+[Douglas Crockford](http://www.crockford.com) gave a good presentation that effectivly answers the question: "What is Javascript?" in his 2012 "Javascript: Your New Overlord" presentation:
 
 [![Javascript: Your New Overlord](img/crockford.gif)](https://www.youtube.com/watch?v=Trurfqh_6fQ)
 
 [Javascript: Your New Overlord](https://www.youtube.com/watch?v=Trurfqh_6fQ)
+
+You should watch it!
 
 ## What is node?
 
@@ -239,7 +240,7 @@ You will also need to install a free version of Visual Studio for building modul
 
 ## How to know node
 
-Now that we have seen a bit about the history and motivations behind node, lets actually start learning more about it.
+Now that we have seen a bit about the history and motivations behind node, lets actually visit the nessisary materials to acutally understand node.
 
 ### [The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)
 
@@ -249,7 +250,7 @@ Written by the prolific [Max Ogden](http://maxogden.com),
 
 <img src="img/max.gif" alt="thanks http://substack.net/art" height="200">
 
-the-art-of-node gives a thorough explanation of how node works, how to write node flavored javascript, callbacks and async programming, writing and using modules and how to be apart of the node/js community and do your best.  Its full of insight and clear reasoning, but when you are new to js and/or node, all of the subtleties can fly by pretty quickly.  It's a short and easily digestible read, that you should probably read through a few times.
+[maxogden/art-of-node](https://github.com/maxogden/art-of-node#the-art-of-node) gives a thorough explanation of how node works, how to write node flavored javascript, callbacks and async programming, writing and using modules and how to be apart of the node/js community and do your best.  Its full of insight and clear reasoning, but when you are new to js and/or node, all of the subtleties can fly by pretty quickly.  **It's a short and easily digestible read, that you should probably read through a few times**.
 
 ### [Node.js in Action](http://www.manning.com/cantelon/)
 
@@ -257,11 +258,13 @@ the-art-of-node gives a thorough explanation of how node works, how to write nod
 
 ([2nd Edition Coming Soon](http://www.manning.com/cantelon2/))x
 
-Written by a crew of early prolific node.js module developers, this book is totally great and somewhat  flawed, and a bit dated at this point as well.  But for those that learn by example, this is the book for you.
+Written by a crew of early prolific node.js module developers, this book is *totally great* and *somewhat flawed*, and a bit dated at this point as well.  But for those that learn by example, *this is the book for you*.
 
 It covers the basics of all the well known [Visionmedia](https://github.com/visionmedia)  modules (e.g. [express](http://expressjs.com), [mocha](http://mochajs.org), [connect](https://github.com/senchalabs/connect#readme), [jade](http://jade-lang.com), [ejs](http://www.embeddedjs.com) etc...).  You will learn to use all of these early node tools, including core node modules, async programming, testing, templating, CLI programs, and even node clustering from this book through the various included projects and examples.
 
 Despite the fact that many of the modules discussed have changed their APIs, this is still a great reference and useful for learning node.
+
+Unfortunately, this great collection of knowledge is tombed away in a book (*we should change that though*).  Get the book if you can.
 
 #### What this book does well:
 
@@ -280,7 +283,7 @@ Despite the fact that many of the modules discussed have changed their APIs, thi
 - Raw TCP/IP
 - CLI Tools
 
-Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd.
+Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd (express/connect).
 
 ### [Nodeschool.io](http://nodeschool.io/) Core
 
@@ -293,7 +296,7 @@ Nodeschool is a free resource that offers lessions and tutorials on tons of topc
 Start with [learnyounode](https://github.com/workshopper/learnyounode) which can be installed with
 
 ```sh
-npm i learnyounode -g
+npm i -g learnyounode
 ```
 
 ![](img/learnyounode.png)
@@ -303,7 +306,7 @@ npm i learnyounode -g
 After this, brush up on your `git` in `git-it`:
 
 ```sh
-npm i git-it -g
+npm i -g git-it
 ```
 
 ![](img/git-it.png)
@@ -312,7 +315,7 @@ Finally, wrap your head around `npm`
 
 
 ```sh
-npm i how-to-npm -g
+npm i -g how-to-npm
 ```
 
 ![](img/how-to-npm.png)
@@ -332,7 +335,11 @@ If you haven't already, finish up the core nodeschool workshops.  The last two a
 npm i -g scope-chains-closures
 ```
 
-streams adventure
+`streams adventure` teaches you about streams.  This is a good place to start, but this adventure is dated and needs work.  Have you found a better streams adventure or tutorial?  Please open an issue with the links/info!
+
+```sh
+npm i -g streams-adventure
+```
 
 ### Effective Javascript
 
@@ -400,6 +407,33 @@ streams adventure
 ## Cool modules
 
 ## People to watch
+
+## Link Dump
+
+This document was created  after amassing a large collection of node related links helpful to learning and understanding node.  Here is a partial linkdump until the rest of the guide can be written.
+
+- https://nodejs.org/about/
+- http://substack.net/node_aesthetic
+- http://substack.net/many_things
+- http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
+- https://github.com/Raynos/http-framework
+- https://github.com/substack/browserify-handbook#browserify-middleware-enchilada
+- http://maxogden.com/a-month-of-modules.html
+- http://maxogden.com/nested-dependencies.html
+- http://maxogden.com/node-packaged-modules.html
+- http://substack.net/finding_modules
+- https://github.com/substack/node-mkdirp/blob/master/index.js
+- https://github.com/substack/stream-handbook
+- http://www.ustream.tv/recorded/46670615
+- https://github.com/maxogden/slides
+- https://gist.github.com/substack/68f8d502be42d5cd4942
+- https://en.wikipedia.org/wiki/Turtles_all_the_way_down
+- https://gist.github.com/substack/5075355
+- http://www.macwright.org/big/
+- http://0fps.net/2013/01/22/commonjs-why-and-how/
+- http://blog.izs.me/post/25906678790/on-es-6-modules
+- http://tomdale.net/2012/01/amd-is-not-the-answer/
+- https://en.wikipedia.org/wiki/Modular_programming
 
 
 ## ... [WIP]

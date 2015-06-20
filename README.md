@@ -141,6 +141,12 @@ The best way to understand what node is to listen to Ryan describe it himself.
 
 [Ryan Dahl Talk NodeConf Theatre 2012 Slides](doc/nodeconf2012.pdf) (pdf)
 
+## More links on understanding what node is:
+
+- http://blog.webfaction.com/2008/12/a-little-holiday-present-10000-reqssec-with-nginx-2/
+- http://www.kegel.com/c10k.html
+- http://nodejs.org/about/
+
 # How to get node
 
 There are lots of ways to install node.  Lets visit some of the better ways of this contentious topic.
@@ -230,7 +236,7 @@ Don't sudo with npm!  (even -g).  Set up `npm` so that it works without sudo:
 > Windows is very important.  Just like PHP
 -- [Ryan Dahl](https://youtu.be/jo_B4LTHi3I?t=56s)
 
-![](img/bill.gif)
+[![](img/bill.gif)](http://nodejsreactions.tumblr.com/post/113606988159/corporates-attempting-to-woo-developers-jumping-on)
 
 On windows, pretty much stick with the official installer:
 
@@ -382,7 +388,7 @@ Well, in theory.  Callbacks take a bit of practice, but hopefully we can visuali
 
 ## Callback you later
 
-You can read more about callbacks, but the best way to learn how to use them is to read and write lots of them!
+You can read more about callbacks, but the best way to learn how to use them is to read and write lots of them!  While your doing that, peruse through these lovely links.
 
 - [maxogden/art-of-node#callbacks](https://github.com/maxogden/art-of-node#callbacks)
 - [callbackhell.com](http://callbackhell.com/)
@@ -425,6 +431,10 @@ This is a free e-book (paper version is available too).  It seems to reside some
 
 ## [Javascript: The Good Parts]()
 
+## More hard part links
+
+- https://en.wikipedia.org/wiki/Event_loop
+- https://en.wikipedia.org/wiki/Asynchronous_I/O
 
 # ... [WIP]
 
@@ -435,6 +445,8 @@ Still pulling together the primordial ooze below.
 - npm scripts
 - package.json
 - SPDX license expression
+- http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
+- http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/
 
 # Semver
 
@@ -443,7 +455,9 @@ Still pulling together the primordial ooze below.
 
 # Node in the browser?
 
-- Browserify-handbook
+- [Browserify-handbook](https://github.com/substack/browserify-handbook)
+- http://wzrd.in/
+- https://github.com/thlorenz/browserify-shim#multi-shim-example-including-dependencies
 
 # Event Emitters
 
@@ -453,9 +467,30 @@ I don't want to miss out.  Where do I go to learn these?
 
 AKA OO AKA Object Oriented.  Also prototypes.
 
+# Write your tests, eat your greens
+
+- https://github.com/substack/tape
+- http://substack.net/how_I_write_tests_for_node_and_the_browser
+- https://ci.testling.com/guide/tape
+- https://github.com/brianleroux/browserify-tape-spec
+
 # Whats the deal with Streams?
 
-- Streams handbook
+- [Streams handbook](https://github.com/substack/stream-handbook)
+  > Streams can help to separate your concerns because they restrict the implementation surface area into a consistent interface that can be reused.
+
+# Node.js and io.js Anthropology
+
+- http://blog.izs.me/post/104685388058/io-js
+- https://gist.github.com/maxogden/d96123138522c84cdb25
+- http://tableflip.io:1234/
+- https://github.com/iojs/io.js/issues/37
+- https://nodesource.com/blog/was-this-trip-really-necessary
+- https://twitter.com/rvagg/status/598605393636429825
+- https://twitter.com/mikeal/status/598595967928008705
+- https://github.com/nodejs/node
+- https://www.youtube.com/watch?v=UbYiFLf7MpU
+- https://github.com/nodejs/io.js/issues/1664#issuecomment-101828384
 
 # Tools to write Node
 
@@ -465,13 +500,25 @@ AKA OO AKA Object Oriented.  Also prototypes.
 
 # Hex Stickers
 
+- http://hexb.in/
+- https://www.stickermule.com/
+- https://hexi.pics/help_en
+
 # An adventure of your own
 
 Resources for teaching others and writing nodeschool adventures.
 
 # JS is the worlds polyglot assembly language now
 
+- http://bellard.org/jslinux/
+- https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS
+-
+
 # ES6 and Beyond
+
+- https://medium.com/@brianleroux/es6-modules-amd-and-commonjs-c1acefbe6fc0
+- http://espadrine.github.io/New-In-A-Spec/es6/
+- https://en.wikipedia.org/wiki/ECMAScript
 
 # Frameworks
 
@@ -517,7 +564,18 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 - yay desktop apps
 - electron handbook
 
-# Cool modules
+# Cool Cats writing Cool Modules
+
+## School of Substack
+
+- https://www.youtube.com/watch?v=84PE6EF3YWY&list=FLd8cLeIEVcsbhyX9FDph-Jg&index=3
+- https://github.com/substack/dnode
+- https://github.com/substack/upnode
+- https://github.com/substack/fleet
+- https://github.com/substack/seaport
+- http://substack.net/multi_server_continuous_deployment_with_fleet
+- http://substack.net/semver_your_services_with_seaport
+- http://substack.net/shared_rendering_in_node_and_the_browser
 
 # People to watch
 
@@ -583,4 +641,5 @@ This document was created  after amassing a large collection of node related lin
 - https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
 - https://gist.github.com/dominictarr/2401787
 - https://github.com/felixge/node-style-guide
+- http://nikhilm.github.io/uvbook/threads.html#core-thread-operations
 

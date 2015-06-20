@@ -321,6 +321,18 @@ npm i -g how-to-npm
 
 ![](img/how-to-npm.png)
 
+### Callbacks visualized
+
+Callbacks are confusing at first, because you are writing functions that accepted variables that seemingly come out of nowhere.
+
+These arguments/variables come from somewhere... and we are going to find this out now.
+
+They come from the internals of the function accepting the callback function!
+
+Lets take a look:
+
+![](img/visualcb1.png)
+
 ## Javascript the hard parts
 
 Javascript is easy to learn, but hard to master.  It's a flawed language with lots of subtle pitfalls to be navigated.  These materials will help you master the more subtle and difficult aspects of the language.

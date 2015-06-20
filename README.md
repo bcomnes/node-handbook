@@ -154,7 +154,7 @@ The best way to understand what node is to listen to Ryan describe it himself.
 
 [Ryan Dahl Talk NodeConf Theatre 2012 Slides](doc/nodeconf2012.pdf) (pdf)
 
-## More links on understanding what node is:
+### What is Node: The Links
 
 - http://blog.webfaction.com/2008/12/a-little-holiday-present-10000-reqssec-with-nginx-2/
 - http://www.kegel.com/c10k.html
@@ -577,7 +577,7 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 - yay desktop apps
 - electron handbook
 
-# Cool Cats writing Cool Modules
+# Cool Cats writing Cool Modules 😎
 
 ## School of Substack
 

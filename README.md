@@ -91,12 +91,12 @@ Before we get started, we need to be somewhat prepared to face what lies ahead. 
 ## [Javascript for Cats](http://jsforcats.com)
 If your a cat, like to have fun or learn like a cat, this will teach you the basics of javascript.
 
-![](img/jsforcats.png)
+[![](img/jsforcats.png)](http://jsforcats.com)
 
 ## [Codecademy](http://www.codecademy.com/en/tracks/javascript)
 If you tend to be a bit more serious, Codecademy's Javascript is also a good place to start.  Don't feel bad if you get bored and don't finish.  It's picking up the syntax that counts.
 
-![](img/codecademy.png)
+[![](img/codecademy.png)](http://www.codecademy.com/en/tracks/javascript)
 
 ## [nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)
 
@@ -109,7 +109,7 @@ npm install -g javascripting
 
 ```
 
-![](img/javascripting.png)
+[![](img/javascripting.png)](https://github.com/sethvincent/javascripting)
 
 # What is javascript?
 
@@ -147,15 +147,15 @@ There are lots of ways to install node.  Lets visit some of the better ways of t
 
 ## OSX
 
-<img src="img/osx.png" height="175">
+<a href="https://jamesfriend.com.au/pce-js/"><img src="img/osx.png" height="175"></a>
 
-The only prequisite to installing node is that you have a copy of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).  This installs the OS X build toolchain.  This is a really complicated set of programs that let you build software from source.  Some node modues use `c` "native addons" which require that you have a `c` compiler on your computer.  Its free and the only place to get it is from App store (boooo).
+The only prerequisite to installing node is that you have a copy of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).  This installs the OS X build toolchain.  This is a really complicated set of programs that let you build software from source.  Some node modues use `c` "native addons" which require that you have a `c` compiler on your computer.  Its free and the only place to get it is from App store (boooo).
 
-<img src="img/xcode.png" height="175">
+<a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12"<img src="img/xcode.png" height="175"></a>
 
 OSX Terminal.app is pretty great for everything you need to do (although historically it used to suck).  Just use OSX's terminal unless you have a reason not to.
 
-<img src="img/terminal.png" height="175">
+<a href="https://en.wikipedia.org/wiki/Terminal_(OS_X)"><img src="img/terminal.png" height="175"></a>
 
 There are two great options to install `node` on OSX: Homebrew and the Offical Installer.
 

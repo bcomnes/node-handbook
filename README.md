@@ -161,9 +161,9 @@ There are two great options to install `node` on OSX: Homebrew and the Offical I
 
 - ### [Homebrew](http://brew.sh)
 
-  <img src="img/brew.png" height="175">
+  <a href="http://brew.sh"<img src="img/brew.png" height="175"></a>
 
-  Homebrew is a lightwheight package manager for OS X.  Homebrew:
+  Homebrew is a lightweight package manager for OS X.  Homebrew:
 
     - downloads and installs Unix CLI programs from source code
     - keeps track of which programs you installed and at what version
@@ -197,10 +197,14 @@ There are two great options to install `node` on OSX: Homebrew and the Offical I
     - All Formula can be built from source, but most have precompiled 'Bottles' (a.k.a. binaries) to save time and battery.
     - Old versions of programs can be installed by going back into the git history.
 
+  A few more links discussing the merits of homebrew:
+
+    - [to install node via Homebrew or not?](http://www.reddit.com/r/node/comments/37ui2u/to_install_node_via_homebrew_or_not/)
+
 
 - ### [The official node installer `node-v*.pkg`](https://nodejs.org/download/)
 
-  ![](img/osxinstaller.png)
+  [![](img/osxinstaller.png)](https://nodejs.org/download/)
 
   Easy.  You go to the node website, you [download the .pkg](https://nodejs.org/download/), and install it.  It installs to the same location that homebrew installs to: `/usr/local/bin`.
 
@@ -225,6 +229,8 @@ Don't sudo with npm!  (even -g).  Set up `npm` so that it works without sudo:
 
 > Windows is very important.  Just like PHP
 -- [Ryan Dahl](https://youtu.be/jo_B4LTHi3I?t=56s)
+
+![](img/bill.gif)
 
 On windows, pretty much stick with the official installer:
 
@@ -334,6 +340,7 @@ Before we get into it, remember:
 - Async functions return immediately
 - If your code needs the results of an async function, that code needs to live in the scope of the async functions callback.
 - Code that invokes after the async function is invoked may finish sooner than the async function.
+- [You can't `return` values from an async callback like you might think.](http://nodejsreactions.tumblr.com/post/56341420064/when-i-see-some-code-that-returns-a-value-from-an)
 
 Lets take a look:
 
@@ -418,6 +425,11 @@ This is a free e-book (paper version is available too).  It seems to reside some
 
 ## [Javascript: The Good Parts]()
 
+
+# ... [WIP]
+
+Still pulling together the primordial ooze below.
+
 # `npm` stuffs
 
 - npm scripts
@@ -433,7 +445,15 @@ This is a free e-book (paper version is available too).  It seems to reside some
 
 - Browserify-handbook
 
-# Streams
+# Event Emitters
+
+I don't want to miss out.  Where do I go to learn these?
+
+# 👻👻 Inheritance, Composition, and the Prototype Chain
+
+AKA OO AKA Object Oriented.  Also prototypes.
+
+# Whats the deal with Streams?
 
 - Streams handbook
 
@@ -461,6 +481,18 @@ Resources for teaching others and writing nodeschool adventures.
 - https://github.com/Raynos/http-framework
 - https://github.com/Raynos/mercury
 - https://jshttp.github.io/
+
+# Haters gonna hate
+
+[![](img/egg.gif)](http://nodejsreactions.tumblr.com/post/74845429937/every-why-node-js-sucks-article-ever)
+
+> Every “why Node.js sucks” article ever --[nodejs reactions](http://nodejsreactions.tumblr.com/post/74845429937/every-why-node-js-sucks-article-ever)
+
+Node has its share of weak points.  Articles that hate on it generally miss these points.  A good way to learn about a tool is to analyze its criticism.  Does it have merit?  Is it correct?  Is the the stated issue as bad as the critic makes it out to be?
+
+- [![](img/idiot.gif)](https://www.youtube.com/watch?v=1e1zzna-dNw)
+
+  [Biz of Tech: Node.JS Is Stupid And If You Use It So Are You](https://www.youtube.com/watch?v=1e1zzna-dNw)
 
 # html + css
 
@@ -552,5 +584,3 @@ This document was created  after amassing a large collection of node related lin
 - https://gist.github.com/dominictarr/2401787
 - https://github.com/felixge/node-style-guide
 
-
-# ... [WIP]

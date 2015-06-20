@@ -329,6 +329,12 @@ Callbacks are confusing at first, because you are writing functions that accept 
 
 These variables come from the internals of the function accepting the callback function!
 
+Before we get into it, remember:
+
+- Async functions return immediately
+- If your code needs the results of an async function, that code needs to live in the scope of the async functions callback.
+- Code that invokes after the async function is invoked may finish sooner than the async function.
+
 Lets take a look:
 
 ![](img/visualcb1.png)
@@ -367,6 +373,15 @@ Easy!
 
 Well, in theory.  Callbacks take a bit of practice, but hopefully we can visualize callback flow and how variables and functions are passed around.
 
+## Callback you later
+
+You can read more about callbacks, but the best way to learn how to use them is to read and write lots of them!
+
+- [maxogden/art-of-node#callbacks](https://github.com/maxogden/art-of-node#callbacks)
+- [callbackhell.com](http://callbackhell.com/)
+- [Why callback hell can be your friend.](http://jondavidjohn.com/why-callback-hell-can-be-your-friend/)
+- [Node In Action: 3.2 Asynchronous Programming Techniques](#nodejs-in-action) p.46
+- [Eloquent Javascript: Http callbacks](http://eloquentjavascript.net/17_http.html#p_8Shcg3/WzI)
 
 # Javascript the hard parts
 
@@ -524,7 +539,6 @@ This document was created  after amassing a large collection of node related lin
 - https://twitter.com/rvagg/status/608577853601398784
 - https://iojs.org/api/stream.html#stream_simplified_constructor_api
 - http://nrn.io/view/javascript-common-pitfalls
-- http://callbackhell.com/
 - http://words.jessekeane.me/front-end-streams/
 - http://neversaw.us/2014/12/20/classifying-asynchrony/
 - https://cloud.githubusercontent.com/assets/37303/5728694/f9a3e300-9b20-11e4-9e14-a6938b3327f0.png

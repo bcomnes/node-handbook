@@ -76,11 +76,13 @@ We will be acquiring items and tools along the way.
 
 Getting through all the material is going to take time.  Visit the places that seem most interesting, and don't get stuck on something you find boring or overwhelming.  Programming is [more fun and effective as a hobby](https://twitter.com/substack/status/586438480164589568) and you will learn more if you treat it that way.
 
+Do take breaks and try to build something interesting.  Even if you fail, you will learn something.  Publishing your experiments feels good and creates breadcrumbs for others to learn from.
+
 Don't go at it alone.  Get in touch with your local javascript and node community and make friends.  Don't live near anyone?
 
 ![](http://bret.io/media/ownyourgram.com/igiRHQt1.jpg)
 
-There is a vibrant and active community that is on-line at all hours of the day so you can remain isolated but still be connected with thousands of people.  Don't go at it alone! Skip ahead to [#community](https://github.com/bcomnes/node-learnbook#community) to find your way into the node community.
+There is a vibrant and active community that is on-line at all hours of the day so you can remain isolated but still be connected with thousands of people.  Skip ahead to [#community](https://github.com/bcomnes/node-learnbook#community) to find your way into the node community.
 
 ## Getting started.
 
@@ -321,17 +323,50 @@ npm i -g how-to-npm
 
 ![](img/how-to-npm.png)
 
-### Callbacks visualized
+## Callbacks visualized
 
-Callbacks are confusing at first, because you are writing functions that accepted variables that seemingly come out of nowhere.
+Callbacks are confusing at first, because you are writing functions that accept variables that seemingly come out of nowhere.
 
-These arguments/variables come from somewhere... and we are going to find this out now.
-
-They come from the internals of the function accepting the callback function!
+These variables come from the internals of the function accepting the callback function!
 
 Lets take a look:
 
 ![](img/visualcb1.png)
+
+1. First, we define `fs.readFile`.  Typically you import this as a module (e.g. `var fs = require('fs')`), but for this example we want get an idea of what is going on internally.  The code to actually read files is omitted, but at the end of the function we see that the `callback` argument is invoked as a function (e.g. `callback(err, data)` where the `err` and `data` variables would be defined inside the function somewhere when reading the file.)
+
+2. Next we invoke `fs.readFile` passing in string containing the path to the file we wish to read, encoding options, and a callback function that accepts `err` and `data` arguments to match the arguments that the `callback` placeholder defines in step 1.  The file is read and the placeholder callback is replaced with our callback function that we passed as an argument.
+
+3. After `fs.readFile` is done trying to read the file, it calls our callback function, passing to it `err` and `data` as arguments and our callback function then begins execution.  If there was no error when reading the file, `err` will be `undefined`/falsy so we can easily test for errors and handle them, or pass them along.
+
+Lets clean it up a little.
+
+![](img/visualcb2.png)
+
+We replace the anonymous function with an independent named function `logger` that we pass as the callback.  It's nearly the exact same thing as the first example, except now the function can be implemented independently from where we invoke fs.readFile.
+
+Ok, so it's not always practical to go digging around the internals of a module to locate the callback signature (e.g. the arguments) that it expects of your callback.  This is where the module's `README.md` comes in.
+
+How did we know `fs.readFile` expects a callback with `(err, data)` arguments?  We look it up!
+
+**[node.js API docs: fs.readFile](https://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback)**
+
+![](img/readfile.png)
+
+Modules should come with a README.md with similar documentation.  If it doesn't have this, maybe look around for one that does.
+
+We can write our own callback functions just as easily.
+
+![](img/visualcb3.png)
+
+Here write an async function that wraps the fs.readFile asynchronous function.
+
+We write a function that accepts a callback as the last argument.  We do some asynchronous work, modify its output and then pass it into our callback.
+
+Easy!
+
+Well, in theory.  Callbacks take a bit of practice, but hopefully we can visualize callback flow and how variables and functions are passed around.
+
 
 ## Javascript the hard parts
 

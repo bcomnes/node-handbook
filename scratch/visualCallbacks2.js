@@ -1,6 +1,3 @@
-// This isn't how the actual fs.readFile
-// module is implemented.
-
 fs.readFile = function(filename, options, callback) {
   // File reading code not shown
   //
@@ -15,9 +12,9 @@ fs.readFile = function(filename, options, callback) {
   callback(err, data)
 }
 
+fs.readFile('/path', 'utf8', logger)
 
-
-fs.readFile('/path', 'utf8', function (err, data) {
-  if (err) throw err
+function logger (err, data) {
+  if (err) return console.error(err)
   console.log(data)
-})
+}

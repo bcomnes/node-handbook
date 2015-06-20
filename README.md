@@ -6,14 +6,15 @@ Lets learn node the node way! 🐪 🙈
 
 It's uncertain where this trek will take us, but we will try to strike a balance between instructional material, history, and philosophies on node, javascript, software, programming, engineering, communication, and tooling.
 
-We may also cover a few other useful places to learn cool tools and skils like:
+We may also cover a few other useful places to learn cool tools and skills like:
 
 - html
 - css
 - git
 - irc
-- unix
+- linux/unix (aka \*nix)
 - app deployment
+- people skills
 
 ## TOC
 
@@ -21,45 +22,57 @@ We may also cover a few other useful places to learn cool tools and skils like:
 - [node-learnbook](#node-learnbook)
 	- [TOC](#toc)
 	- [Required Provisions](#required-provisions)
-	- [How long is this adventure going to last](#how-long-is-this-adventure-going-to-last)
-	- [Getting started.](#getting-started)
-		- [[Javascript for Cats](http://jsforcats.com)](#javascript-for-catshttpjsforcatscom)
-		- [[Codecademy](http://www.codecademy.com/en/tracks/javascript)](#codecademyhttpwwwcodecademycomentracksjavascript)
-		- [[nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)](#nodeschoolio-javascriptinghttpsgithubcomsethvincentjavascripting)
-	- [What is javascript?](#what-is-javascript)
-	- [What is node?](#what-is-node)
-	- [How to get node](#how-to-get-node)
-		- [OSX](#osx)
-		- [Linux](#linux)
-		- [Windows](#windows)
-	- [How to know node](#how-to-know-node)
-		- [[The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)](#the-art-of-nodehttpsgithubcommaxogdenart-of-nodethe-art-of-node)
-		- [[Node.js in Action](http://www.manning.com/cantelon/)](#nodejs-in-actionhttpwwwmanningcomcantelon)
-			- [What this book does well:](#what-this-book-does-well)
-		- [[Nodeschool.io](http://nodeschool.io/) Core](#nodeschooliohttpnodeschoolio-core)
-			- [[Node School Core](http://nodeschool.io/#workshopper-list)](#node-school-corehttpnodeschoolioworkshopper-list)
-	- [Javascript the hard parts](#javascript-the-hard-parts)
-		- [[Nodeschool.io](http://nodeschool.io/) Core Redux](#nodeschooliohttpnodeschoolio-core-redux)
-		- [[Effective Javascript](http://effectivejs.com)](#effective-javascripthttpeffectivejscom)
-		- [[Eloquent Javascript](http://eloquentjavascript.net)](#eloquent-javascripthttpeloquentjavascriptnet)
-		- [[Javascript: The Good Parts]()](#javascript-the-good-parts)
-	- [Node in the browser?](#node-in-the-browser)
-	- [`npm` stuffs](#npm-stuffs)
-	- [Tools to write Node](#tools-to-write-node)
-	- [Spellcheck for Javascript](#spellcheck-for-javascript)
-	- [ES6 and Beyond](#es6-and-beyond)
-	- [JS is the webs assembly](#js-is-the-webs-assembly)
-	- [Streams](#streams)
-	- [Semver](#semver)
-	- [Frameworks](#frameworks)
-	- [html + css](#html-css)
-	- [Community](#community)
-	- [Mastering git](#mastering-git)
-	- [Electron?](#electron)
-	- [Cool modules](#cool-modules)
-	- [People to watch](#people-to-watch)
-	- [Link Dump](#link-dump)
-	- [... [WIP]](#-wip)
+	- [How long is this adventure going to last?](#how-long-is-this-adventure-going-to-last)
+- [Getting started.](#getting-started)
+	- [[Javascript for Cats](http://jsforcats.com)](#javascript-for-catshttpjsforcatscom)
+	- [[Codecademy](http://www.codecademy.com/en/tracks/javascript)](#codecademyhttpwwwcodecademycomentracksjavascript)
+	- [[nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)](#nodeschoolio-javascriptinghttpsgithubcomsethvincentjavascripting)
+- [What is javascript?](#what-is-javascript)
+- [What is node?](#what-is-node)
+	- [More links on understanding what node is:](#more-links-on-understanding-what-node-is)
+- [How to get node](#how-to-get-node)
+	- [OSX](#osx)
+	- [Linux](#linux)
+	- [Windows](#windows)
+- [How to know node](#how-to-know-node)
+	- [[The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)](#the-art-of-nodehttpsgithubcommaxogdenart-of-nodethe-art-of-node)
+	- [[Node.js in Action](http://www.manning.com/cantelon/)](#nodejs-in-actionhttpwwwmanningcomcantelon)
+	- [[Nodeschool.io](http://nodeschool.io/) Core](#nodeschooliohttpnodeschoolio-core)
+		- [[Node School Core](http://nodeschool.io/#workshopper-list)](#node-school-corehttpnodeschoolioworkshopper-list)
+- [Callbacks visualized](#callbacks-visualized)
+	- [Callback you later](#callback-you-later)
+- [Javascript the hard parts](#javascript-the-hard-parts)
+	- [[Nodeschool.io](http://nodeschool.io/) Core Redux](#nodeschooliohttpnodeschoolio-core-redux)
+	- [[Effective Javascript](http://effectivejs.com)](#effective-javascripthttpeffectivejscom)
+	- [[Eloquent Javascript](http://eloquentjavascript.net)](#eloquent-javascripthttpeloquentjavascriptnet)
+	- [[Javascript: The Good Parts]()](#javascript-the-good-parts)
+	- [More hard part links](#more-hard-part-links)
+- [... [WIP]](#-wip)
+- [`npm` stuffs](#npm-stuffs)
+- [Semver](#semver)
+- [Node in the browser?](#node-in-the-browser)
+- [Event Emitters](#event-emitters)
+- [👻👻 Inheritance, Composition, and the Prototype Chain](#-inheritance-composition-and-the-prototype-chain)
+- [Write your tests, eat your greens](#write-your-tests-eat-your-greens)
+- [Whats the deal with Streams?](#whats-the-deal-with-streams)
+- [Node.js and io.js Anthropology](#nodejs-and-iojs-anthropology)
+- [Tools to write Node](#tools-to-write-node)
+- [Spellcheck for Javascript](#spellcheck-for-javascript)
+- [All the badges](#all-the-badges)
+- [Hex Stickers](#hex-stickers)
+- [An adventure of your own](#an-adventure-of-your-own)
+- [JS is the worlds polyglot assembly language now](#js-is-the-worlds-polyglot-assembly-language-now)
+- [ES6 and Beyond](#es6-and-beyond)
+- [Frameworks](#frameworks)
+- [Haters gonna hate](#haters-gonna-hate)
+- [html + css](#html-css)
+- [Community](#community)
+- [Mastering git](#mastering-git)
+- [Electron?](#electron)
+- [Cool Cats writing Cool Modules](#cool-cats-writing-cool-modules)
+	- [School of Substack](#school-of-substack)
+- [People to watch](#people-to-watch)
+- [Link Dump](#link-dump)
 <!-- /TOC -->
 
 ## Required Provisions
@@ -642,4 +655,3 @@ This document was created  after amassing a large collection of node related lin
 - https://gist.github.com/dominictarr/2401787
 - https://github.com/felixge/node-style-guide
 - http://nikhilm.github.io/uvbook/threads.html#core-thread-operations
-

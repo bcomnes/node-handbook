@@ -356,6 +356,11 @@ This is a free
 
 ### [Javascript: The Good Parts]()
 
+
+## Streams
+
+- Streams handbook
+
 ## Node in the browser?
 
 - Browserify-handbook
@@ -366,15 +371,14 @@ This is a free
 - package.json
 - SPDX license expression
 
+## Semver
+
+- http://semver.org/
+- http://semver-ftw.org/
+
 ## Tools to write Node
 
-## Spellcheck for Javascript
-
-## ES6 and Beyond
-
-## JS is the webs assembly
-
-## Streams
+## Spellcheck for Javascript## Streams
 
 - Streams handbook
 
@@ -382,6 +386,18 @@ This is a free
 
 - http://semver.org/
 - http://semver-ftw.org/
+
+## All the badges
+
+## Hex Stickers
+
+## An adventure of your own
+
+Resources for teaching others and writing nodeschool adventures.
+
+## JS is the worlds polyglot assembly language now
+
+## ES6 and Beyond
 
 ## Frameworks
 

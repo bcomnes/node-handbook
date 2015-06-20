@@ -72,7 +72,7 @@ We may also cover a few other useful places to learn cool tools and skils like:
 
 We will be acquiring items and tools along the way.
 
-## How long is this adventure going to last
+## How long is this adventure going to last?
 
 Getting through all the material is going to take time.  Visit the places that seem most interesting, and don't get stuck on something you find boring or overwhelming.  Programming is [more fun and effective as a hobby](https://twitter.com/substack/status/586438480164589568) and you will learn more if you treat it that way.
 
@@ -84,21 +84,21 @@ Don't go at it alone.  Get in touch with your local javascript and node communit
 
 There is a vibrant and active community that is on-line at all hours of the day so you can remain isolated but still be connected with thousands of people.  Skip ahead to [#community](https://github.com/bcomnes/node-learnbook#community) to find your way into the node community.
 
-## Getting started.
+# Getting started.
 
 Before we get started, we need to be somewhat prepared to face what lies ahead.  In order to communicate with the local populous you need to learn how to speak javascript
 
-### [Javascript for Cats](http://jsforcats.com)
+## [Javascript for Cats](http://jsforcats.com)
 If your a cat, like to have fun or learn like a cat, this will teach you the basics of javascript.
 
 ![](img/jsforcats.png)
 
-### [Codecademy](http://www.codecademy.com/en/tracks/javascript)
+## [Codecademy](http://www.codecademy.com/en/tracks/javascript)
 If you tend to be a bit more serious, Codecademy's Javascript is also a good place to start.  Don't feel bad if you get bored and don't finish.  It's picking up the syntax that counts.
 
 ![](img/codecademy.png)
 
-### [nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)
+## [nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)
 
 We will revisit [nodeschool.io](http://nodeschool.io/) in the near future, but for now the `javascripting` nodeschool adventure is a good place to start learning javascript.  It may be a bit steep for absolute beginners.  Read through the [`get going`](http://nodeschool.io/#get-going) section to get up and running.
 
@@ -111,7 +111,7 @@ npm install -g javascripting
 
 ![](img/javascripting.png)
 
-## What is javascript?
+# What is javascript?
 
 Javascript is the programming language that your web browser comes with, but these days its becoming a lot more.  Its pretty okay.  Its not the best language and has a lot of warts, but it gets a lot right, and you don't really have a choice about using it or not (although this is changing, for better or for worse).  You should shouldn't skip javascript though.
 
@@ -123,7 +123,7 @@ Javascript is the programming language that your web browser comes with, but the
 
 You should watch it!
 
-## What is node?
+# What is node?
 
 Node was created by [Ryan Dahl](http://tinyclouds.org).  He has since pulled a [Mark Pilgrim](http://www.diveintomark.link) and [HTTP 410](http://en.wikipedia.org/wiki/Mark_Pilgrim#.22Disappearance.22_from_the_Internet)'d himself from the INTERNET, but occasionally will post interesting undocumented code projects to his [github](https://github.com/ry) or [post to the node mailing list](https://groups.google.com/forum/#!activity/nodejs/2JvBi5ikhDgJ).
 
@@ -141,11 +141,11 @@ The best way to understand what node is to listen to Ryan describe it himself.
 
 [Ryan Dahl Talk NodeConf Theatre 2012 Slides](doc/nodeconf2012.pdf) (pdf)
 
-## How to get node
+# How to get node
 
 There are lots of ways to install node.  Lets visit some of the better ways of this contentious topic.
 
-### OSX
+## OSX
 
 <img src="img/osx.png" height="175">
 
@@ -159,7 +159,7 @@ OSX Terminal.app is pretty great for everything you need to do (although histori
 
 There are two great options to install `node` on OSX: Homebrew and the Offical Installer.
 
-- #### [Homebrew](http://brew.sh)
+- ### [Homebrew](http://brew.sh)
 
   <img src="img/brew.png" height="175">
 
@@ -198,14 +198,14 @@ There are two great options to install `node` on OSX: Homebrew and the Offical I
     - Old versions of programs can be installed by going back into the git history.
 
 
-- #### [The official node installer `node-v*.pkg`](https://nodejs.org/download/)
+- ### [The official node installer `node-v*.pkg`](https://nodejs.org/download/)
 
   ![](img/osxinstaller.png)
 
   Easy.  You go to the node website, you [download the .pkg](https://nodejs.org/download/), and install it.  It installs to the same location that homebrew installs to: `/usr/local/bin`.
 
 
-### Linux
+## Linux
 
 Running Linux? (👍btw)
 
@@ -221,7 +221,7 @@ Don't sudo with npm!  (even -g).  Set up `npm` so that it works without sudo:
 
 [Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 
-### Windows
+## Windows
 
 > Windows is very important.  Just like PHP
 -- [Ryan Dahl](https://youtu.be/jo_B4LTHi3I?t=56s)
@@ -241,11 +241,11 @@ You will also need to install a free version of Visual Studio for building modul
 
 [Visual Studio Express](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
 
-## How to know node
+# How to know node
 
 Now that we have seen a bit about the history and motivations behind node, lets actually visit the nessisary materials to acutally understand node.
 
-### [The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)
+## [The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)
 
 [![](img/art-of-node.png)](https://github.com/maxogden/art-of-node#the-art-of-node)
 
@@ -255,7 +255,7 @@ Written by the prolific [Max Ogden](http://maxogden.com),
 
 [maxogden/art-of-node](https://github.com/maxogden/art-of-node#the-art-of-node) gives a thorough explanation of how node works, how to write node flavored javascript, callbacks and async programming, writing and using modules and how to be apart of the node/js community and do your best.  Its full of insight and clear reasoning, but when you are new to js and/or node, all of the subtleties can fly by pretty quickly.  **It's a short and easily digestible read, that you should probably read through a few times**.
 
-### [Node.js in Action](http://www.manning.com/cantelon/)
+## [Node.js in Action](http://www.manning.com/cantelon/)
 
 [![node.js in action image cover](img/inaction.jpg)](http://www.manning.com/cantelon/)
 
@@ -269,7 +269,7 @@ Despite the fact that many of the modules discussed have changed their APIs, thi
 
 Unfortunately, this great collection of knowledge is tombed away in a book (*we should change that though*).  Get the book if you can.
 
-#### What this book does well:
+**What this book does well:**
 
 - Introduction to node, events async programming and flow control
 - [socket.io](http://socket.io) examples
@@ -288,13 +288,13 @@ Unfortunately, this great collection of knowledge is tombed away in a book (*we 
 
 Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd (express/connect).
 
-### [Nodeschool.io](http://nodeschool.io/) Core
+## [Nodeschool.io](http://nodeschool.io/) Core
 
 <img src="https://cdn.rawgit.com/bcomnes/node-learnbook/master/img/schoolhouse.svg">
 
 Nodeschool is a free resource that offers lessions and tutorials on tons of topcis, mostly relating to node and js.  The key is that the lessons are written for `node` and you install them with `npm` (usually).
 
-#### [Node School Core](http://nodeschool.io/#workshopper-list)
+### [Node School Core](http://nodeschool.io/#workshopper-list)
 
 Start with [learnyounode](https://github.com/workshopper/learnyounode) which can be installed with
 
@@ -323,7 +323,7 @@ npm i -g how-to-npm
 
 ![](img/how-to-npm.png)
 
-## Callbacks visualized
+# Callbacks visualized
 
 Callbacks are confusing at first, because you are writing functions that accept variables that seemingly come out of nowhere.
 
@@ -368,12 +368,12 @@ Easy!
 Well, in theory.  Callbacks take a bit of practice, but hopefully we can visualize callback flow and how variables and functions are passed around.
 
 
-## Javascript the hard parts
+# Javascript the hard parts
 
 Javascript is easy to learn, but hard to master.  It's a flawed language with lots of subtle pitfalls to be navigated.  These materials will help you master the more subtle and difficult aspects of the language.
 
 
-###  [Nodeschool.io](http://nodeschool.io/) Core Redux
+##  [Nodeschool.io](http://nodeschool.io/) Core Redux
 
 If you haven't already, finish up the core nodeschool workshops.  The last two are the most conceptually difficult:
 
@@ -389,64 +389,56 @@ npm i -g scope-chains-closures
 npm i -g streams-adventure
 ```
 
-### [Effective Javascript](http://effectivejs.com)
+## [Effective Javascript](http://effectivejs.com)
 
 ![](img/ejs.jpg)
 
 [Effecitve Javascript](http://effectivejs.com) is an excellent book focusing only on Javascritpt the Language.  It has answers and clarifications for the more confusing aspects of the languages, explains the prototype chain in a clear way, and covers the more advanced aspects of JS.  The only downside is the cost of the book, but is well worth it if you can afford it. A+
 
-### [Eloquent Javascript](http://eloquentjavascript.net)
+## [Eloquent Javascript](http://eloquentjavascript.net)
 
 ![](img/eloquent.png)
 
 This is a free
 
-### [Javascript: The Good Parts]()
+## [Javascript: The Good Parts]()
 
-
-## Streams
-
-- Streams handbook
-
-## Node in the browser?
-
-- Browserify-handbook
-
-## `npm` stuffs
+# `npm` stuffs
 
 - npm scripts
 - package.json
 - SPDX license expression
 
-## Semver
+# Semver
 
 - http://semver.org/
 - http://semver-ftw.org/
 
-## Tools to write Node
+# Node in the browser?
 
-## Spellcheck for Javascript## Streams
+- Browserify-handbook
+
+# Streams
 
 - Streams handbook
 
-## Semver
+# Tools to write Node
 
-- http://semver.org/
-- http://semver-ftw.org/
+# Spellcheck for Javascript
 
-## All the badges
+# All the badges
 
-## Hex Stickers
+# Hex Stickers
 
-## An adventure of your own
+# An adventure of your own
 
 Resources for teaching others and writing nodeschool adventures.
 
-## JS is the worlds polyglot assembly language now
+# JS is the worlds polyglot assembly language now
 
-## ES6 and Beyond
+# ES6 and Beyond
 
-## Frameworks
+# Frameworks
 
 - http://lebron.technology/
 - http://hapijs.com/
@@ -455,12 +447,12 @@ Resources for teaching others and writing nodeschool adventures.
 - https://github.com/Raynos/mercury
 - https://jshttp.github.io/
 
-## html + css
+# html + css
 
 - Dive into html5
 - HTML5 and css Jon Ducket
 
-## Community
+# Community
 
 - irc
 - github
@@ -468,21 +460,21 @@ Resources for teaching others and writing nodeschool adventures.
 - conferences
 - gitter/slack?
 
-## Mastering git
+# Mastering git
 
 - orily git
 - git for 5 year olds
 
-## Electron?
+# Electron?
 
 - yay desktop apps
 - electron handbook
 
-## Cool modules
+# Cool modules
 
-## People to watch
+# People to watch
 
-## Link Dump
+# Link Dump
 
 This document was created  after amassing a large collection of node related links helpful to learning and understanding node.  Here is a partial linkdump until the rest of the guide can be written.
 
@@ -545,4 +537,4 @@ This document was created  after amassing a large collection of node related lin
 - https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
 
 
-## ... [WIP]
+# ... [WIP]

@@ -577,7 +577,9 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 - yay desktop apps
 - electron handbook
 
-# Cool Cats writing Cool Modules 😎
+# Cool Cats writing Cool Modules
+
+😎
 
 ## School of Substack
 

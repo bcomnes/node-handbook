@@ -18,35 +18,15 @@ We may also cover a few other useful places to learn cool tools and skills like:
 
 ## TOC
 
-<!-- TOC depth:6 withLinks:1 updateOnSave:1 -->
+<!-- TOC depth:1 withLinks:1 updateOnSave:1 -->
 - [node-learnbook](#node-learnbook)
-	- [TOC](#toc)
-	- [Required Provisions](#required-provisions)
-	- [How long is this adventure going to last?](#how-long-is-this-adventure-going-to-last)
 - [Getting started.](#getting-started)
-	- [[Javascript for Cats](http://jsforcats.com)](#javascript-for-catshttpjsforcatscom)
-	- [[Codecademy](http://www.codecademy.com/en/tracks/javascript)](#codecademyhttpwwwcodecademycomentracksjavascript)
-	- [[nodeschool.io: javascripting](https://github.com/sethvincent/javascripting)](#nodeschoolio-javascriptinghttpsgithubcomsethvincentjavascripting)
 - [What is javascript?](#what-is-javascript)
 - [What is node?](#what-is-node)
-	- [More links on understanding what node is:](#more-links-on-understanding-what-node-is)
 - [How to get node](#how-to-get-node)
-	- [OSX](#osx)
-	- [Linux](#linux)
-	- [Windows](#windows)
 - [How to know node](#how-to-know-node)
-	- [[The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)](#the-art-of-nodehttpsgithubcommaxogdenart-of-nodethe-art-of-node)
-	- [[Node.js in Action](http://www.manning.com/cantelon/)](#nodejs-in-actionhttpwwwmanningcomcantelon)
-	- [[Nodeschool.io](http://nodeschool.io/) Core](#nodeschooliohttpnodeschoolio-core)
-		- [[Node School Core](http://nodeschool.io/#workshopper-list)](#node-school-corehttpnodeschoolioworkshopper-list)
 - [Callbacks visualized](#callbacks-visualized)
-	- [Callback you later](#callback-you-later)
 - [Javascript the hard parts](#javascript-the-hard-parts)
-	- [[Nodeschool.io](http://nodeschool.io/) Core Redux](#nodeschooliohttpnodeschoolio-core-redux)
-	- [[Effective Javascript](http://effectivejs.com)](#effective-javascripthttpeffectivejscom)
-	- [[Eloquent Javascript](http://eloquentjavascript.net)](#eloquent-javascripthttpeloquentjavascriptnet)
-	- [[Javascript: The Good Parts]()](#javascript-the-good-parts)
-	- [More hard part links](#more-hard-part-links)
 - [... [WIP]](#-wip)
 - [`npm` stuffs](#npm-stuffs)
 - [Semver](#semver)
@@ -70,7 +50,6 @@ We may also cover a few other useful places to learn cool tools and skills like:
 - [Mastering git](#mastering-git)
 - [Electron?](#electron)
 - [Cool Cats writing Cool Modules](#cool-cats-writing-cool-modules)
-	- [School of Substack](#school-of-substack)
 - [People to watch](#people-to-watch)
 - [Link Dump](#link-dump)
 <!-- /TOC -->
@@ -657,3 +636,4 @@ This document was created  after amassing a large collection of node related lin
 - https://gist.github.com/dominictarr/2401787
 - https://github.com/felixge/node-style-guide
 - http://nikhilm.github.io/uvbook/threads.html#core-thread-operations
+- https://github.com/joyent/node/issues/5132#issuecomment-15432598

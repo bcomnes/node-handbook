@@ -637,3 +637,4 @@ This document was created  after amassing a large collection of node related lin
 - https://github.com/felixge/node-style-guide
 - http://nikhilm.github.io/uvbook/threads.html#core-thread-operations
 - https://github.com/joyent/node/issues/5132#issuecomment-15432598
+- https://www.youtube.com/watch?v=hZJCnT7E1ts

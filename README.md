@@ -554,7 +554,8 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 # Electron?
 
 - yay desktop apps
-- electron handbook
+- [electron handbook](https://github.com/bcomnes/electron-handbook)
+- https://github.com/sindresorhus/awesome-electron
 
 # Cool Cats writing Cool Modules
 
@@ -629,6 +630,7 @@ This document was created  after amassing a large collection of node related lin
 - http://lin-clark.com/blog/2014/07/01/authoring-nodejs-workshopper-lessons/
 - http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
 - https://github.com/jlevy/the-art-of-command-line
+- https://github.com/alebcay/awesome-shell
 - https://brendaneich.com/2015/06/from-asm-js-to-webassembly/
 - https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6
 - https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
@@ -638,3 +640,5 @@ This document was created  after amassing a large collection of node related lin
 - http://nikhilm.github.io/uvbook/threads.html#core-thread-operations
 - https://github.com/joyent/node/issues/5132#issuecomment-15432598
 - https://www.youtube.com/watch?v=hZJCnT7E1ts
+- https://github.com/sindresorhus/awesome
+- https://github.com/sindresorhus/awesome-nodejs

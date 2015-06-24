@@ -115,6 +115,17 @@ Javascript is the programming language that your web browser comes with, but the
 
 You should watch it!
 
+### ESWhat?
+
+Also while we are on the topic, Javascript is the real world implementation of ECMAScript (abbreviated ES*, where * is the spec version), which is just a language specification. The current trend right now is to call the specs ES2015, ES2016 etc as a way to help promote quicker releases and access to newer lagnuage featuers.  More language features means more to learn.  ES5 is a simple yet expressive language right now in 2015, so adding new features isn't guarenteed to improve the language.  Be open about what to learn, and picky about what you choose to use.
+
+You don't neeed to read these right now, but here are the last couple specs:
+
+- [ES5](https://es5.github.io)
+- [ES6 Draft](http://people.mozilla.org/~jorendorff/es6-draft.html)
+- [ES7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_7_support_in_Mozilla)
+- [ES\* Compatibility Table](https://kangax.github.io/compat-table/es6/)
+
 # What is node?
 
 Node was created by [Ryan Dahl](http://tinyclouds.org).  He has since pulled a [Mark Pilgrim](http://www.diveintomark.link) and [HTTP 410](http://en.wikipedia.org/wiki/Mark_Pilgrim#.22Disappearance.22_from_the_Internet)'d himself from the INTERNET, but occasionally will post interesting undocumented code projects to his [github](https://github.com/ry) or [post to the node mailing list](https://groups.google.com/forum/#!activity/nodejs/2JvBi5ikhDgJ).
@@ -425,7 +436,11 @@ This is a free e-book (paper version is available too).  It seems to reside some
 
 <a href="http://www.amazon.com/exec/obidos/ASIN/0596517742/wrrrldwideweb"><img src="img/thegoodparts.jpg" height="400"></a>
 
-JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](http://json.org) spec).  It's pretty old at this point, and a difficult, dense and terse read.  But its still pretty good, and has one of the better explainations about the different styles of object composition and inheritece (AKA Object Oriented Programming... or something kind of like it):
+JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](http://json.org) spec).  It's pretty old at this point, and a difficult, dense and terse read.  But its still really good, and has one of the better explainations about the different styles of object composition and inheritece (AKA Object Oriented Programming... or something kind of like it):
+
+... TODO: List off JSTGP:The good parts
+
+You will no doubt have questions about some of the sugestions in the book.  It was written as [ES5](https://es5.github.io) was still not widely available.  Quite a few of the polyfills noted in the book are actually widely available functions and methods... so double check [MDN](https://developer.mozilla.org/en-US/) to see if its just a built in funciton now.
 
 ## More hard part links
 

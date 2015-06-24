@@ -421,7 +421,11 @@ npm i -g streams-adventure
 
 This is a free e-book (paper version is available too).  It seems to reside somewhere between [Effective Javascript](#effective-javascript) and [Node.JS in Action](#nodejs-in-action)
 
-## [Javascript: The Good Parts]()
+## [Javascript: The Good Parts](http://www.amazon.com/exec/obidos/ASIN/0596517742/wrrrldwideweb)
+
+<a href="http://www.amazon.com/exec/obidos/ASIN/0596517742/wrrrldwideweb"><img src="img/thegoodparts.jpg" height="400"></a>
+
+JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](http://json.org) spec).  It's pretty old at this point, and a difficult, dense and terse read.  But its still pretty good, and has one of the better explainations about the different styles of object composition and inheritece (AKA Object Oriented Programming... or something kind of like it):
 
 ## More hard part links
 

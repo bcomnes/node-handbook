@@ -117,9 +117,9 @@ You should watch it!
 
 ### ESWhat?
 
-Also while we are on the topic, Javascript is the real world implementation of ECMAScript (abbreviated ES*, where * is the spec version), which is just a language specification. The current trend right now is to call the specs ES2015, ES2016 etc as a way to help promote quicker releases and access to newer lagnuage featuers.  More language features means more to learn.  ES5 is a simple yet expressive language right now in 2015, so adding new features isn't guarenteed to improve the language.  Be open about what to learn, and picky about what you choose to use.
+Also while we are on the topic, Javascript is the real world implementation of ECMAScript (abbreviated ES*, where * is the spec version), which is just a language specification. The current trend right now is to call the specs ES2015, ES2016 etc as a way to help promote quicker releases and access to newer language features.  More language features means more to learn.  ES5 is a simple yet expressive language right now in 2015, so adding new features isn't guaranteed to improve the language.  Be open about what to learn, and picky about what you choose to use.
 
-You don't neeed to read these right now, but here are the last couple specs:
+You don't need to read these right now, but here are the last couple specs:
 
 - [ES5](https://es5.github.io)
 - [ES6 Draft](http://people.mozilla.org/~jorendorff/es6-draft.html)

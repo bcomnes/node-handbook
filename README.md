@@ -661,3 +661,4 @@ This document was created  after amassing a large collection of node related lin
 - https://www.youtube.com/watch?v=hZJCnT7E1ts
 - https://github.com/sindresorhus/awesome
 - https://github.com/sindresorhus/awesome-nodejs
+- https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript

@@ -338,6 +338,10 @@ npm i -g how-to-npm
 
 ![](img/how-to-npm.png)
 
+# Callbacks Deconstructed
+
+TODO: Lets get a bunch of super simple examples of callbacks and work our way up to understanding what runs async and what doesn't all the way up to `process.nexTick()`.
+
 # Callbacks visualized
 
 Callbacks are confusing at first, because you are writing functions that accept variables that seemingly come out of nowhere.
@@ -438,9 +442,21 @@ This is a free e-book (paper version is available too).  It seems to reside some
 
 JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](http://json.org) spec).  It's pretty old at this point, and a difficult, dense and terse read.  But its still really good, and has one of the better explainations about the different styles of object composition and inheritece (AKA Object Oriented Programming... or something kind of like it):
 
-... TODO: List off JSTGP:The good parts
+### JSTGP:The good parts
 
-You will no doubt have questions about some of the sugestions in the book.  It was written as [ES5](https://es5.github.io) was still not widely available.  Quite a few of the polyfills noted in the book are actually widely available functions and methods... so double check [MDN](https://developer.mozilla.org/en-US/) to see if its just a built in funciton now.
+- Pseudoclassical Inheritance
+- Prototypal Inheritance
+- Functional Inheritance
+- Talking about the bad and awful parts of javascript is straightforward and interesting.
+- ...wip
+
+### JSTGP:The bad parts
+
+- The train track diagrams, while correct, literally don't help you think or understand how to write better JS.  You get as much out of it as a you do completing a maze.
+- The regex stuff might confirm your understanding, but don't try to learn regex from this book.
+- ...wip
+
+You will no doubt have questions about some of the suggestions in the book.  It was written as [ES5](https://es5.github.io) was still not widely available.  Quite a few of the polyfills noted in the book are actually widely available functions and methods... so double check [MDN](https://developer.mozilla.org/en-US/) to see if its just a built in funciton now.
 
 ## More hard part links
 

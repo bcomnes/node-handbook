@@ -595,7 +595,7 @@ It's like a lego machine that produces unlimited copies of whatever kind of lego
 - [docs.npmjs.com: What is npm?](https://docs.npmjs.com/getting-started/what-is-npm)
 - [Understanding npm](https://unpm.nodesource.com/)
 
-[![](img/nodeuniverse.gif)](https://unpm.nodesource.com/)
+[![](img/npmuniverse.gif)](https://unpm.nodesource.com/)
 
 ## Why is `npm` different than {gem,pip,bundler,cpan,etc}?
 

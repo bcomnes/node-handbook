@@ -146,9 +146,11 @@ The best way to understand what node is to listen to Ryan describe it himself.
 
 ### What is Node: The Links
 
-- http://blog.webfaction.com/2008/12/a-little-holiday-present-10000-reqssec-with-nginx-2/
-- http://www.kegel.com/c10k.html
-- http://nodejs.org/about/
+Some links discussing issues related to what node tries to solve and other general readings.
+
+- [About Node.js®](http://nodejs.org/about/)
+- [A little holiday present: 10,000 reqs/sec with Nginx!](http://blog.webfaction.com/2008/12/a-little-holiday-present-10000-reqssec-with-nginx-2/)
+- [The C10K problem](http://www.kegel.com/c10k.html)
 
 # How to get node
 
@@ -418,11 +420,15 @@ If you haven't already, finish up the core nodeschool workshops.  The last two a
 npm i -g scope-chains-closures
 ```
 
-`streams adventure` teaches you about streams.  This is a good place to start, but this adventure is dated and needs work.  Have you found a better streams adventure or tutorial?  Please open an issue with the links/info!
+<img src="img/scopes.png" heigh="300">
+
+`stream-adventure` teaches you about streams.  This is a good place to start, but this adventure is dated and needs work.  Have you found a better streams adventure or tutorial?  Please open an issue with the links/info!
 
 ```sh
-npm i -g streams-adventure
+npm i -g stream-adventure
 ```
+
+<img src="img/stream.png" heigh="500">
 
 ## [Effective Javascript](http://effectivejs.com)
 
@@ -447,21 +453,20 @@ JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](
 - Pseudoclassical Inheritance
 - Prototypal Inheritance
 - Functional Inheritance
-- Talking about the bad and awful parts of javascript is straightforward and interesting.
-- ...wip
+- Talking about the bad and awful parts of js is straightforward and interesting.
 
 ### JSTGP:The bad parts
 
 - The train track diagrams, while correct, literally don't help you think or understand how to write better JS.  You get as much out of it as a you do completing a maze.
 - The regex stuff might confirm your understanding, but don't try to learn regex from this book.
-- ...wip
+- Its discussion on callbacks.  It doesn't even give a good example.
 
-You will no doubt have questions about some of the suggestions in the book.  It was written as [ES5](https://es5.github.io) was still not widely available.  Quite a few of the polyfills noted in the book are actually widely available functions and methods... so double check [MDN](https://developer.mozilla.org/en-US/) to see if its just a built in funciton now.
+You will no doubt have questions about some of the suggestions in the book.  It was written as [ES5](https://es5.github.io) was still not widely available.  Quite a few of the polyfills noted in the book are actually widely available functions and methods... so double check [MDN](https://developer.mozilla.org/en-US/) to see if its just a built in function now.
 
-## More hard part links
+## More hard readings
 
-- https://en.wikipedia.org/wiki/Event_loop
-- https://en.wikipedia.org/wiki/Asynchronous_I/O
+- [Event Loops](https://en.wikipedia.org/wiki/Event_loop)
+- [Asynchronous_I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
 
 # ... [WIP]
 

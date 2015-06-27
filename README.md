@@ -593,6 +593,9 @@ It's like a lego machine that produces unlimited copies of whatever kind of lego
 `npm` works better when using it with modules are small, focused bits of code that solve one problem well.
 
 - [docs.npmjs.com: What is npm?](https://docs.npmjs.com/getting-started/what-is-npm)
+- [Understanding npm](https://unpm.nodesource.com/)
+
+[![](img/nodeuniverse.gif)](https://unpm.nodesource.com/)
 
 ## Why is `npm` different than {gem,pip,bundler,cpan,etc}?
 
@@ -617,18 +620,43 @@ This is an important concept. Read more about it here:
 
 - [art-of-node: How `require` works](https://github.com/maxogden/art-of-node#how-require-works)
 - [Folder Structures Used by npm](https://docs.npmjs.com/files/folders)
+- [Node API Docs:#modules_loading_from_node_modules_folders](https://nodejs.org/api/modules.html#modules_loading_from_node_modules_folders)
 - [Node.js In Action: (p.43) Reusing modules in the node_modules folder](#nodejs-in-action)
 
 
 ### Nested dependencies by default
 
+In most languages, if you depend on dependency `A@2.0` and `B@1.0`, and `B@1.0` depends on `A@1.0`, you are in [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).  You are unable to satisfy your dependency tree in a way that functions.
 
+Node and `npm` allow for nested dependencies.  That means, your app gets `A@2.0` and `B@1.0` gets `A@1.0`.
 
-- npm scripts
-- package.json
+[![](img/nested-vs-flat-deps.png)](http://maxogden.com/nested-dependencies.html)
+
+How does this magic work?  See:
+
+-[Nested Dependencies](http://maxogden.com/nested-dependencies.html)
+
+Nested dependencies solve the following issues:
+
+- Dependency hell: Every dependency gets the dependencies it wants at the version it wants.
+- Allows you to update your dependencies without worrying about breaking consumers of your module.
+- Allows dependencies to update their dependencies without worry of breaking your module.
+- Breaks undefined ties to global version state.
+
+Nested dependencies introduce considerable complexity, and work is ongoing to improve its reliability. See what `npm@3` is doing to improve this: [npm@3.0.0 cangelog](https://github.com/npm/npm/releases/tag/v3.0.0).
+
+## `.package.json` is here to save you
+
 - SPDX license expression
+
+## `devDependencies` and `npm` scripts shield you from opinions
+
 - http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
 - http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/
+
+## Utopia `npm`
+
+Global and environmental dependencies are an anti-pattern.  Nail things down with `npm` dependencies.
 
 # Semver
 
@@ -641,13 +669,6 @@ This is an important concept. Read more about it here:
 - http://wzrd.in/
 - https://github.com/thlorenz/browserify-shim#multi-shim-example-including-dependencies
 
-# Event Emitters
-
-I don't want to miss out.  Where do I go to learn these?
-
-# 👻👻 Inheritance, Composition, and the Prototype Chain
-
-AKA OO AKA Object Oriented.  Also prototypes.
 
 # Write your tests, eat your greens
 
@@ -655,6 +676,15 @@ AKA OO AKA Object Oriented.  Also prototypes.
 - http://substack.net/how_I_write_tests_for_node_and_the_browser
 - https://ci.testling.com/guide/tape
 - https://github.com/brianleroux/browserify-tape-spec
+
+# Event Emitters
+
+Where do I go to learn these?
+
+# 👻👻 Inheritance, Composition, and the Prototype Chain
+
+AKA OO AKA Object Oriented.  Also prototypes.
+
 
 # Whats the deal with Streams?
 

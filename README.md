@@ -478,7 +478,7 @@ Still pulling together the primordial ooze below.
 
 # `npm` stuffs
 
-<img src="http://bcomnes.github.io/node-learnbook/img/npm.svg" height="300">
+<a href="https://www.npmjs.com/"><img src="http://bcomnes.github.io/node-learnbook/img/npm.svg"></a>
 
 `npm` is a package manager.  If you have something (anything!) that could be apart of a larger project, you should version it and put it on `npm`.  Its *the* package manager for javascript, and is becoming the package manager for HTML and CSS components.
 
@@ -584,7 +584,7 @@ This lists of other actions we can take on the module.
 
 `npm` is a system for authoring, packaging, and consuming reusable bits of code and assets, AND the worlds largest open source software repository:
 
-<a href="http://www.modulecounts.com"><img src="img/npmgrowth.png" height="950"></a>
+<a href="http://www.modulecounts.com"><img src="img/npmgrowth.png" width="1260" height="958"></a>
 
 It's like a lego machine that produces unlimited copies of whatever kind of lego you can think of.
 
@@ -613,7 +613,7 @@ System wide dependency repositories are **Global Variables**.  Nearly every lang
 
 This is an important concept. Read more about it here:
 
-<a href="https://github.com/maxogden/art-of-node#how-require-works"><img src="img/node_modules.png" height="900"></a>
+<a href="https://github.com/maxogden/art-of-node#how-require-works"><img src="img/node_modules.png" width="1748" height="1278"></a>
 
 - [art-of-node: How `require` works](https://github.com/maxogden/art-of-node#how-require-works)
 - [Folder Structures Used by npm](https://docs.npmjs.com/files/folders)

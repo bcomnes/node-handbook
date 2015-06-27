@@ -434,7 +434,9 @@ npm i -g stream-adventure
 
 [![](img/ejs.jpg)](http://effectivejs.com)
 
-[Effecitve Javascript](http://effectivejs.com) is an excellent book focusing only on Javascritpt the Language.  It has answers and clarifications for the more confusing aspects of the languages, explains the prototype chain in a clear way, and covers the more advanced aspects of JS.  The only downside is the cost of the book, but is well worth it if you can afford it. A+
+**REQUIRED READING**
+
+[Effecitve Javascript](http://effectivejs.com) is an excellent book focusing only on Javascritpt the Language.  It has answers and clarifications for the more confusing aspects of the languages, explains the prototype chain in a clear way, and covers the more advanced aspects of JS.  The only downside is the cost of the book. A+
 
 ## [Eloquent Javascript](http://eloquentjavascript.net)
 
@@ -465,14 +467,16 @@ You will no doubt have questions about some of the suggestions in the book.  It 
 
 ## More hard readings
 
-- [Event Loops](https://en.wikipedia.org/wiki/Event_loop)
-- [Asynchronous_I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
+- [Wikipedia: Event Loops](https://en.wikipedia.org/wiki/Event_loop)
+- [Wikipedia: Asynchronous I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
 
 # ... [WIP]
 
 Still pulling together the primordial ooze below.
 
 # `npm` stuffs
+
+<img src="http://bcomnes.github.io/node-learnbook/img/npm.svg" height="300">
 
 - npm scripts
 - package.json

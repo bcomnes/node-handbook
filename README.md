@@ -266,9 +266,11 @@ Now that we have seen a bit about the history and motivations behind node, lets 
 
 [![](img/art-of-node.png)](https://github.com/maxogden/art-of-node#the-art-of-node)
 
-Written by the prolific [Max Ogden](http://maxogden.com),
+Written by [Max Ogden](http://maxogden.com),
 
 <img src="img/max.gif" alt="thanks http://substack.net/art" height="200">
+
+*An image of Max holding a bag of fish for some reason.  Probably to feed cats. Image by [substack](http://substack.net/art)*
 
 [maxogden/art-of-node](https://github.com/maxogden/art-of-node#the-art-of-node) gives a thorough explanation of how node works, how to write node flavored javascript, callbacks and async programming, writing and using modules and how to be apart of the node/js community and do your best.  Its full of insight and clear reasoning, but when you are new to js and/or node, all of the subtleties can fly by pretty quickly.  **It's a short and easily digestible read, that you should probably read through a few times**.
 

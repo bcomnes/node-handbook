@@ -480,6 +480,150 @@ Still pulling together the primordial ooze below.
 
 <img src="http://bcomnes.github.io/node-learnbook/img/npm.svg" height="300">
 
+`npm` is a package manager.  If you have something (anything!) that could be apart of a larger project, you should version it and put it on `npm`.  Its *the* package manager for javascript, and is becoming the package manager for HTML and CSS components.
+
+tl;dr `npm` helps you download dependencies and publish reusable pieces of code/assets/software.
+
+## How do I use `npm`?
+
+### Using `npm` to start a project of your own
+
+Here is what we do most of the time:
+
+```
+$ mkdir newproj ; cd newproj
+$ git init
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (new)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to /Users/bret/repos/new/package.json:
+
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes)
+```
+
+Now we can start writing our project.  When we need to add a package we have found on [npmjs.com](https://www.npmjs.com), we can do the following:
+
+```sh
+$ npm i request --save
+```
+
+This saves the module to `./node_modules`.  Note, this package is installed to our local project folder... *NOT* some global system wide folder like every other programming language.
+
+### `npm` with existing projects
+
+If you clone in a project with a `package.json`, typically this is where you start:
+
+```sh
+$ git clone project@url.git ; cd project
+$ npm i
+# i is short for install
+# `npm install` would also work
+```
+
+This is downloads the dependencies of the project into a folder called `node_modules`.  The `node_modules` folder should be added to your `.gitignore` file.
+
+A good next step is to test the project:
+
+```sh
+$ npm test
+```
+
+Projects should be tested.  Since all projects should end up as modules, tests help ensure that others can help make changes and contributions the the module.  For now, there are no automated module interface testing tools, so project specific tests are the best thing we have right now.
+
+Finally, some projects can run all on their own.  A third best step to take is usually:
+
+```sh
+$ npm start
+```
+
+This should start the module or run its primary intended function.
+
+Finally, we can inspect other actions that project author added to the `package.json` `scripts` field:
+
+```sh
+$ npm run
+```
+
+This lists of other actions we can take on the module.
+
+## What *IS* `npm` really?
+
+`npm` is arguably more interesting than node itself.
+
+`node` is a tiny V8 javascript runtime engine with bindings to a set of high performance asynchronous `C` libraries.
+
+`npm` is a system for authoring, packaging, and consuming reusable bits of code and assets, AND the worlds largest open source software repository:
+
+<a href="http://www.modulecounts.com"><img src="img/npmgrowth.png" height="950"></a>
+
+It's like a lego machine that produces unlimited copies of whatever kind of lego you can think of.
+
+> I want programming computers to be like coloring with crayons and playing with duplo blocks. --[Ryan Dahl](https://news.ycombinator.com/item?id=4310723)
+
+`npm` works better when using it with modules are small, focused bits of code that solve one problem well.
+
+- [docs.npmjs.com: What is npm?](https://docs.npmjs.com/getting-started/what-is-npm)
+
+## Why is `npm` different than {gem,pip,bundler,cpan,etc}?
+
+`npm` does a few things differently:
+
+### Local packages by default
+
+When you `$ npm install` a package with `npm`, it installs to the `node_modules` folder specific to your project.
+
+In nearly every other programming language, the package manager installs to a system wide (or user wide) dependency folder that all projects use.  This runs into all sorts of permission errors and complexities that make it difficult to write software.  Local-by-default `node_modules` solve:
+
+- Permission errors when users without admin access try to install project dependencies.
+- Inconsistent and opaque module loading directories.
+- Cognitive disconnect and confusion of where your modules are loading from.
+- Eliminates the need for `$ENV` variables.
+
+System wide dependency repositories are **Global Variables**.  Nearly every language has systematic hacks to get around this issue like [bundler.io](http://bundler.io/) and [pip](https://virtualenv.pypa.io/en/latest/). None of these actually solve the problem that local-by-default `node_module` solves.
+
+This is an important concept. Read more about it here:
+
+<a href="https://github.com/maxogden/art-of-node#how-require-works"><img src="img/node_modules.png" height="900"></a>
+
+- [art-of-node: How `require` works](https://github.com/maxogden/art-of-node#how-require-works)
+- [Folder Structures Used by npm](https://docs.npmjs.com/files/folders)
+- [Node.js In Action: (p.43) Reusing modules in the node_modules folder](#nodejs-in-action)
+
+
+### Nested dependencies by default
+
+
+
 - npm scripts
 - package.json
 - SPDX license expression
@@ -516,6 +660,10 @@ AKA OO AKA Object Oriented.  Also prototypes.
 
 - [Streams handbook](https://github.com/substack/stream-handbook)
   > Streams can help to separate your concerns because they restrict the implementation surface area into a consistent interface that can be reused.
+
+# What makes modules small(µ)?
+
+> When applications are done well, they are just the really application-specific, brackish residue that can't be so easily abstracted away. All the nice, reusable components sublimate away onto github and npm where everybody can collaborate to advance the commons. -- [James Halliday-substack.net/how_I_write_modules](http://substack.net/how_I_write_modules)
 
 # Node.js and io.js Anthropology
 

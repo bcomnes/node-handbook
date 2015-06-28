@@ -660,10 +660,14 @@ Here are some keys of interest:
 
 ## `devDependencies` and `npm` scripts shield you from opinions
 
-<img src="http://bcomnes.github.io/node-learnbook/img/grunt.svg" width="100"><img src="img/gulp.png" width="100"><img src="img/bash.png" width="100">
+<a href="http://gruntjs.com/"><img src="http://bcomnes.github.io/node-learnbook/img/grunt.svg" width="100"></a><a href="http://gulpjs.com/"><img src="img/gulp.png" width="100"></a><a href="https://www.gnu.org/software/bash/"><img src="img/bash.png" width="100"></a>
+
+A common point of confusion.
 
 - http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
 - http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/
+
+[![](img/grunts.gif)](https://www.youtube.com/watch?v=YQwYNca4iog)
 
 ## Utopia `npm`
 

@@ -670,9 +670,12 @@ There are two factors to this problem.
 - There are tons of new javascript development tools to choose from with cool lookin logos that get people really excited.
 
 >[![](img/ggb.gif)](http://nodejsreactions.tumblr.com/post/82300463325/grunt-gulp-broccoli)
+>
 Grunt, Gulp, Broccoli --[nodejsreactions.tumblr.com](http://nodejsreactions.tumblr.com/post/82300463325/grunt-gulp-broccoli)
 
 - It isn't totally obvious what the best way to install and use these tools are.
+
+Lest address how to best install and use these tools.
 
 - http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
 - http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/

@@ -486,58 +486,34 @@ tl;dr `npm` helps you download dependencies and publish reusable pieces of code/
 
 ## How do I use `npm`?
 
-### Using `npm` to start a project of your own
+In addition to the [how-to-npm](#node-school-core) nodeschool adventure, `npm` has a great getting started page:
 
-Here is what we do most of the time:
+[![](img/npmgettingstarted.png)](https://docs.npmjs.com/getting-started/what-is-npm)
+
+- [npm getting started](https://docs.npmjs.com/getting-started/what-is-npm)
+
+But here are the short notes version:
+
+### Using `npm` to start a project of your own
 
 ```
 $ mkdir newproj ; cd newproj
 $ git init
 $ npm init
-This utility will walk you through creating a package.json file.
-It only covers the most common items, and tries to guess sensible defaults.
-
-See `npm help json` for definitive documentation on these fields
-and exactly what they do.
-
-Use `npm install <pkg> --save` afterwards to install a package and
-save it as a dependency in the package.json file.
-
-Press ^C at any time to quit.
-name: (new)
-version: (1.0.0)
-description:
-entry point: (index.js)
-test command:
-git repository:
-keywords:
-author:
-license: (ISC)
-About to write to /Users/bret/repos/new/package.json:
-
-{
-  "name": "new",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
-}
-
-
-Is this ok? (yes)
 ```
 
-Now we can start writing our project.  When we need to add a package we have found on [npmjs.com](https://www.npmjs.com), we can do the following:
+As we develop and use modules, we save them with:
 
 ```sh
 $ npm i request --save
+# e.g. install the request module and save it to package.json
 ```
 
-This saves the module to `./node_modules`.  Note, this package is installed to our local project folder... *NOT* some global system wide folder like every other programming language.
+When you are finally ready to put it out into the world
+
+```sh
+$ npm publish
+```
 
 ### `npm` with existing projects
 
@@ -556,17 +532,16 @@ A good next step is to test the project:
 
 ```sh
 $ npm test
+# this tests the module
 ```
 
-Projects should be tested.  Since all projects should end up as modules, tests help ensure that others can help make changes and contributions the the module.  For now, there are no automated module interface testing tools, so project specific tests are the best thing we have right now.
+Tests help ensure that others can help make changes and contributions the the module.  There are no automated module interface testing tools, so project specific tests are the best thing we have right now.
 
-Finally, some projects can run all on their own.  A third best step to take is usually:
+Often you can start the module by running.
 
 ```sh
 $ npm start
 ```
-
-This should start the module or run its primary intended function.
 
 Finally, we can inspect other actions that project author added to the `package.json` `scripts` field:
 
@@ -586,11 +561,11 @@ This lists of other actions we can take on the module.
 
 <a href="http://www.modulecounts.com"><img src="img/npmgrowth.png" width="1260"></a>
 
-It's like a lego machine that produces unlimited copies of whatever kind of lego you can think of.
+It's analogous to a lego machine that produces unlimited copies of whatever kind of lego you can think of.
 
 > I want programming computers to be like coloring with crayons and playing with duplo blocks. --[Ryan Dahl](https://news.ycombinator.com/item?id=4310723)
 
-`npm` works better when using it with modules are small, focused bits of code that solve one problem well.
+`npm` works better when using it when modules are small, focused bits of code that solve one problem well (instead of kitchen-sink, do-all modules).
 
 - [docs.npmjs.com: What is npm?](https://docs.npmjs.com/getting-started/what-is-npm)
 - [Understanding npm](https://unpm.nodesource.com/)
@@ -634,7 +609,7 @@ Node and `npm` allow for nested dependencies.  That means, your app gets `A@2.0`
 
 How does this magic work?  See:
 
--[Nested Dependencies](http://maxogden.com/nested-dependencies.html)
+- [Nested Dependencies](http://maxogden.com/nested-dependencies.html)
 
 Nested dependencies solve the following issues:
 
@@ -647,7 +622,24 @@ Nested dependencies introduce considerable complexity, and work is ongoing to im
 
 ## `.package.json` is here to save you
 
-- SPDX license expression
+[![](img/package.json.png)](https://github.com/bcomnes/node-learnbook/blob/gh-pages/package.json)
+
+The `package.json` is the source of truth about your module.  It describes critical aspects of the module, like the name, version, license and entry point into the program.
+
+It is worth reading the `npm` docs page about this file in its entirety:
+
+[Specifics of npm's package.json handling](https://docs.npmjs.com/files/package.json)
+
+Here are some keys of interest:
+
+- [`main`](https://docs.npmjs.com/files/package.json#main): this is the name of the entry point of your application.  When requiring the module, you get whatever this file `exports` or `module.exports`.  When reading a modules source code, this is the file you look at first.
+- [`bin`](https://docs.npmjs.com/files/package.json#bin): sometimes modules will include a executable bin.  These get specified here.  These end in the `./node_modules/.bin` folder and are available to the commands defined in the `scripts` field.  They also get installed to your `$PATH` if you installed with the `-g` flag.
+- [`scripts`](https://docs.npmjs.com/misc/scripts): this is where you define scripts.  You should always include the following scripts in your module (if appropriate):
+  - `test`: the command used to test your module
+  - `start`: the command to run your module
+- [`dependencies`](https://docs.npmjs.com/files/package.json#dependencies): these list off modules and their version ranges that your module needs in order to work.
+- [`devDependencies`](https://docs.npmjs.com/files/package.json#devdependencies): these are modules needed to test, build and otherwise develop your module.  Dependencies that are not required at runtime should live here.  This includes all utility programs, test runners, task runners and build scripts.
+- [`license`](https://docs.npmjs.com/files/package.json#license): This is the [SPDX license identifier](https://spdx.org/licenses/) for the module.  `npm` complains if you leave this out.
 
 ## `devDependencies` and `npm` scripts shield you from opinions
 
@@ -867,3 +859,6 @@ This document was created  after amassing a large collection of node related lin
 - https://github.com/sindresorhus/awesome
 - https://github.com/sindresorhus/awesome-nodejs
 - https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
+- https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+- https://github.com/kriskowal/gtor
+-

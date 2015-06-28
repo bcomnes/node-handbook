@@ -631,11 +631,12 @@ This is unprecedented.
 
 As a result, there are tons of bad modules.  There are lots of good ones too.  This solves the following issues:
 
-- Community complacency with mediocre, monolithic packages
-- Stale standard libraries with lots of roadblocks in the way of improvements
-- Over designed and complicated do-all
-- Lack of of solution diversity for different problem domains
-- Unwarranted community influence over language features
+- Community complacency with mediocre, monolithic packages.  Everyone feels free to make something better, even if it sort of already exists.
+- Stale standard libraries with lots of roadblocks in the way of improvements.  Javascript doesn't have a standard library, and doesn't need one.
+- Over designed and complicated do-all module APIs.  The simplest and best modules usually win eventually!
+- Denies [Architecture Astronauts](http://www.joelonsoftware.com/articles/fog0000000018.html) of Air, as they are side-stepped by multiple working modules during their never ending design debates.
+- Lack of of solution diversity for different problem domains.  Usually there are 3 - 100 different modules to choose from.
+- Unwarranted individual influence over language features and community culture.
 
 ## `.package.json` is here to save you
 
@@ -658,11 +659,20 @@ Here are some keys of interest:
 - [`devDependencies`](https://docs.npmjs.com/files/package.json#devdependencies): these are modules needed to test, build and otherwise develop your module.  Dependencies that are not required at runtime should live here.  This includes all utility programs, test runners, task runners and build scripts.
 - [`license`](https://docs.npmjs.com/files/package.json#license): This is the [SPDX license identifier](https://spdx.org/licenses/) for the module.  `npm` complains if you leave this out.
 
-## `devDependencies` and `npm` scripts shield you from opinions
+## `devDependencies` and `npm` scripts shield you from opinions.
+
+*AKA, how to navigate the world of javascript development tools without going crazy.*
 
 <a href="http://gruntjs.com/"><img src="http://bcomnes.github.io/node-learnbook/img/grunt.svg" width="100"></a><a href="http://gulpjs.com/"><img src="img/gulp.png" width="100"></a><a href="https://www.gnu.org/software/bash/"><img src="img/bash.png" width="100"></a>
 
-A common point of confusion.
+There are two factors to this problem.
+
+- There are tons of new javascript development tools to choose from with cool lookin logos that get people really excited.
+
+>[![](img/ggb.gif)](http://nodejsreactions.tumblr.com/post/82300463325/grunt-gulp-broccoli)
+Grunt, Gulp, Broccoli --[nodejsreactions.tumblr.com](http://nodejsreactions.tumblr.com/post/82300463325/grunt-gulp-broccoli)
+
+- It isn't totally obvious what the best way to install and use these tools are.
 
 - http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
 - http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/

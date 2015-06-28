@@ -667,7 +667,7 @@ Here are some keys of interest:
 
 There are two factors to this problem.
 
-- There are tons of new javascript development tools to choose from with cool lookin logos that get people really excited.
+- There are tons of new javascript development tools to choose from with cool looking logos that get people really excited.
 
 >[![](img/ggb.gif)](http://nodejsreactions.tumblr.com/post/82300463325/grunt-gulp-broccoli)
 >
@@ -675,18 +675,84 @@ Grunt, Gulp, Broccoli --[nodejsreactions.tumblr.com](http://nodejsreactions.tumb
 
 - It isn't totally obvious what the best way to install and use these tools are.
 
-Lest address how to best install and use these tools.
+`tl;dr` of using build tools are:
 
-- http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
-- http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/
+1. Install and save them as `devDependencies` in your package.json
+2. Nail down their project specific use in the `scripts` field.
+3. Install the accompanying CLI with -g **only** when you feel the need to have it available system wide, and don't ever ask other developers to install a global tool for project specific use cases.
+
+If a module comes with a `bin`, that ends up in the `.\node_modules\.bin` folder.  `.\node_modules\.bin` shouldn't be in your $PATH.  When `npm` runs a command out of the `.package.json` `scripts` field, it supplements the search path with `.\node_modules\.bin` so that they are available for use from that interface.  This is the only intended use of the `.bin` folder.
+
+This can be referred to as `node_modules\.bin` folder hoisting.
+
+By hiding your toolchain behind a common interface, you shield yourself and other developers from these boring, toolchain details.  Nobody actually cares what tools you used when they are looking to make a fix or change to your module, and you are not doing anyone any favors by promoting your favorite tools in this context by asking people to install a `-g` tool to work on your module.
+
+This is will explained by this article:
+
+- [A Facade for Tooling with NPM Package Scripts](http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/)
+
+Not every project needs a full task runner.  Single purpose node utilities piped together with bash is a great way to get things done, is very simple and should be considered.
+
+- [Why we should stop using Grunt & Gulp](http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/)
+- [How to Use npm as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
+
+When you decide you need a custom devTool, follow these general design strategies.
+
+1. Write your tool as a node library that can be tested and consumed by other node libraries, in a generic and intendant way.
+2. Write a CLI interface that consumes the library, and bundle it with the library.
+3. Finally, write a separate, ecosystem specific module that requires your generic library and provides the correct interface to grunt/gulp etc.
+
+Step 3 is often optional, because someone who wants to use your tool with a task runner can easily do the work for you.
 
 [![](img/grunts.gif)](https://www.youtube.com/watch?v=YQwYNca4iog)
 
 ## Utopia `npm`
 
-Global and environmental dependencies are an anti-pattern.  Nail things down with `npm` dependencies.
+Global and environmental dependencies are an anti-pattern because it adds endless complexity to the process of writing and deploying applications.
+
+The `npm` community has some really big ideas about what `npm` can and could do better.  It has often been the tradition that you write a program, that talks to a web server like [apache](http://www.apache.org/) through [CGI](https://en.wikipedia.org/wiki/Common_Gateway_Interface) and also connects to a database that is assumed running.
+
+These are all massive assumptions on your applications part.  These are steps that repeated as little as possible by an operations team.
+
+Modern day ops teams have seen the value in codifying all of this server and service state using things like [chef](https://www.chef.io/chef/) and [puppet](https://puppetlabs.com/).  Automating servers to achieve the correct state so that your application can run is great, but your app is still getting bundled without vital organs to make it work.
+
+Utopia `npm` is the idea that, with a working copy of `npm` and a project repository with a `package.json`, you can deploy your application by simply running the module's contract:
+
+```
+$ npm install ; npm test ; npm start
+```
+
+For example, instead of running a DB as a server, [LevelDB](https://github.com/google/leveldb) is consumed no differently than any other library in your application:
+
+- [levelup](https://www.npmjs.com/package/levelup)
+- [leveldb-handbook](https://github.com/substack/leveldb-handbook) (incomplete :cry:)
+
+Instead of downloading source dependencies and building them, they are packaged as pre-built binaries:
+
+- [electron-prebuilt]()
+- [go-ipfs](https://www.npmjs.com/package/go-ipfs)
+- ...
+
+These are just some examples of projects that facilitate packaging non-js assets as `npm` dependencies.  This is an important design principle to keep in mind when building apps and modules.  The more you can package into `npm`, the easier it will be to use your app or module.
+
+While the above examples are great, practical examples of patterns we can use today, these ideas are much larger than just versioning everything with `npm`.
+
+### JS.os?
+
+[![](img/xkcd.js.png)](http://xkcd.com/1508/)
+
+[![](img/nodeos.png)](https://node-os.com/)
+
+- [Node.OS](https://node-os.com/)
+- [Runtime.js](http://runtimejs.org/)
+
+[![](img/bandd.gif)](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript)
+
+- [The Birth and Death of Javascript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript)
 
 # Semver
+
+Semver is the versioning scheme the `node` community has agreed
 
 - http://semver.org/
 - http://semver-ftw.org/

@@ -151,6 +151,8 @@ Some links discussing issues related to what node tries to solve and other gener
 - [About Node.js®](http://nodejs.org/about/)
 - [A little holiday present: 10,000 reqs/sec with Nginx!](http://blog.webfaction.com/2008/12/a-little-holiday-present-10000-reqssec-with-nginx-2/)
 - [The C10K problem](http://www.kegel.com/c10k.html)
+- [Wikipedia: Event Loops](https://en.wikipedia.org/wiki/Event_loop)
+- [Wikipedia: Asynchronous I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
 
 # How to get node
 
@@ -468,11 +470,6 @@ JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](
 
 You will no doubt have questions about some of the suggestions in the book.  It was written as [ES5](https://es5.github.io) was still not widely available.  Quite a few of the polyfills noted in the book are actually widely available functions and methods... so double check [MDN](https://developer.mozilla.org/en-US/) to see if its just a built in function now.
 
-## More hard readings
-
-- [Wikipedia: Event Loops](https://en.wikipedia.org/wiki/Event_loop)
-- [Wikipedia: Asynchronous I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
-
 # ... [WIP]
 
 Still pulling together the primordial ooze below.
@@ -669,42 +666,48 @@ There are two factors to this problem.
 
 - There are tons of new javascript development tools to choose from with cool looking logos that get people really excited.
 
->[![](img/ggb.gif)](http://nodejsreactions.tumblr.com/post/82300463325/grunt-gulp-broccoli)
->
-Grunt, Gulp, Broccoli --[nodejsreactions.tumblr.com](http://nodejsreactions.tumblr.com/post/82300463325/grunt-gulp-broccoli)
-
 - It isn't totally obvious what the best way to install and use these tools are.
 
-`tl;dr` of using build tools are:
+### `tl;dr` of using build tools are:
 
 1. Install and save them as `devDependencies` in your package.json
 2. Nail down their project specific use in the `scripts` field.
 3. Install the accompanying CLI with -g **only** when you feel the need to have it available system wide, and don't ever ask other developers to install a global tool for project specific use cases.
 
-If a module comes with a `bin`, that ends up in the `.\node_modules\.bin` folder.  `.\node_modules\.bin` shouldn't be in your $PATH.  When `npm` runs a command out of the `.package.json` `scripts` field, it supplements the search path with `.\node_modules\.bin` so that they are available for use from that interface.  This is the only intended use of the `.bin` folder.
+If a module comes with a `bin`, that ends up in the `.\node_modules\.bin` folder.  `.\node_modules\.bin` shouldn't be in your $PATH.  When `npm` runs a command out of the `.package.json` `scripts` field, it supplements the search path with `.\node_modules\.bin` so that they are available for use from that interface.
 
-This can be referred to as `node_modules\.bin` folder hoisting.
+This can be referred to as `node_modules\.bin` PATH hoisting.
 
 By hiding your toolchain behind a common interface, you shield yourself and other developers from these boring, toolchain details.  Nobody actually cares what tools you used when they are looking to make a fix or change to your module, and you are not doing anyone any favors by promoting your favorite tools in this context by asking people to install a `-g` tool to work on your module.
 
-This is will explained by this article:
+Read this article to learn more:
 
 - [A Facade for Tooling with NPM Package Scripts](http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/)
 
-Not every project needs a full task runner.  Single purpose node utilities piped together with bash is a great way to get things done, is very simple and should be considered.
+### Grunt, Gulp, Broccoli... Bash?
+
+>[![](img/ggb.gif)](http://nodejsreactions.tumblr.com/post/82300463325/grunt-gulp-broccoli)
+>
+Grunt, Gulp, Broccoli --[nodejsreactions.tumblr.com](http://nodejsreactions.tumblr.com/post/82300463325/grunt-gulp-broccoli)
+
+Not every project needs a full task runner.  Single purpose node utilities piped together with bash is a great way to get things done and should be considered.
 
 - [Why we should stop using Grunt & Gulp](http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/)
 - [How to Use npm as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
 
-When you decide you need a custom devTool, follow these general design strategies.
+Sometimes projects benefit from a task runner.  In these projects, use a task runner.
 
-1. Write your tool as a node library that can be tested and consumed by other node libraries, in a generic and intendant way.
+[![](img/grunts.gif)](https://www.youtube.com/watch?v=YQwYNca4iog)
+
+### A tool of my own
+
+When you decide you need a custom devTool, follow this general design process:
+
+1. Write your tool as a node library that can be tested and consumed by other node libraries, in a generic and independent way.
 2. Write a CLI interface that consumes the library, and bundle it with the library.
 3. Finally, write a separate, ecosystem specific module that requires your generic library and provides the correct interface to grunt/gulp etc.
 
 Step 3 is often optional, because someone who wants to use your tool with a task runner can easily do the work for you.
-
-[![](img/grunts.gif)](https://www.youtube.com/watch?v=YQwYNca4iog)
 
 ## Utopia `npm`
 

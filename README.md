@@ -660,7 +660,7 @@ Here are some keys of interest:
 
 *AKA, how to navigate the world of javascript development tools without going crazy.*
 
-<a href="http://gruntjs.com/"><img src="http://bcomnes.github.io/node-learnbook/img/grunt.svg" width="100"></a><a href="http://gulpjs.com/"><img src="img/gulp.png" height="100"></a><a href="https://www.gnu.org/software/bash/"><img src="img/bash.png" width="100"></a>
+<a href="http://gruntjs.com/"><img src="http://bcomnes.github.io/node-learnbook/img/grunt.svg" width="100"></a><a href="http://gulpjs.com/"><img src="img/gulp.png" height="150"></a><a href="https://www.gnu.org/software/bash/"><img src="img/bash.png" width="100"></a>
 
 There are two factors to this problem.
 

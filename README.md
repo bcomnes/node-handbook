@@ -670,8 +670,8 @@ There are two factors to this problem.
 
 ### `tl;dr` of using build tools are:
 
-1. Install and save them as `devDependencies` in your package.json
-2. Nail down their project specific use in the `scripts` field.
+1. Install and save them as `devDependencies` in your package.json (e.g. `npm i grunt --save-dev`)
+2. Nail down the tool's project specific use in the `scripts` field.
 3. Install the accompanying CLI with -g **only** when you feel the need to have it available system wide, and don't ever ask other developers to install a global tool for project specific use cases.
 
 If a module comes with a `bin`, that ends up in the `.\node_modules\.bin` folder.  `.\node_modules\.bin` shouldn't be in your $PATH.  When `npm` runs a command out of the `.package.json` `scripts` field, it supplements the search path with `.\node_modules\.bin` so that they are available for use from that interface.
@@ -680,7 +680,7 @@ This can be referred to as `node_modules\.bin` PATH hoisting.
 
 By hiding your toolchain behind a common interface, you shield yourself and other developers from these boring, toolchain details.  Nobody actually cares what tools you used when they are looking to make a fix or change to your module, and you are not doing anyone any favors by promoting your favorite tools in this context by asking people to install a `-g` tool to work on your module.
 
-Read this article to learn more:
+**Read this article to learn more:**
 
 - [A Facade for Tooling with NPM Package Scripts](http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/)
 
@@ -715,7 +715,7 @@ Global and environmental dependencies are an anti-pattern because it adds endles
 
 The `npm` community has some really big ideas about what `npm` can and could do better.  It has often been the tradition that you write a program, that talks to a web server like [apache](http://www.apache.org/) through [CGI](https://en.wikipedia.org/wiki/Common_Gateway_Interface) and also connects to a database that is assumed running.
 
-These are all massive assumptions on your applications part.  These are steps that repeated as little as possible by an operations team.
+These are all massive assumptions on your applications part.
 
 Modern day ops teams have seen the value in codifying all of this server and service state using things like [chef](https://www.chef.io/chef/) and [puppet](https://puppetlabs.com/).  Automating servers to achieve the correct state so that your application can run is great, but your app is still getting bundled without vital organs to make it work.
 
@@ -744,7 +744,7 @@ While the above examples are great, practical examples of patterns we can use to
 
 [![](img/xkcd.js.png)](http://xkcd.com/1508/)
 
-[![](img/nodeos.png)](https://node-os.com/)
+<a href="https://node-os.com/"><img src="img/nodeos.png" height="100"></a>
 
 - [Node.OS](https://node-os.com/)
 - [Runtime.js](http://runtimejs.org/)

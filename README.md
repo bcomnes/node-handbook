@@ -1,6 +1,6 @@
 # node-learnbook
 
-Lets learn node the node way! 🐪 🙈
+Lets learn node the node way! :dromedary_camel: :see_no_evil: :hatching_chick:
 
 ![](img/sparkle.gif)
 
@@ -56,11 +56,11 @@ We may also cover a few other useful places to learn cool tools and skills like:
 
 ## Required Provisions
 
-* A computer 💻 (hopefully running a flavor of unix)
+* A computer :camel: (hopefully running a flavor of unix)
   * OS X will be easiest to use
   * Linux and windows are a bit more difficult
-* Internet and a browser 📞
-* some time and interest 🙇
+* Internet and a browser :globe_with_meridians:
+* some time and interest :bow:
 
 We will be acquiring items and tools along the way.
 
@@ -78,7 +78,7 @@ There is a vibrant and active community that is on-line at all hours of the day 
 
 # Getting started.
 
-Before we get started, we need to be somewhat prepared to face what lies ahead.  In order to communicate with the local populous you need to learn how to speak javascript
+Before we get started, we need to be somewhat prepared to face what lies ahead.  In order to communicate with the local populous you need to learn how to speak javascript.
 
 ## [Javascript for Cats](http://jsforcats.com)
 If your a cat, like to have fun or learn like a cat, this will teach you the basics of javascript.
@@ -117,13 +117,13 @@ You should watch it!
 
 ### ESWhat?
 
-Also while we are on the topic, Javascript is the real world implementation of ECMAScript (abbreviated ES*, where * is the spec version), which is just a language specification. The current trend right now is to call the specs ES2015, ES2016 etc as a way to help promote quicker releases and access to newer language features.  More language features means more to learn.  ES5 is a simple yet expressive language right now in 2015, so adding new features isn't guaranteed to improve the language.  Be open about what to learn, and picky about what you choose to use.
+Also while we are on the topic, Javascript is the real world implementation of ECMAScript (abbreviated ES*, where * is the spec version), which is just a language specification. The current trend right now is to call the specs ES2015, ES2016 etc as a way to help promote quicker releases and access to newer language features.  More language features means more to learn.  ES5 is a simple yet expressive language that we have right now in 2015.  Adding new features isn't guaranteed to improve the language (but there are quite a few welcomed features and data structures).  Be open about what to learn, and picky about what you choose to use.
 
 You don't need to read these right now, but here are the last couple specs:
 
 - [ES5](https://es5.github.io)
-- [ES6 Draft](http://people.mozilla.org/~jorendorff/es6-draft.html)
-- [ES7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_7_support_in_Mozilla)
+- [ES6 Draft (ES2015?)](http://people.mozilla.org/~jorendorff/es6-draft.html)
+- [ES7 (ES2016?)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_7_support_in_Mozilla)
 - [ES\* Compatibility Table](https://kangax.github.io/compat-table/es6/)
 
 # What is node?
@@ -222,7 +222,7 @@ There are two great options to install `node` on OSX: Homebrew and the Offical I
 
 ## Linux
 
-Running Linux? (👍btw)
+Running Linux? (:+1: btw)
 
 ![](img/stop.gif)
 
@@ -458,6 +458,7 @@ JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](
 - Prototypal Inheritance
 - Functional Inheritance
 - Talking about the bad and awful parts of js is straightforward and interesting.
+- Setting the expectation of critical understanding and critique of different aspects of Javascript.
 
 ### JSTGP:The bad parts
 
@@ -620,6 +621,22 @@ Nested dependencies solve the following issues:
 
 Nested dependencies introduce considerable complexity, and work is ongoing to improve its reliability. See what `npm@3` is doing to improve this: [npm@3.0.0 cangelog](https://github.com/npm/npm/releases/tag/v3.0.0).
 
+### Encourages experimentation through module diversity
+
+Many languages discourage the publishing of reusable code through various roadblocks (but primarily cultural ones).
+
+`npm` encourages publishing as much as possible.  Publishing a module is a single command, and mostly automated.
+
+This is unprecedented.
+
+As a result, there are tons of bad modules.  There are lots of good ones too.  This solves the following issues:
+
+- Community complacency with mediocre, monolithic packages
+- Stale standard libraries with lots of roadblocks in the way of improvements
+- Over designed and complicated do-all
+- Lack of of solution diversity for different problem domains
+- Unwarranted community influence over language features
+
 ## `.package.json` is here to save you
 
 [![](img/package.json.png)](https://github.com/bcomnes/node-learnbook/blob/gh-pages/package.json)
@@ -642,6 +659,8 @@ Here are some keys of interest:
 - [`license`](https://docs.npmjs.com/files/package.json#license): This is the [SPDX license identifier](https://spdx.org/licenses/) for the module.  `npm` complains if you leave this out.
 
 ## `devDependencies` and `npm` scripts shield you from opinions
+
+<img src="http://bcomnes.github.io/node-learnbook/img/grunt.svg" width="100"><img src="img/gulp.png" width="100"><img src="img/bash.png" width="100">
 
 - http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
 - http://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/
@@ -861,4 +880,4 @@ This document was created  after amassing a large collection of node related lin
 - https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 - https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 - https://github.com/kriskowal/gtor
--
+- http://www.quora.com/Whats-the-correct-way-to-write-nodejs-modules-There-seems-to-be-discrepancies-between-experts-like-substack-dominictarr-vs-the-newd-constructor-style-of-V8-optimization-recommendations-What-gives

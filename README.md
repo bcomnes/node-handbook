@@ -999,3 +999,5 @@ This document was created  after amassing a large collection of node related lin
 - http://www.quora.com/Whats-the-correct-way-to-write-nodejs-modules-There-seems-to-be-discrepancies-between-experts-like-substack-dominictarr-vs-the-newd-constructor-style-of-V8-optimization-recommendations-What-gives
 - https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723
 - https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a
+- https://github.com/openopensource/openopensource.github.io
+- https://github.com/ngoldman/open-2-contributing

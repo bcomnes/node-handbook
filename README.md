@@ -648,7 +648,7 @@ It is worth reading the `npm` docs page about this file in its entirety:
 Here are some keys of interest:
 
 - [`main`](https://docs.npmjs.com/files/package.json#main): this is the name of the entry point of your application.  When requiring the module, you get whatever this file `exports` or `module.exports`.  When reading a modules source code, this is the file you look at first.
-- [`bin`](https://docs.npmjs.com/files/package.json#bin): sometimes modules will include a executable bin.  These get specified here.  These end in the `./node_modules/.bin` folder and are available to the commands defined in the `scripts` field.  They also get installed to your `$PATH` if you installed with the `-g` flag.
+- [`bin`](https://docs.npmjs.com/files/package.json#bin): sometimes modules will include a executable bin.  These get specified here.  These end up in the `./node_modules/.bin` folder and are available to the commands defined in the `scripts` field.  They also get installed to your `$PATH` if you installed with the `-g` flag.
 - [`scripts`](https://docs.npmjs.com/misc/scripts): this is where you define scripts.  You should always include the following scripts in your module (if appropriate):
   - `test`: the command used to test your module
   - `start`: the command to run your module
@@ -699,15 +699,15 @@ Sometimes projects benefit from a task runner.  In these projects, use a task ru
 
 [![](img/grunts.gif)](https://www.youtube.com/watch?v=YQwYNca4iog)
 
-### A tool of my own
+### A tool of your own
 
-When you decide you need a custom devTool, follow this general design process:
+When you decide you need a custom dev Tool, follow this general design process:
 
-1. Write your tool as a node library that can be tested and consumed by other node libraries, in a generic and independent way.
-2. Write a CLI interface that consumes the library, and bundle it with the library.
+1. Write your tool as a node module that can be tested and consumed by other node modules, in a generic and independent way.
+2. Write a CLI interface that consumes the library, and bundle it with the library (bonus points if you write it to accept [`stdin` so that it can be piped together](https://nodejs.org/api/process.html#process_process_stdin) with other tools.)
 3. Finally, write a separate, ecosystem specific module that requires your generic library and provides the correct interface to grunt/gulp etc.
 
-Step 3 is often optional, because someone who wants to use your tool with a task runner can easily do the work for you.
+Step 3 is often optional.  Write these interface with task runners that you care about, and support contributors who ant to write an task-runner specific interface for your module.
 
 ## Utopia `npm`
 
@@ -729,6 +729,8 @@ For example, instead of running a DB as a server, [LevelDB](https://github.com/g
 
 - [levelup](https://www.npmjs.com/package/levelup)
 - [leveldb-handbook](https://github.com/substack/leveldb-handbook) (incomplete :cry:)
+
+> Running a big, well-known database service has an ineffable heaviness to it: they bind to a custom port and the service must already be running before your program will work. Worse, if you install the database from a package manager like apt-get, the database will be auto-daemonized and put into your init scripts. Good luck hunting down where it decided to put the configuration file. -- substack: [leveldb-handbook](https://github.com/substack/leveldb-handbook)
 
 Instead of downloading source dependencies and building them, they are packaged as pre-built binaries:
 
@@ -755,10 +757,38 @@ While the above examples are great, practical examples of patterns we can use to
 
 # Semver
 
-Semver is the versioning scheme the `node` community has agreed
+Semver is the versioning scheme of the `node` community.  Its not perfect, but it works mostly okay:
 
-- http://semver.org/
-- http://semver-ftw.org/
+```
+major.minor.patch
+```
+
+You start at version `1.0.0`, but sometimes people start modules at `0.0.1` to indicate :construction:experimental:construction: modules.
+
+These links explain it pretty well.
+
+- [Semantic Versioning 2.0.0](http://semver.org/)
+- [Semver ftw!](http://semver-ftw.org/)
+- [The semantic versioner for npm](https://docs.npmjs.com/misc/semver)
+- [package.json#dependencies](https://docs.npmjs.com/files/package.json#dependencies)
+
+In your `package.json`, you specify your dependencies using semver ranges.
+
+The default range is:
+
+```
+^version "Compatible with version" See semver(7)
+```
+
+This range (in theory), should get you module patches that improve or fix bugs, and don't "break" the module interface in a range.  In practice, sometimes they break anyway.  This is why tests are critical.
+
+Tools exist to help facilitate this patching process:
+
+- [next-update](https://www.npmjs.com/package/next-update): run your tests against available updates without touching the current dep versions.
+- [npm.click](http://npm.click/#/)
+- [David. DM](https://david-dm.org/)
+
+and npm inc. has stated that this is an area that needs improvement and automation tools.
 
 # Node in the browser?
 
@@ -967,3 +997,5 @@ This document was created  after amassing a large collection of node related lin
 - https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 - https://github.com/kriskowal/gtor
 - http://www.quora.com/Whats-the-correct-way-to-write-nodejs-modules-There-seems-to-be-discrepancies-between-experts-like-substack-dominictarr-vs-the-newd-constructor-style-of-V8-optimization-recommendations-What-gives
+- https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723
+- https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a

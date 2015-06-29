@@ -1001,3 +1001,4 @@ This document was created  after amassing a large collection of node related lin
 - https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a
 - https://github.com/openopensource/openopensource.github.io
 - https://github.com/ngoldman/open-2-contributing
+- https://github.com/yoshuawuyts/knowledge/blob/master/modules.md

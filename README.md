@@ -1016,3 +1016,6 @@ This document was created  after amassing a large collection of node related lin
 - http://www.curlybracecast.com/posts/isaac-schlueter.html
 - http://www.quora.com/What-is-happening-to-Joyent-and-how-does-it-affect-NodeJS
 - https://gist.github.com/cookrn/4015437
+- https://gist.github.com/jhclark/2845836
+- http://i.imgur.com/k0t1e.png
+- https://github.com/essdot/js-lessons

@@ -1002,3 +1002,13 @@ This document was created  after amassing a large collection of node related lin
 - https://github.com/openopensource/openopensource.github.io
 - https://github.com/ngoldman/open-2-contributing
 - https://github.com/yoshuawuyts/knowledge/blob/master/modules.md
+- https://news.ycombinator.com/item?id=7064470
+- https://news.ycombinator.com/item?id=4892174
+- http://shitryandahlsays.tumblr.com/
+- https://www.youtube.com/watch?v=SAc0vQCC6UQ
+- https://github.com/ry/v8worker
+- http://siliconangle.com/blog/2012/01/31/how-a-vacuum-cleaner-salesman-became-the-new-king-of-node-js/
+- http://www.curlybracecast.com/
+- http://www.curlybracecast.com/posts/isaac-schlueter.html
+- http://www.quora.com/What-is-happening-to-Joyent-and-how-does-it-affect-NodeJS
+- https://gist.github.com/cookrn/4015437

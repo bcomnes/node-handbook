@@ -768,6 +768,7 @@ You start at version `1.0.0`, but sometimes people start modules at `0.0.1` to i
 These links explain it pretty well.
 
 - [Semantic Versioning 2.0.0](http://semver.org/)
+  [![](img/semanticv.png)](http://semver.org/)
 - [Semver ftw!](http://semver-ftw.org/)
 - [The semantic versioner for npm](https://docs.npmjs.com/misc/semver)
 - [package.json#dependencies](https://docs.npmjs.com/files/package.json#dependencies)
@@ -785,10 +786,13 @@ This range (in theory), should get you module patches that improve or fix bugs, 
 Tools exist to help facilitate this patching process:
 
 - [next-update](https://www.npmjs.com/package/next-update): run your tests against available updates without touching the current dep versions.
-- [npm.click](http://npm.click/#/)
-- [David. DM](https://david-dm.org/)
+  [![](img/next-update.png)](https://www.npmjs.com/package/next-update)
+- [npm.click](http://npm.click/#/): inspect a `package.json` for outdated packages.
+  [![]()](http://npm.click/#/)
+- [David. DM](https://david-dm.org/): automatically fetches package versions status from a github url.
+  [![](img/david-dm.png)](https://david-dm.org/)
 
-and npm inc. has stated that this is an area that needs improvement and automation tools.
+This is an area that needs improvement and automation tools.
 
 # Node in the browser?
 

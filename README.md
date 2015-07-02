@@ -791,6 +791,7 @@ Tools exist to help facilitate this patching process:
   [![]()](http://npm.click/#/)
 - [David. DM](https://david-dm.org/): automatically fetches package versions status from a github url.
   [![](img/david-dm.png)](https://david-dm.org/)
+- [Semver Calculator](http://semver.npmjs.com)
 
 This is an area that needs improvement and automation tools.
 

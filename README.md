@@ -1020,3 +1020,4 @@ This document was created  after amassing a large collection of node related lin
 - https://gist.github.com/jhclark/2845836
 - http://i.imgur.com/k0t1e.png
 - https://github.com/essdot/js-lessons
+- https://github.com/shama/base-element

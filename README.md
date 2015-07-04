@@ -1022,3 +1022,8 @@ This document was created  after amassing a large collection of node related lin
 - https://github.com/essdot/js-lessons
 - https://github.com/shama/base-element
 - http://coodict.github.io/javascript-in-one-pic/
+- https://github.com/hughsk/disc
+- https://github.com/reddit/reddit-mobile/issues/247
+- http://www.finnpauls.de/streams-editor/
+- https://github.com/finnp/streams-editor
+

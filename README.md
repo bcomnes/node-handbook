@@ -1026,4 +1026,5 @@ This document was created  after amassing a large collection of node related lin
 - https://github.com/reddit/reddit-mobile/issues/247
 - http://www.finnpauls.de/streams-editor/
 - https://github.com/finnp/streams-editor
+- http://dominictarr.com/post/25516279897/why-you-should-never-write-a-package-manager
 

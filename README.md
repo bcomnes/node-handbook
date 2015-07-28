@@ -70,15 +70,17 @@ Getting through all the material is going to take time.  Visit the places that s
 
 Do take breaks and try to build something interesting.  Even if you fail, you will learn something.  Publishing your experiments feels good and creates breadcrumbs for others to learn from.
 
-Don't go at it alone.  Get in touch with your local javascript and node community and make friends.  Don't live near anyone?
+Don't go at it alone.  Be open to companions along the way.  Offer collaborative opportunity to others who may be seeking similar experience, and try to be willing to offer help and contributions to others when it seems appropriate and useful to both parties.
+
+Don't live near anyone?
 
 ![](http://bret.io/media/ownyourgram.com/igiRHQt1.jpg)
 
-There is a vibrant and active community that is on-line at all hours of the day so you can remain isolated but still be connected with thousands of people.  Skip ahead to [#community](https://github.com/bcomnes/node-learnbook#community) to find your way into the node community.
+There is a vibrant and active community that is on-line at all hours of the day so you can remain isolated but still be connected with thousands of people.  Skip ahead to [#community](https://github.com/bcomnes/node-learnbook#community) to find possible avenues of interest, and places where you might meet other like minded people.
 
 # Getting started.
 
-Before we get started, we need to be somewhat prepared to face what lies ahead.  In order to communicate with the local populous you need to learn how to speak javascript.
+Before we get started, we need to be somewhat prepared to face what lies ahead.  In order to communicate with the local populous you need to learn how to speak and think javascript.
 
 ## [Javascript for Cats](http://jsforcats.com)
 If your a cat, like to have fun or learn like a cat, this will teach you the basics of javascript.
@@ -105,9 +107,9 @@ npm install -g javascripting
 
 # What is javascript?
 
-Javascript is the programming language that your web browser comes with, but these days its becoming a lot more.  Its pretty okay.  Its not the best language and has a lot of warts, but it gets a lot right, and you don't really have a choice about using it or not (although this is changing, for better or for worse).  You should shouldn't skip javascript though.
+Javascript is the programming language that your web browser comes with, but these days its becoming a lot more.  Its pretty okay.  Its not the best language and has a lot of warts, but it gets a lot right, and you don't really have a choice about using it or not (although this is changing, for better or for worse).  You should shouldn't skip learning javascript though.
 
-[Douglas Crockford](http://www.crockford.com) gave a good presentation that effectivly answers the question: "What is Javascript?" in his 2012 "Javascript: Your New Overlord" presentation:
+[Douglas Crockford](http://www.crockford.com) gave a good presentation that effectively answers the question: "What is Javascript?" in his 2012 "Javascript: Your New Overlord" presentation:
 
 [![Javascript: Your New Overlord](img/crockford.gif)](https://www.youtube.com/watch?v=Trurfqh_6fQ)
 
@@ -117,7 +119,13 @@ You should watch it!
 
 ### ESWhat?
 
-Also while we are on the topic, Javascript is the real world implementation of ECMAScript (abbreviated ES*, where * is the spec version), which is just a language specification. The current trend right now is to call the specs ES2015, ES2016 etc as a way to help promote quicker releases and access to newer language features.  More language features means more to learn.  ES5 is a simple yet expressive language that we have right now in 2015.  Adding new features isn't guaranteed to improve the language (but there are quite a few welcomed features and data structures).  Be open about what to learn, and picky about what you choose to use.
+Also while we are on the topic, Javascript is the real world implementation of ECMAScript (abbreviated ES*, where * is the spec version), which is just a language specification e.g. a document that describes how it should work.
+
+The current trend right now is to call the specs ES2015 (for ES6), ES2016 (for ES7) etc as a way to help promote quicker releases and access to newer language features.
+
+More language features means more to learn for everyone.  The more everyone has to learn, the more intimidating starting out can be.
+
+ES5 is a simple yet expressive language that we have right now.  Adding new features isn't guaranteed to improve the language (but there are quite a few welcomed features and data structures).  Be open about what to learn, and picky about what you choose to use.
 
 You don't need to read these right now, but here are the last couple specs:
 
@@ -146,7 +154,7 @@ The best way to understand what node is to listen to Ryan describe it himself.
 
 ### What is Node: The Links
 
-Some links discussing issues related to what node tries to solve and other general readings.
+Some links discussing issues related to what node tries to solve and other general readings.  *Caution* some of these are overly advanced... maybe revisit these if the subject interests you.
 
 - [About Node.js®](http://nodejs.org/about/)
 - [A little holiday present: 10,000 reqs/sec with Nginx!](http://blog.webfaction.com/2008/12/a-little-holiday-present-10000-reqssec-with-nginx-2/)
@@ -158,11 +166,42 @@ Some links discussing issues related to what node tries to solve and other gener
 
 There are lots of ways to install node.  Lets visit some of the better ways of this contentious topic.
 
+## In theory
+
+Node needs the following two things to really work effectively:
+
+### A build toolchain
+
+A build toolchain is a complicated set of programs that let you build software from source.  Usually building software from source means building an executable binary from raw C and C++ source files and libraries.  Node needs a toolchain in order to build native addons (e.g. programs written in c that node modules sometimes needs to communicate with).
+
+**Examples**
+
+- [Xcode](https://developer.apple.com/xcode/)
+- [Visual Studio](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
+- [GNU GCC](https://gcc.gnu.org/)
+- [CLANG](http://clang.llvm.org/)
+
+### A general purpose package manager
+
+A package manager is optional, but having one available and set up is extremely helpful.  Package managers install software for you, automatically and unattended.  They go out and download the programs you want, as well as the other programs required to run them, then take all the necessary steps to put them into the right place where you can use said programs.  Some people can't be bothered to use a package manager because you need to learn a little bit about how they work, but you will become a more powerful developer if you learn to use a traditional package manager.
+
+**Examples**
+
+- [homebrew](http://brew.sh/)
+- [apt-get](http://manpages.debian.org/cgi-bin/man.cgi?query=apt&sektion=8)
+- [yum](http://yum.baseurl.org/)
+- [pacman](https://wiki.archlinux.org/index.php/Pacman)
+- [chocolatey](https://chocolatey.org/)
+
+### The node.js runtime
+
+This is node iteself!  It provides things like the `node` command/runtime, and usually comes with `npm` bundled with it.
+
 ## OSX
 
 <a href="https://jamesfriend.com.au/pce-js/"><img src="img/osx.png" height="175"></a>
 
-The only prerequisite to installing node is that you have a copy of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).  This installs the OS X build toolchain.  This is a really complicated set of programs that let you build software from source.  Some node modues use `c` "native addons" which require that you have a `c` compiler on your computer.  Its free and the only place to get it is from App store (boooo).
+The only prerequisite to installing node is that you have a copy of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).  Its free and the only place to get it is from App store (boooo).  This fills the toolchain requirement on the OS X side of things.
 
 <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12"><img src="img/xcode.png" height="175"></a>
 
@@ -170,57 +209,55 @@ OSX Terminal.app is pretty great for everything you need to do (although histori
 
 <a href="https://en.wikipedia.org/wiki/Terminal_(OS_X)"><img src="img/terminal.png" height="175"></a>
 
-There are two great options to install `node` on OSX: Homebrew and the Offical Installer.
+There are two great options to install `node` on OSX: Homebrew and the Official Installer.
 
-- ### [Homebrew](http://brew.sh)
+### [Homebrew](http://brew.sh)
 
-  <a href="http://brew.sh"><img src="img/brew.png" height="175"></a>
+<a href="http://brew.sh"><img src="img/brew.png" height="175"></a>
 
-  Homebrew is a lightweight package manager for OS X.  Homebrew:
+Homebrew is a lightweight package manager for OS X.  Homebrew:
+  - downloads and installs Unix CLI programs from source code
+  - keeps track of which programs you installed and at what version
+  - updates your programs when updates are available
+  - download non-npm programs and utilities
 
-    - downloads and installs Unix CLI programs from source code
-    - keeps track of which programs you installed and at what version
-    - updates your programs when updates are available
-    - download non-npm programs and utilities
+Until npm has packages for all external dependencies, having `brew` installed can be really helpful.
+s
+Visit the [Homebrew](http://brew.sh) website for the latest instructions on how get
+`brew` installed.
 
-  Until npm has packages for all external dependencies, having `brew` installed can be really helpful.
+Once you have homebrew installed installing node is as easy as running:
 
-  Visit the [Homebrew](http://brew.sh) website for the latest instructctions on how get `brew` installed.  Once you have homebrew installed installing node is as easy as running:
+```sh
+$ brew install node
+```
 
-  ```sh
-  $ brew install node
-  ```
+To get new releases of node in the future download run:
 
-  To get new releases of node in the future download run:
+```sh
+$ brew update
+$ brew upgrade node
+```
 
-  ```sh
-  $ brew update
-  $ brew upgrade node
-  ```
+Easy.
 
-  Easy.
+A quick brew `101` so that you know what you just did:
+  - `/usr/local` is a special unix folder where 'userspace' (e.g. not managed by the OS)programs can be safely installed.  Since homebrew was installed by the user by hand, it is a userspace program.
+  - Homebrew turns `/usr/local` into a git repo
+  - `brew` uses "Formula" written as simple ruby scripts to download, build and install programs to `/usr/local/Cellar`
+  - The active version of a program installed by `brew` is symlinked to `/usrlocal/{binlib,...}`
+  - `brew update` updates the `/usr/local` repo so that you have the latest 'Formula' available.
+  - All Formula can be built from source, but most have precompiled 'Bottles' (a.k.a binaries) to save time and battery power.
+  - Old versions of programs can be installed by going back into the git history.
 
-  A quick brew `101` so that you know what you just did:
+A few more links discussing the merits of homebrew:
+  - [to install node via Homebrew or not?](http://www.reddit.com/r/node/comments/37ui2to_install_node_via_homebrew_or_not/)
 
-    - `/usr/local` is a special unix folder where 'userspace' (e.g. not managed by the OS) programs can be safely installed.
-    - Homebrew turns `/usr/local` into a git repo
-    - `brew` uses "Formula" written as simple ruby scripts to download, build and install programs to `/usr/local/Cellar`
-    - The active version of a program installed by `brew` is symlinked to `/usr/local/{bin,lib,...}`
-    - `brew update` updates the `/usr/local` repo so that you have the latest 'Formula' available
-    - All Formula can be built from source, but most have precompiled 'Bottles' (a.k.a. binaries) to save time and battery.
-    - Old versions of programs can be installed by going back into the git history.
+### [The official node installer `node-v*.pkg`](https://nodejs.org/download/)
 
-  A few more links discussing the merits of homebrew:
+[![](img/osxinstaller.png)](https://nodejs.org/download/)
 
-    - [to install node via Homebrew or not?](http://www.reddit.com/r/node/comments/37ui2u/to_install_node_via_homebrew_or_not/)
-
-
-- ### [The official node installer `node-v*.pkg`](https://nodejs.org/download/)
-
-  [![](img/osxinstaller.png)](https://nodejs.org/download/)
-
-  Easy.  You go to the node website, you [download the .pkg](https://nodejs.org/download/), and install it.  It installs to the same location that homebrew installs to: `/usr/local/bin`.
-
+Easy.  You go to the node website, you [download the .pkg](https://nodejs.org/download, and install it.  It installs to the same location that homebrew installs to: `usrlocal/bin`.
 
 ## Linux
 
@@ -228,15 +265,33 @@ Running Linux? (:+1: btw)
 
 ![](img/stop.gif)
 
-Don't just reach for your systems package manager.  Linux distributions almost universally ship painfully dated versions of node and npm (unless you are running something like [Arch Linux](https://www.archlinux.org)), and install them in ways that make them a total pain to use for the sake of 'stability'.  This sucks.
+Don't just reach for your systems package manager!
 
-Luckily there is a comprensive resource on how to add software channels that have updated versions of node to common package mangers:
+Linux distributions almost universally ship painfully dated versions of node and npm (unless you are running something like [Arch Linux](https://www.archlinux.org)), and install them in ways that make them a total pain to use for the sake of 'stability'.
+
+This sucks.
+
+Luckily there is a comprehensive resource on how to add software channels that have updated versions of node to common package mangers:
 
 [Installing-Node.js-via-package-manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
+
+Basically it boils down to this:
+
+### Add an updated node repo to your package manager
+
+- [nodesource/distributions](https://github.com/nodesource/distributions)
+
+Your linux distribution will dictate which package manager you use.
+
+### Configure npm to `-g` into `/usr/local` and fix permissions
 
 Don't sudo with npm!  (even -g).  Set up `npm` so that it works without sudo:
 
 [Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+
+Setting `npm` to install to `/usr/local` is the correct place for `npm` to install global library binarys to.  It is in all user path's by default, and is the conventional well known location to look in.
+
+If you are stuck in userland on a shared system and you don't have permissions to modify `/usr/local`, you can configure `npm` to install `-g` libs right into your home directory and add the resulting folder to your $PATH.  Only do this if you don't have access to `/usr/local`.
 
 ## Windows
 
@@ -262,7 +317,7 @@ You will also need to install a free version of Visual Studio for building modul
 
 # How to know node
 
-Now that we have seen a bit about the history and motivations behind node, lets actually visit the nessisary materials to acutally understand node.
+Now that we have seen a bit about the history and motivations behind node, lets actually visit the necessary materials to actually understand node.
 
 ## [The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)
 
@@ -282,7 +337,7 @@ Written by [Max Ogden](http://maxogden.com),
 
 ([2nd Edition Coming Soon](http://www.manning.com/cantelon2/))
 
-Written by a crew of early prolific node.js module developers, this book is *totally great* and *somewhat flawed*, and a bit dated at this point as well.  But for those that learn by example, *this is the book for you*.
+Written by a group of early prolific node.js module developers, this book is *totally great* and *somewhat flawed*, and a bit dated at this point as well.  It has a great set of examples though, and it's "hello world" app is the well-known [socket.io](http://socket.io) chat server.
 
 It covers the basics of all the well known [Visionmedia](https://github.com/visionmedia)  modules (e.g. [express](http://expressjs.com), [mocha](http://mochajs.org), [connect](https://github.com/senchalabs/connect#readme), [jade](http://jade-lang.com), [ejs](http://www.embeddedjs.com) etc...).  You will learn to use all of these early node tools, including core node modules, async programming, testing, templating, CLI programs, and even node clustering from this book through the various included projects and examples.
 
@@ -309,11 +364,13 @@ Unfortunately, this great collection of knowledge is tombed away in a book (*we 
 
 Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd (express/connect).
 
-## [Nodeschool.io](http://nodeschool.io/) Core
+## [Nodeschool.io](http://nodeschool.io/)
 
 <a href="http://nodeschool.io/"><img src="https://cdn.rawgit.com/bcomnes/node-learnbook/master/img/schoolhouse.svg"></a>
 
-Nodeschool is a free resource that offers lessions and tutorials on tons of topcis, mostly relating to node and js.  The key is that the lessons are written for `node` and you install them with `npm` (usually).
+Nodeschool is a free resource that offers lessons and tutorials on tons of topics, mostly relating to node and js.  The key is that the lessons are written for `node` and you install them with `npm` (usually).
+
+They were designed to be taught at community events around the world, but you can learn on your own at home if there isn't an event going on nearby.
 
 ### [Node School Core](http://nodeschool.io/#workshopper-list)
 
@@ -333,6 +390,8 @@ After this, brush up on your `git` in `git-it`:
 npm i -g git-it
 ```
 
+Git is a super important tool to know, use and love.  Its like a checkpoint system in a video game but for text files on your computer.  Check all of your projects into git, and throw them up on github.  It's a great way to publish your work, and keeps a backup of everything you do!
+
 ![](img/git-it.png)
 
 Finally, wrap your head around `npm`
@@ -341,6 +400,8 @@ Finally, wrap your head around `npm`
 ```sh
 npm i -g how-to-npm
 ```
+
+`npm` is node's package manager.  Its like [`pip`](https://pypi.python.org/pypi/pip), [`gem`](https://rubygems.org/) or [`cabal`](https://www.haskell.org/cabal/) for javascript.
 
 ![](img/how-to-npm.png)
 
@@ -352,13 +413,14 @@ TODO: Lets get a bunch of super simple examples of callbacks and work our way up
 
 Callbacks are confusing at first, because you are writing functions that accept variables that seemingly come out of nowhere.
 
-These variables come from the internals of the function accepting the callback function!
+These variables that your callback accepts come from the internals of the function accepting the callback function!
 
 Before we get into it, remember:
 
 - Async functions return immediately
-- If your code needs the results of an async function, that code needs to live in the scope of the async functions callback.
-- Code that invokes after the async function is invoked may finish sooner than the async function.
+- If your code needs the results of an async function, that code needs to live in the scope of that async function's callback.
+- Code that comes after an async function must complete before the async function calls its callback function.  This the "Run to completion" guarantee.
+- Functions that take a callback must be async or not async.  Don't write a function that takes a callback that does not perform async work as this will break the "Run to completion" guarantee.
 - [You can't `return` values from an async callback like you might think.](http://nodejsreactions.tumblr.com/post/56341420064/when-i-see-some-code-that-returns-a-value-from-an)
 
 Lets take a look:
@@ -385,7 +447,7 @@ How did we know `fs.readFile` expects a callback with `(err, data)` arguments?  
 
 ![](img/readfile.png)
 
-Modules should come with a README.md with similar documentation.  If it doesn't have this, maybe look around for one that does.
+Modules should come with a `README.md` with similar documentation.  If it doesn't have this, maybe look around for one that does.
 
 We can write our own callback functions just as easily.
 
@@ -414,7 +476,7 @@ You can read more about callbacks, but the best way to learn how to use them is 
 Javascript is easy to learn, but hard to master.  It's a flawed language with lots of subtle pitfalls to be navigated.  These materials will help you master the more subtle and difficult aspects of the language.
 
 
-##  [Nodeschool.io](http://nodeschool.io/) Core Redux
+##  [Nodeschool.io](http://nodeschool.io/): Tie it all together
 
 If you haven't already, finish up the core nodeschool workshops.  The last two are the most conceptually difficult:
 
@@ -426,7 +488,7 @@ npm i -g scope-chains-closures
 
 <img src="img/scopes.png" heigh="300">
 
-`stream-adventure` teaches you about streams.  This is a good place to start, but this adventure is dated and needs work.  Have you found a better streams adventure or tutorial?  Please open an issue with the links/info!
+`stream-adventure` teaches you about streams.  This is a good place to start, but will leave you with a lot of questions.
 
 ```sh
 npm i -g stream-adventure
@@ -446,13 +508,13 @@ npm i -g stream-adventure
 
 [![](img/eloquent.png)](http://eloquentjavascript.net)
 
-This is a free e-book (paper version is available too).  It seems to reside somewhere between [Effective Javascript](#effective-javascript) and [Node.JS in Action](#nodejs-in-action)
+This is a free e-book (paper version is available too).  It seems to reside somewhere between [Effective Javascript](#effective-javascript) and [Node.JS in Action](#nodejs-in-action) with an environment agnostic approach to writing javascript.  It has a lot of projects in it that run closer to your more traditional programming textbook.
 
 ## [Javascript: The Good Parts](http://www.amazon.com/exec/obidos/ASIN/0596517742/wrrrldwideweb)
 
 <a href="http://www.amazon.com/exec/obidos/ASIN/0596517742/wrrrldwideweb"><img src="img/thegoodparts.jpg" height="400"></a>
 
-JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](http://json.org) spec).  It's pretty old at this point, and a difficult, dense and terse read.  But its still really good, and has one of the better explainations about the different styles of object composition and inheritece (AKA Object Oriented Programming... or something kind of like it):
+JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](http://json.org) spec). It's pretty old at this point, and a difficult, dense and terse read.  But its still really good, and has one of the better explanations about the different styles of object composition and inheritance (AKA Object Oriented Programming... or something kind of like it):
 
 ### JSTGP:The good parts
 
@@ -466,13 +528,9 @@ JSTGP is one of Douglas Crockfords claim to fame (he also wrote down the [JSON](
 
 - The train track diagrams, while correct, literally don't help you think or understand how to write better JS.  You get as much out of it as a you do completing a maze.
 - The regex stuff might confirm your understanding, but don't try to learn regex from this book.
-- Its discussion on callbacks.  It doesn't even give a good example.
+- Its discussion on callbacks.  It doesn't even give one good example!  It was written before JS was widely known for its ability to perform cooperative multitasking.
 
 You will no doubt have questions about some of the suggestions in the book.  It was written as [ES5](https://es5.github.io) was still not widely available.  Quite a few of the polyfills noted in the book are actually widely available functions and methods... so double check [MDN](https://developer.mozilla.org/en-US/) to see if its just a built in function now.
-
-# ... [WIP]
-
-Still pulling together the primordial ooze below.
 
 # `npm` stuffs
 
@@ -551,7 +609,7 @@ This lists of other actions we can take on the module.
 
 ## What *IS* `npm` really?
 
-`npm` is arguably more interesting than node itself.
+`npm` is arguably more interesting than node itself:
 
 `node` is a tiny V8 javascript runtime engine with bindings to a set of high performance asynchronous `C` libraries.
 
@@ -585,7 +643,7 @@ In nearly every other programming language, the package manager installs to a sy
 - Cognitive disconnect and confusion of where your modules are loading from.
 - Eliminates the need for `$ENV` variables.
 
-System wide dependency repositories are **Global Variables**.  Nearly every language has systematic hacks to get around this issue like [bundler.io](http://bundler.io/) and [pip](https://virtualenv.pypa.io/en/latest/). None of these actually solve the problem that local-by-default `node_module` solves.
+System wide dependency repositories are **Global Variables**.  Nearly every language has systematic hacks to get around this issue like [bundler.io](http://bundler.io/) and [virtualenv](https://virtualenv.pypa.io/en/latest/). None of these actually solve the problem that local-by-default `node_module` solves.
 
 This is an important concept. Read more about it here:
 
@@ -633,7 +691,7 @@ As a result, there are tons of bad modules.  There are lots of good ones too.  T
 - Over designed and complicated do-all module APIs.  The simplest and best modules usually win eventually!
 - Denies [Architecture Astronauts](http://www.joelonsoftware.com/articles/fog0000000018.html) of Air, as they are side-stepped by multiple working modules during their never ending design debates.
 - Lack of of solution diversity for different problem domains.  Usually there are 3 - 100 different modules to choose from.
-- Unwarranted individual influence over language features and community culture.
+- Reduces unwarranted individual influence over language features and community culture to a minor degree.  This is still a major cultural factor, but an open module system helps reduce this a little.
 
 ## `.package.json` is here to save you
 
@@ -734,7 +792,8 @@ For example, instead of running a DB as a server, [LevelDB](https://github.com/g
 
 Instead of downloading source dependencies and building them, they are packaged as pre-built binaries:
 
-- [electron-prebuilt]()
+- [levelup](https://github.com/Level/levelup)
+- [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt)
 - [go-ipfs](https://www.npmjs.com/package/go-ipfs)
 - ...
 
@@ -763,6 +822,12 @@ Semver is the versioning scheme of the `node` community.  Its not perfect, but i
 major.minor.patch
 ```
 
+but you can also think about it like this
+
+```
+breaking.feature.bugfix
+```
+
 You start at version `1.0.0`, but sometimes people start modules at `0.0.1` to indicate :construction:experimental:construction: modules.
 
 These links explain it pretty well.
@@ -773,7 +838,7 @@ These links explain it pretty well.
 - [The semantic versioner for npm](https://docs.npmjs.com/misc/semver)
 - [package.json#dependencies](https://docs.npmjs.com/files/package.json#dependencies)
 
-In your `package.json`, you specify your dependencies using semver ranges.
+In your `package.json`, you can specify your dependencies using semver ranges.
 
 The default range is:
 
@@ -788,26 +853,92 @@ Tools exist to help facilitate this patching process:
 - [next-update](https://www.npmjs.com/package/next-update): run your tests against available updates without touching the current dep versions.
   [![](img/next-update.png)](https://www.npmjs.com/package/next-update)
 - [npm.click](http://npm.click/#/): inspect a `package.json` for outdated packages.
-  [![]()](http://npm.click/#/)
+  [![](img/click.png)](http://npm.click/#/)
 - [David. DM](https://david-dm.org/): automatically fetches package versions status from a github url.
   [![](img/david-dm.png)](https://david-dm.org/)
 - [Semver Calculator](http://semver.npmjs.com)
 
 This is an area that needs improvement and automation tools.
 
+# ... [WIP]
+
+Still pulling together the primordial ooze below.
+
 # Node in the browser?
+
+In node, you have access to the `require` keyword that lets you load modules out of your ethereal `node_modules` folder.  This lets you write your programs in tiny, reusable modules of code.
+
+Browserify is a program that lets you write javascript programs using the `require` system.  Instead of running the resulting programs in `node`, browserify peforms a "build-step" and outputs a bundle that you serve up for a browser to run.
 
 - [Browserify-handbook](https://github.com/substack/browserify-handbook)
 - http://wzrd.in/
 - https://github.com/thlorenz/browserify-shim#multi-shim-example-including-dependencies
 
+Browserify's scope is fairly limited compared to traditional front-end frameworks, as a result there are quite a few other tools that do similar things plus a whole lot more.  Don't fall for it!  [YNGNI!](http://c2.com/cgi/wiki?YouArentGonnaNeedIt)  Except when you do.
 
-# Write your tests, eat your greens
+# Write your tests, clean your lint
 
-- https://github.com/substack/tape
-- http://substack.net/how_I_write_tests_for_node_and_the_browser
-- https://ci.testling.com/guide/tape
-- https://github.com/brianleroux/browserify-tape-spec
+A module isn't complete without tests.  Modules are fairly small, so 100% coverage is generally a modest goal to reach.
+
+Tests force to you clearly define your module's interface, and allow for internal improvements to be made while ensuring external consumers don't break.
+
+Testing your module will a mix of the following types of tools:
+
+- Testing harness: some set of functions that keep track of how many tests are run and if they pass or fail.
+- TAP Reporter: TAP is machine friendly.  TAP reporters are machines that make your TAP output human friendly.
+- Assertion library: this provides set of functions that are used to compare what actually happened to what you want to happen.  Sometimes this comes along with the testing harness.
+- Linter: This tool will perform static analysis on your code and point out mistakes, syntax errors, code smells or style issues.
+- Formatter: Formats code so that its is formatted consistently.
+- Continuous Integration (CI): You run your tests as you develop the module, but you can also have free services test your code for you.
+- Coverage: Running your coverage tools along with your tests lets you keep track of which portion of your code is tested.
+
+## `tape` it down
+
+[![](img/tape_drive.png)](https://www.npmjs.com/package/tape)
+
+There are a lot of testing frameworks out there.  For most modules, [tape](https://github.com/substack/tape) is a great choice.  It's similar to writing tests in other languages like `go` and `python` so your ability to write tests will remain portable.
+
+Here are some reasons why `tape` is great:
+
+- Test results are output as [TAP](https://testanything.org/)
+- Works in a browser, so you can test for browser compatibility
+- Works like any other module.  You install it and require it into your test files.
+- Does not introduce non-standard language keywords, like `describe`
+- Provides a conservative but usefdul set of test assertions by default
+- Does not extend default object prototypes in your testing environment
+- Very stable, simple and complete
+
+Some links on using tape:
+
+- [tape's readme](http://npmjs.com/tape)
+- [how I write tests for node and the browser - substack](http://substack.net/how_I_write_tests_for_node_and_the_browser)
+- [testling on tape](https://ci.testling.com/guide/tape)
+
+Here's some tape tests
+
+```js
+var test = require('tape')
+
+var testString = 'normally i would be imported too'
+function foo() {
+  return testString
+}
+
+test('lets test the foo function', function(t) {
+  setTimeout(function() {
+    t.equal(foo(), testString, 'foo() returns testString')
+  }, 100)
+})
+
+test('lets test the foo function', function(t) {
+  t.notEqual(foo(), 'boop', 'foo() returns testString')
+})
+```
+
+
+
+
+
 
 # Event Emitters
 
@@ -817,11 +948,21 @@ Where do I go to learn these?
 
 AKA OO AKA Object Oriented.  Also prototypes.
 
+## Classical
+
+## Prototypical
+
+## Functional
+
+## Mixing the three
+
 
 # Whats the deal with Streams?
 
 - [Streams handbook](https://github.com/substack/stream-handbook)
   > Streams can help to separate your concerns because they restrict the implementation surface area into a consistent interface that can be reused.
+- [through2]()
+- [duplexify]()
 
 # What makes modules small(µ)?
 

@@ -366,7 +366,7 @@ Focus on the first and last 1/3 of the book, and don't sweat the middle 1/3rd (e
 
 ## [Nodeschool.io](http://nodeschool.io/)
 
-<a href="http://nodeschool.io/"><img src="https://cdn.rawgit.com/bcomnes/node-learnbook/master/img/schoolhouse.svg"></a>
+<a href="http://nodeschool.io/"><img src="http://bcomnes.github.io/node-learnbook/img/schoolhouse.svg"></a>
 
 Nodeschool is a free resource that offers lessons and tutorials on tons of topics, mostly relating to node and js.  The key is that the lessons are written for `node` and you install them with `npm` (usually).
 

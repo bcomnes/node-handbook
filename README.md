@@ -1168,4 +1168,5 @@ This document was created  after amassing a large collection of node related lin
 - http://www.finnpauls.de/streams-editor/
 - https://github.com/finnp/streams-editor
 - http://dominictarr.com/post/25516279897/why-you-should-never-write-a-package-manager
+- https://gist.github.com/chrisdickinson/0a236ce62097c806113d#file-wip-md
 

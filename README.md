@@ -1171,3 +1171,4 @@ This document was created  after amassing a large collection of node related lin
 - https://gist.github.com/chrisdickinson/0a236ce62097c806113d#file-wip-md
 - https://gist.github.com/rgbkrk/91b40941a38daf700e61
 - http://browserify.org/articles.html
+- https://medium.com/@mjackson/universal-javascript-4761051b7ae9

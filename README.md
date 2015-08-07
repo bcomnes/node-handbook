@@ -1170,3 +1170,4 @@ This document was created  after amassing a large collection of node related lin
 - http://dominictarr.com/post/25516279897/why-you-should-never-write-a-package-manager
 - https://gist.github.com/chrisdickinson/0a236ce62097c806113d#file-wip-md
 - https://gist.github.com/rgbkrk/91b40941a38daf700e61
+- http://browserify.org/articles.html

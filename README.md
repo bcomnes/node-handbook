@@ -961,8 +961,11 @@ AKA OO AKA Object Oriented.  Also prototypes.
 
 - [Streams handbook](https://github.com/substack/stream-handbook)
   > Streams can help to separate your concerns because they restrict the implementation surface area into a consistent interface that can be reused.
-- [through2]()
-- [duplexify]()
+- [through](https://github.com/dominictarr/through)
+- [through2](https://github.com/rvagg/through2)
+- [duplexify](https://github.com/mafintosh/duplexify) - asynchronously assign readable and writable
+- [on streams1 vs 2-3](https://github.com/dominictarr/through/issues/37#issuecomment-129340097)
+- [pull stream](https://github.com/dominictarr/pull-stream)
 
 # What makes modules small(µ)?
 

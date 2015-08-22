@@ -995,6 +995,7 @@ AKA OO AKA Object Oriented.  Also prototypes.
 - http://hexb.in/
 - https://www.stickermule.com/
 - https://hexi.pics/help_en
+- http://nodeschool.io/hexdex.html
 
 # An adventure of your own
 

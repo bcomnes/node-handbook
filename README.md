@@ -765,7 +765,7 @@ When you decide you need a custom dev Tool, follow this general design process:
 2. Write a CLI interface that consumes the library, and bundle it with the library (bonus points if you write it to accept [`stdin` so that it can be piped together](https://nodejs.org/api/process.html#process_process_stdin) with other tools.)
 3. Finally, write a separate, ecosystem specific module that requires your generic library and provides the correct interface to grunt/gulp etc.
 
-Step 3 is often optional.  Write these interface with task runners that you care about, and support contributors who ant to write an task-runner specific interface for your module.
+Step 3 is often optional.  Write these interface with task runners that you care about, and support contributors who want to write an task-runner specific interface for your module.
 
 ## Utopia `npm`
 

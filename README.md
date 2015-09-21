@@ -693,6 +693,11 @@ As a result, there are tons of bad modules.  There are lots of good ones too.  T
 - Lack of of solution diversity for different problem domains.  Usually there are 3 - 100 different modules to choose from.
 - Reduces unwarranted individual influence over language features and community culture to a minor degree.  This is still a major cultural factor, but an open module system helps reduce this a little.
 
+### More reading:
+
+- [mikeal on node_modules](https://gist.github.com/sukima/3854887#node_modules-in-git
+)
+
 ## `.package.json` is here to save you
 
 [![](img/package.json.png)](https://github.com/bcomnes/node-learnbook/blob/gh-pages/package.json)
@@ -1176,4 +1181,4 @@ This document was created  after amassing a large collection of node related lin
 - https://gist.github.com/rgbkrk/91b40941a38daf700e61
 - http://browserify.org/articles.html
 - https://medium.com/@mjackson/universal-javascript-4761051b7ae9
-- https://gist.github.com/sukima/3854887#doesnt-checking-in-node_modules-create-a-lot-of-noise-in-the-source-tree-that-isnt-related-to-my-app
+

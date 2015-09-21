@@ -1029,7 +1029,7 @@ Oh yes.  You heard right, a sticker standard.
 
 > We quickly agreed that there should be a standard for them and that the most useful one seems to be 2”x1.75” hexagons. I tweeted it and the reaction was way more amazing than I expected.
 
-[![](htthttps://www.flickr.com/photos/bretc/21399375139/in/dateposted-public/ps://c1.staticflickr.com/1/720/21399375139_05d8981b19_b.jpg)](https://www.flickr.com/photos/bretc/21399375139/in/dateposted-public/)
+[![](https://c1.staticflickr.com/1/720/21399375139_05d8981b19_b.jpg)](https://www.flickr.com/photos/bretc/21399375139/in/dateposted-public/)
 
 [![](http://hexb.in/assets/laptop.png)](http://hexb.in/sticker.html)
 

@@ -997,12 +997,41 @@ AKA OO AKA Object Oriented.  Also prototypes.
 
 # Hex Stickers
 
-To be consistent with node's emphasis on small, interchangable modules, somehow a hex sticker specification was created.  Other than looking super cool, and evenly dividing up valuble laptop surface realestate, one could understand hex stickers as node conventions actualizing as a distributed, shared community culture/art project.  By following a few simple, basic rules, everyone can create an interesting and useful peice of the puzzle that works nicely together to make up the whole.  In this case, tessalating stickers across a laptop or water bottle without any waysted space!
+[![](img/hex-spec.png)](https://github.com/terinjokes/StickerConstructorSpec)
 
-- http://hexb.in/
-- https://www.stickermule.com/
-- https://hexi.pics/help_en
-- http://nodeschool.io/hexdex.html
+To be consistent with node's emphasis on small, interchangeable modules, somehow a hex sticker specification was created.  Other than looking super cool, and evenly dividing up valuable laptop surface real estate, one could understand hex stickers as node conventions actualizing as a distributed, shared community culture/art project.  By following a few simple, basic rules, everyone can create an interesting and useful piece of the puzzle that works nicely together to make up the whole while progressing the commons.  In this case, tessellating stickers across a laptop or water bottle without any wasted space!
+
+[![](img/school-hex.png)](http://nodeschool.io/hexdex.html)
+
+[Nodeschool's Hexdex](http://nodeschool.io/hexdex.html)
+
+[![](img/hexbin.png)](http://hexb.in/)
+
+[Hexb.in](http://hexb.in/) Hex sticker registry
+
+## A hex sticker of your own
+
+It's pretty easy to make hex stickers.
+
+- [stickermule.com](https://www.stickermule.com/): Order die-cut stickers and ensure that they understand the correct dimensions of the stickers.
+- [hexi.pics](https://hexi.pics/help_en): a website dedicated to creating hex stickers.  Lets you trivially create hex stickers and order them.
+  [![](img/hexi.png)](https://hexi.pics/)
+
+## Hex Sticker Standard
+
+Oh yes.  You heard right, a sticker standard.
+
+[![](img/hex-standard.png)](http://terinjokes.github.io/StickerConstructorSpec/)
+
+[Stickers Standard](http://terinjokes.github.io/StickerConstructorSpec/)
+
+[“How standards are made on small scale”](http://dybskiy.com/laptop-sticker-standard/): A nice little history of the spec.
+
+> We quickly agreed that there should be a standard for them and that the most useful one seems to be 2”x1.75” hexagons. I tweeted it and the reaction was way more amazing than I expected.
+
+[![](htthttps://www.flickr.com/photos/bretc/21399375139/in/dateposted-public/ps://c1.staticflickr.com/1/720/21399375139_05d8981b19_b.jpg)](https://www.flickr.com/photos/bretc/21399375139/in/dateposted-public/)
+
+[![](http://hexb.in/assets/laptop.png)](http://hexb.in/sticker.html)
 
 # An adventure of your own
 

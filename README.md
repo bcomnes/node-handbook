@@ -997,6 +997,8 @@ AKA OO AKA Object Oriented.  Also prototypes.
 
 # Hex Stickers
 
+To be consistent with node's emphasis on small, interchangable modules, somehow a hex sticker specification was created.  Other than looking super cool, and evenly dividing up valuble laptop surface realestate, one could understand hex stickers as node conventions actualizing as a distributed, shared community culture/art project.  By following a few simple, basic rules, everyone can create an interesting and useful peice of the puzzle that works nicely together to make up the whole.  In this case, tessalating stickers across a laptop or water bottle without any waysted space!
+
 - http://hexb.in/
 - https://www.stickermule.com/
 - https://hexi.pics/help_en

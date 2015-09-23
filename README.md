@@ -181,6 +181,15 @@ A build toolchain is a complicated set of programs that let you build software f
 - [GNU GCC](https://gcc.gnu.org/)
 - [CLANG](http://clang.llvm.org/)
 
+### The node.js runtime
+
+This is node iteself!  It provides things like the `node` command/runtime, and usually comes with `npm` bundled with it.
+
+
+### Python2
+
+Node requires python2 to build native addons.
+
 ### A general purpose package manager
 
 A package manager is optional, but having one available and set up is extremely helpful.  Package managers install software for you, automatically and unattended.  They go out and download the programs you want, as well as the other programs required to run them, then take all the necessary steps to put them into the right place where you can use said programs.  Some people can't be bothered to use a package manager because you need to learn a little bit about how they work, but you will become a more powerful developer if you learn to use a traditional package manager.
@@ -192,10 +201,6 @@ A package manager is optional, but having one available and set up is extremely 
 - [yum](http://yum.baseurl.org/)
 - [pacman](https://wiki.archlinux.org/index.php/Pacman)
 - [chocolatey](https://chocolatey.org/)
-
-### The node.js runtime
-
-This is node iteself!  It provides things like the `node` command/runtime, and usually comes with `npm` bundled with it.
 
 ## OSX
 

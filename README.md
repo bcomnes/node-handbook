@@ -962,7 +962,7 @@ Javascript lets you write code in a object oriented way.  In fact, it lets you d
 
 More often than not, you will find popular javascript libraries opt for the less ideal OO style for some reason.  There is no good explanation for this other than OO programming is currently a predominant coding paradigm, and certain OO JS styles resemble classical OO more than other more ideal OOJS styles.
 
-Its best to try to understand all the different ways, understand what the strengths and weaknesses are of each style, and mix and match the parts that work with the problem domain you are attempting to solve.
+Its best to try to understand all the different OO styles, their strengths and weaknesses, and mix and match the parts that work with the problem domain you are attempting to solve.
 
 [Douglas Crockford](http://www.crockford.com) wrote the book on the different types of object oriented inheritance you can have in JavaScript in 2008, and he boils it down to three types:  *(Pseudo)classical*, *Prototypal*, and *Functional*.  This breakdown is required reading and can be found in [JavaScript: The Good Parts](#javascript-the-good-parts).
 

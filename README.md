@@ -964,9 +964,9 @@ More often than not, you will find popular javascript libraries opt for the less
 
 Its best to try to understand all the different OO styles, their strengths and weaknesses, and mix and match the parts that work with the problem domain you are attempting to solve.
 
-[Douglas Crockford](http://www.crockford.com) wrote the book on the different types of object oriented inheritance you can have in JavaScript in 2008, and he boils it down to three types:  *(Pseudo)classical*, *Prototypal*, and *Functional*.  This breakdown is required reading and can be found in [JavaScript: The Good Parts](#javascript-the-good-parts).
+[Douglas Crockford](http://www.crockford.com) wrote the book on the different types of object oriented inheritance you can have in JavaScript in 2008, and he boils it down to three types:  **(Pseudo)classical**, **Prototypal**, and **Functional**.  This breakdown is required reading and can be found in [JavaScript: The Good Parts](#javascript-the-good-parts).
 
-[Eric Elliott](http://ericleads.com) revisits this issue in 2014 and breaks this issue down even more in [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)(Now a free e-book!)  Eric identifies the techniques used in each of Doug's OO styles, explains how they work and what they are good and not so good for, and introduces *Fluent-Style* JavaScript and the concepts of [stamps](https://github.com/stampit-org/stampit).
+[Eric Elliott](http://ericleads.com) revisits this issue in 2014 and breaks this issue down even more in [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)(Now a free e-book!)  Eric identifies the techniques used in each of Doug's OO styles, explains how they work and what they are good and not so good for, and introduces **Fluent-Style** JavaScript and the concepts of [stamps](https://github.com/stampit-org/stampit).
 
 [![](/img/eric.jpg)](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
 

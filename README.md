@@ -958,7 +958,7 @@ OO Programming is a way of organizing and writing code that breaks code up into 
 
 JavaScript doesn't subscribe to the purely object oriented world-view like other language (e.g. Java or Objective C).  Object orientation is a valid, common and occasionally ideal way to organize code, but other times its not necessary.
 
-Javascript lets you write code in a object oriented way.  In fact, it lets you do it a number of different ways.  This is a blessing, and a curse.  While it allows for OO, often in a less verbose style than pure OO languages, you will have to learn all the different ways of writing OOJS in order to really do it effectively, as well as read code of other authors.
+Javascript lets you write code in a object oriented way.  In fact, it lets you do it a number of different ways.  This is a blessing, and a curse.  While it allows for OO, often in a less verbose syntax than pure OO languages, you will have to learn all the different ways of writing OOJS in order to really do it effectively, as well as read code of other authors.
 
 More often than not, you will find popular javascript libraries opt for the less ideal OO style for some reason.  There is no good explanation for this other than OO programming is currently a predominant coding paradigm, and certain OO JS styles resemble classical OO more than other more ideal OOJS styles.
 

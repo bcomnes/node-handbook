@@ -946,26 +946,39 @@ test('lets test the foo function', function(t) {
 ```
 
 
-
-
-
-
 # Event Emitters
 
 Where do I go to learn these?
 
-# 👻👻 Inheritance, Composition, and the Prototype Chain
+# Inheritance, Composition, and the Prototype Chain
 
-AKA OO AKA Object Oriented.  Also prototypes.
+AKA OO AKA Object Oriented, AKA :ghost::ghost: programming in Javascript.  Also prototypes.
 
-## Classical
+OO Programming is a way of organizing and writing code that breaks code up into "classes" that allow you to create object factories that create object instances that have instance specific properties and methods (aka a property of an object that is a function).
+
+JavaScript doesn't subscribe to the purely object oriented world-view like other language (e.g. Java or Objective C).  Object orientation is a valid, common and occasionally ideal way to organize code, but other times its not necessary.
+
+Javascript lets you write code in a object oriented way.  In fact, it lets you do it a number of different ways.  This is a blessing, and a curse.  While it allows for OO, often in a less verbose style than pure OO languages, you will have to learn all the different ways of writing OOJS in order to really do it effectively, as well as read code of other authors.
+
+More often than not, you will find popular javascript libraries opt for the less ideal OO style for some reason.  There is no good explanation for this other than OO programming is currently a predominant coding paradigm, and certain OO JS styles resemble classical OO more than other more ideal OOJS styles.
+
+Its best to try to understand all the different ways, understand what the strengths and weaknesses are of each style, and mix and match the parts that work with the problem domain you are attempting to solve.
+
+[Douglas Crockford](http://www.crockford.com) wrote the book on the different types of object oriented inheritance you can have in JavaScript in 2008, and he boils it down to three types:  *(Pseudo)classical*, *Prototypal*, and *Functional*.  This breakdown is required reading and can be found in [JavaScript: The Good Parts](#javascript-the-good-parts).
+
+[Eric Elliott](http://ericleads.com) revisits this issue in 2014 and breaks this issue down even more in [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)(Now a free e-book!)  Eric identifies the techniques used in each of Doug's OO styles, explains how they work and what they are good and not so good for, and introduces *Fluent-Style* JavaScript and the concepts of [stamps](https://github.com/stampit-org/stampit).
+
+[![](/img/eric.jpg)](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
+
+While its worth reading Eric and Doug's take on OOJS, lets check out a quick reference of the different strategies.
+
+## (Pseudo)Classical
 
 ## Prototypical
 
 ## Functional
 
 ## Mixing the three
-
 
 # Whats the deal with Streams?
 

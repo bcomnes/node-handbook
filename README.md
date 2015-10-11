@@ -1213,6 +1213,10 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 - http://substack.net/semver_your_services_with_seaport
 - http://substack.net/shared_rendering_in_node_and_the_browser
 
+# Native addons
+
+- https://medium.com/@nodesource/c-add-ons-for-node-js-v4-be5d48832933
+
 # Link Dump
 
 This document was created  after amassing a large collection of node related links helpful to learning and understanding node.  Here is a partial linkdump until the rest of the guide can be written.

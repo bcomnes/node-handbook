@@ -671,6 +671,7 @@ Node and `npm` allow for nested dependencies.  That means, your app gets `A@2.0`
 How does this magic work?  See:
 
 - [Nested Dependencies](http://maxogden.com/nested-dependencies.html)
+- [node packaged modules](http://maxogden.com/node-packaged-modules.html)
 
 Nested dependencies solve the following issues:
 
@@ -886,6 +887,8 @@ Browserify is a program that lets you write javascript programs using the `requi
 
 Browserify's scope is fairly limited compared to traditional front-end frameworks, as a result there are quite a few other tools that do similar things plus a whole lot more.  Don't fall for it!  [YNGNI!](http://c2.com/cgi/wiki?YouArentGonnaNeedIt)  Except when you do.
 
+- https://github.com/substack/browserify-handbook#browserify-middleware-enchilada
+
 # Write your tests, clean your lint
 
 A module isn't complete without tests.  Modules are fairly small, so 100% coverage is generally a modest goal to reach.
@@ -992,6 +995,14 @@ While its worth reading Eric and Doug's take on OOJS, lets check out a quick ref
 - [stephenplusplus/stream-faqs](https://github.com/stephenplusplus/stream-faqs)
 
 # What makes modules small(µ)?
+
+- http://substack.net/node_aesthetic
+- http://substack.net/many_things
+- https://github.com/Raynos/http-framework
+- http://maxogden.com/a-month-of-modules.html
+- http://substack.net/finding_modules
+- https://github.com/substack/node-mkdirp/blob/master/index.js
+- http://www.ustream.tv/recorded/46670615
 
 > When applications are done well, they are just the really application-specific, brackish residue that can't be so easily abstracted away. All the nice, reusable components sublimate away onto github and npm where everybody can collaborate to advance the commons. -- [James Halliday-substack.net/how_I_write_modules](http://substack.net/how_I_write_modules)
 
@@ -1134,18 +1145,6 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 
 This document was created  after amassing a large collection of node related links helpful to learning and understanding node.  Here is a partial linkdump until the rest of the guide can be written.
 
-- https://nodejs.org/about/
-- http://substack.net/node_aesthetic
-- http://substack.net/many_things
-- http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
-- https://github.com/Raynos/http-framework
-- https://github.com/substack/browserify-handbook#browserify-middleware-enchilada
-- http://maxogden.com/a-month-of-modules.html
-- http://maxogden.com/nested-dependencies.html
-- http://maxogden.com/node-packaged-modules.html
-- http://substack.net/finding_modules
-- https://github.com/substack/node-mkdirp/blob/master/index.js
-- https://github.com/substack/stream-handbook
 - http://www.ustream.tv/recorded/46670615
 - https://github.com/maxogden/slides
 - https://gist.github.com/substack/68f8d502be42d5cd4942

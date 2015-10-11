@@ -133,6 +133,7 @@ You don't need to read these right now, but here are the last couple specs:
 - [ES6 Draft (ES2015?)](http://people.mozilla.org/~jorendorff/es6-draft.html)
 - [ES7 (ES2016?)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_7_support_in_Mozilla)
 - [ES\* Compatibility Table](https://kangax.github.io/compat-table/es6/)
+- http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
 
 # What is node?
 
@@ -151,6 +152,17 @@ The best way to understand what node is to listen to Ryan describe it himself.
 [Ryan Dahl Talk - NodeConf Theatre 2012.ogv](https://www.youtube.com/watch?v=GhFrlX0LdFA)
 
 [Ryan Dahl Talk NodeConf Theatre 2012 Slides](doc/nodeconf2012.pdf) (pdf)
+
+## A few links about node's missing father
+
+- https://news.ycombinator.com/item?id=4892174
+- https://news.ycombinator.com/item?id=7064470
+- http://shitryandahlsays.tumblr.com/
+- https://www.youtube.com/watch?v=SAc0vQCC6UQ
+- https://github.com/ry/v8worker
+- http://siliconangle.com/blog/2012/01/31/how-a-vacuum-cleaner-salesman-became-the-new-king-of-node-js/
+- http://www.quora.com/What-is-happening-to-Joyent-and-how-does-it-affect-NodeJS
+- https://gist.github.com/cookrn/4015437
 
 ### What is Node: The Links
 
@@ -414,6 +426,11 @@ npm i -g how-to-npm
 
 TODO: Lets get a bunch of super simple examples of callbacks and work our way up to understanding what runs async and what doesn't all the way up to `process.nexTick()`.
 
+## More reading
+
+- http://nrn.io/view/javascript-common-pitfalls
+- http://neversaw.us/2014/12/20/classifying-asynchrony/
+
 # Callbacks visualized
 
 Callbacks are confusing at first, because you are writing functions that accept variables that seemingly come out of nowhere.
@@ -475,6 +492,13 @@ You can read more about callbacks, but the best way to learn how to use them is 
 - [Why callback hell can be your friend.](http://jondavidjohn.com/why-callback-hell-can-be-your-friend/)
 - [Node In Action: 3.2 Asynchronous Programming Techniques](#nodejs-in-action) p.46
 - [Eloquent Javascript: Http callbacks](http://eloquentjavascript.net/17_http.html#p_8Shcg3/WzI)
+
+## I Promise
+
+- https://blog.domenic.me/youre-missing-the-point-of-promises/
+- http://www.slideshare.net/domenicdenicola/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript
+- https://github.com/petkaantonov/bluebird#what-are-promises-and-why-should-i-use-them
+- https://spion.github.io/posts/why-i-am-switching-to-promises.html
 
 # Javascript the hard parts
 
@@ -778,6 +802,9 @@ When you decide you need a custom dev Tool, follow this general design process:
 
 Step 3 is often optional.  Write these interface with task runners that you care about, and support contributors who want to write an task-runner specific interface for your module.
 
+- https://github.com/jlevy/the-art-of-command-line
+- https://github.com/alebcay/awesome-shell
+
 ## Utopia `npm`
 
 Global and environmental dependencies are an anti-pattern because it adds endless complexity to the process of writing and deploying applications.
@@ -975,6 +1002,11 @@ Its best to try to understand all the different OO styles, their strengths and w
 
 While its worth reading Eric and Doug's take on OOJS, lets check out a quick reference of the different strategies.
 
+- https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6
+- https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
+- https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
+- https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a
+
 ## (Pseudo)Classical
 
 ## Prototypical
@@ -993,6 +1025,26 @@ While its worth reading Eric and Doug's take on OOJS, lets check out a quick ref
 - [on streams1 vs 2-3](https://github.com/dominictarr/through/issues/37#issuecomment-129340097)
 - [pull stream](https://github.com/dominictarr/pull-stream)
 - [stephenplusplus/stream-faqs](https://github.com/stephenplusplus/stream-faqs)
+- https://nodejs.org/en/blog/feature/streams2/
+- https://dl.dropboxusercontent.com/u/3685/presentations/streams2/streams2-ko.pdf
+- https://iojs.org/api/stream.html
+- https://nodejs.org/api/stream.html
+- https://github.com/nodejs/readable-stream
+- https://strongloop.com/strongblog/whats-new-io-js-beta-streams3/
+- http://stackoverflow.com/questions/21538812/what-is-streams3-in-node-js-and-how-does-it-differ-from-streams2
+- https://github.com/joyent/node/issues/5860
+- https://nodejs.org/docs/v0.11.5/api/stream.html
+- http://brycebaril.github.io/streams2-presentation/#/21/7
+- https://www.npmjs.com/package/through2-spy
+- https://www.npmjs.com/package/stream-meter
+- https://github.com/brycebaril/node-stream-spigot
+- https://www.npmjs.com/package/through2
+- https://www.npmjs.com/package/through2-filter
+- https://www.npmjs.com/package/stream-spigot#star
+- https://twitter.com/rvagg/status/608577853601398784
+- https://iojs.org/api/stream.html#stream_simplified_constructor_api
+- http://words.jessekeane.me/front-end-streams/
+- https://cloud.githubusercontent.com/assets/37303/5728694/f9a3e300-9b20-11e4-9e14-a6938b3327f0.png
 
 # What makes modules small(µ)?
 
@@ -1003,6 +1055,17 @@ While its worth reading Eric and Doug's take on OOJS, lets check out a quick ref
 - http://substack.net/finding_modules
 - https://github.com/substack/node-mkdirp/blob/master/index.js
 - http://www.ustream.tv/recorded/46670615
+- https://gist.github.com/substack/68f8d502be42d5cd4942
+- https://en.wikipedia.org/wiki/Turtles_all_the_way_down
+- https://gist.github.com/substack/5075355
+- http://0fps.net/2013/01/22/commonjs-why-and-how/
+- https://en.wikipedia.org/wiki/Modular_programming
+- https://gist.github.com/dominictarr/2401787
+- https://github.com/felixge/node-style-guide
+- http://www.quora.com/Whats-the-correct-way-to-write-nodejs-modules-There-seems-to-be-discrepancies-between-experts-like-substack-dominictarr-vs-the-newd-constructor-style-of-V8-optimization-recommendations-What-gives
+- https://github.com/openopensource/openopensource.github.io
+- https://github.com/ngoldman/open-2-contributing
+- https://github.com/yoshuawuyts/knowledge
 
 > When applications are done well, they are just the really application-specific, brackish residue that can't be so easily abstracted away. All the nice, reusable components sublimate away onto github and npm where everybody can collaborate to advance the commons. -- [James Halliday-substack.net/how_I_write_modules](http://substack.net/how_I_write_modules)
 
@@ -1018,6 +1081,7 @@ While its worth reading Eric and Doug's take on OOJS, lets check out a quick ref
 - https://github.com/nodejs/node
 - https://www.youtube.com/watch?v=UbYiFLf7MpU
 - https://github.com/nodejs/io.js/issues/1664#issuecomment-101828384
+- https://www.youtube.com/watch?v=hZJCnT7E1ts
 
 # Tools to write Node
 
@@ -1071,13 +1135,17 @@ Resources for teaching others and writing nodeschool adventures.
 
 - http://bellard.org/jslinux/
 - https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS
--
+- https://brendaneich.com/2015/06/from-asm-js-to-webassembly/
+- https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6
+- https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723
 
 # ES6 and Beyond
 
 - https://medium.com/@brianleroux/es6-modules-amd-and-commonjs-c1acefbe6fc0
 - http://espadrine.github.io/New-In-A-Spec/es6/
 - https://en.wikipedia.org/wiki/ECMAScript
+- http://blog.izs.me/post/25906678790/on-es-6-modules
+- http://tomdale.net/2012/01/amd-is-not-the-answer/
 
 # Frameworks
 
@@ -1112,6 +1180,8 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 - twitter
 - conferences
 - gitter/slack?
+- http://lin-clark.com/blog/2014/07/01/authoring-nodejs-workshopper-lessons/
+- http://nodeschool.io/
 
 # Mastering git
 
@@ -1124,9 +1194,13 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 - [electron handbook](https://github.com/bcomnes/electron-handbook)
 - https://github.com/sindresorhus/awesome-electron
 
-# Cool Cats writing Cool Modules
+# Sharing your ideas
 
-😎
+:sunglasses:
+
+- http://www.macwright.org/big/
+- https://github.com/maxogden/slides
+
 
 ## School of Substack
 
@@ -1139,83 +1213,18 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 - http://substack.net/semver_your_services_with_seaport
 - http://substack.net/shared_rendering_in_node_and_the_browser
 
-# People to watch
-
 # Link Dump
 
 This document was created  after amassing a large collection of node related links helpful to learning and understanding node.  Here is a partial linkdump until the rest of the guide can be written.
 
-- http://www.ustream.tv/recorded/46670615
-- https://github.com/maxogden/slides
-- https://gist.github.com/substack/68f8d502be42d5cd4942
-- https://en.wikipedia.org/wiki/Turtles_all_the_way_down
-- https://gist.github.com/substack/5075355
-- http://www.macwright.org/big/
-- http://0fps.net/2013/01/22/commonjs-why-and-how/
-- http://blog.izs.me/post/25906678790/on-es-6-modules
-- http://tomdale.net/2012/01/amd-is-not-the-answer/
-- https://en.wikipedia.org/wiki/Modular_programming
-- http://blog.nodejs.org/2012/12/20/streams2/
-- https://dl.dropboxusercontent.com/u/3685/presentations/streams2/streams2-ko.pdf
-- https://iojs.org/api/stream.html
-- https://github.com/nodejs/readable-stream
-- https://strongloop.com/strongblog/whats-new-io-js-beta-streams3/
-- http://stackoverflow.com/questions/21538812/what-is-streams3-in-node-js-and-how-does-it-differ-from-streams2
-- https://github.com/joyent/node/issues/5860
-- http://nodejs.org/docs/v0.11.5/api/stream.html
-- http://brycebaril.github.io/streams2-presentation/#/21/7
-- https://www.npmjs.com/package/through2-spy
-- https://www.npmjs.com/package/stream-meter
-- https://github.com/brycebaril/node-stream-spigot
-- https://github.com/brycebaril
-- https://www.npmjs.com/package/through2
-- https://www.npmjs.com/package/through2-filter
-- https://www.npmjs.com/package/stream-spigot#star
-- https://blog.domenic.me/youre-missing-the-point-of-promises/
-- http://www.slideshare.net/domenicdenicola/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript
-- https://nodejs.org/api/domain.html
-- https://github.com/petkaantonov/bluebird#what-are-promises-and-why-should-i-use-them
-- https://spion.github.io/posts/why-i-am-switching-to-promises.html
-- https://twitter.com/rvagg/status/608577853601398784
-- https://iojs.org/api/stream.html#stream_simplified_constructor_api
-- http://nrn.io/view/javascript-common-pitfalls
-- http://words.jessekeane.me/front-end-streams/
-- http://neversaw.us/2014/12/20/classifying-asynchrony/
-- https://cloud.githubusercontent.com/assets/37303/5728694/f9a3e300-9b20-11e4-9e14-a6938b3327f0.png
-- http://lin-clark.com/blog/2014/07/01/authoring-nodejs-workshopper-lessons/
-- http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
-- https://github.com/jlevy/the-art-of-command-line
-- https://github.com/alebcay/awesome-shell
-- https://brendaneich.com/2015/06/from-asm-js-to-webassembly/
-- https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6
-- https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
-- https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4
-- https://gist.github.com/dominictarr/2401787
-- https://github.com/felixge/node-style-guide
+
+
 - http://nikhilm.github.io/uvbook/threads.html#core-thread-operations
-- https://github.com/joyent/node/issues/5132#issuecomment-15432598
-- https://www.youtube.com/watch?v=hZJCnT7E1ts
+- https://github.com/nodejs/node-v0.x-archive/issues/5132#issuecomment-15432598
 - https://github.com/sindresorhus/awesome
 - https://github.com/sindresorhus/awesome-nodejs
-- https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 - https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 - https://github.com/kriskowal/gtor
-- http://www.quora.com/Whats-the-correct-way-to-write-nodejs-modules-There-seems-to-be-discrepancies-between-experts-like-substack-dominictarr-vs-the-newd-constructor-style-of-V8-optimization-recommendations-What-gives
-- https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723
-- https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a
-- https://github.com/openopensource/openopensource.github.io
-- https://github.com/ngoldman/open-2-contributing
-- https://github.com/yoshuawuyts/knowledge/blob/master/modules.md
-- https://news.ycombinator.com/item?id=7064470
-- https://news.ycombinator.com/item?id=4892174
-- http://shitryandahlsays.tumblr.com/
-- https://www.youtube.com/watch?v=SAc0vQCC6UQ
-- https://github.com/ry/v8worker
-- http://siliconangle.com/blog/2012/01/31/how-a-vacuum-cleaner-salesman-became-the-new-king-of-node-js/
-- http://www.curlybracecast.com/
-- http://www.curlybracecast.com/posts/isaac-schlueter.html
-- http://www.quora.com/What-is-happening-to-Joyent-and-how-does-it-affect-NodeJS
-- https://gist.github.com/cookrn/4015437
 - https://gist.github.com/jhclark/2845836
 - http://i.imgur.com/k0t1e.png
 - https://github.com/essdot/js-lessons

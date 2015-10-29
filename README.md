@@ -1066,6 +1066,7 @@ While its worth reading Eric and Doug's take on OOJS, lets check out a quick ref
 - https://github.com/openopensource/openopensource.github.io
 - https://github.com/ngoldman/open-2-contributing
 - https://github.com/yoshuawuyts/knowledge
+- https://github.com/npm-dom
 
 > When applications are done well, they are just the really application-specific, brackish residue that can't be so easily abstracted away. All the nice, reusable components sublimate away onto github and npm where everybody can collaborate to advance the commons. -- [James Halliday-substack.net/how_I_write_modules](http://substack.net/how_I_write_modules)
 

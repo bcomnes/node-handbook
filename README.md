@@ -332,6 +332,12 @@ You will also need to install a free version of Visual Studio for building modul
 
 [Visual Studio Express](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
 
+as well as python2 installed:
+
+[python2](https://www.python.org/downloads/)
+
+For up to date windows caveats, see [Microsoft/nodejs-guidelines](https://github.com/Microsoft/nodejs-guidelines)
+
 # How to know node
 
 Now that we have seen a bit about the history and motivations behind node, lets actually visit the necessary materials to actually understand node.

@@ -107,7 +107,7 @@ npm install -g javascripting
 
 # What is javascript?
 
-Javascript is the programming language that your web browser comes with, but these days its becoming a lot more.  Its pretty okay.  Its not the best language and has a lot of warts, but it gets a lot right, and you don't really have a choice about using it or not (although this is changing, for better or for worse).  You should shouldn't skip learning javascript though.
+Javascript is the programming language that your web browser comes with, but these days its becoming a lot more.  Its pretty okay.  Its not the best language and has a lot of warts, but it gets a lot right, and you don't really have a choice about using it or not (although this is changing, for better or for worse).  You shouldn't skip learning javascript though.
 
 [Douglas Crockford](http://www.crockford.com) gave a good presentation that effectively answers the question: "What is Javascript?" in his 2012 "Javascript: Your New Overlord" presentation:
 

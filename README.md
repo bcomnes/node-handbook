@@ -1053,6 +1053,7 @@ While its worth reading Eric and Doug's take on OOJS, lets check out a quick ref
 - https://cloud.githubusercontent.com/assets/37303/5728694/f9a3e300-9b20-11e4-9e14-a6938b3327f0.png
 - https://github.com/calvinmetcalf/streams-a-love-story
 - http://streams.how/
+- https://nodesource.com/blog/understanding-object-streams/
 
 # What makes modules small(µ)?
 

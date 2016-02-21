@@ -1257,3 +1257,4 @@ This document was created  after amassing a large collection of node related lin
 - http://www.learnenough.com/command-line
 - https://certsimple.com/blog/deploy-node-on-linux
 - https://github.com/denysdovhan/bash-handbook
+- http://mafintosh.com/learning-javascript.html

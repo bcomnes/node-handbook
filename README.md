@@ -981,6 +981,8 @@ test('lets test the foo function', function(t) {
 })
 ```
 
+- [finnp/node-travisjs](https://github.com/finnp/node-travisjs)
+
 
 # Event Emitters
 

@@ -16,6 +16,18 @@ We may also cover a few other useful places to learn cool tools and skills like:
 - app deployment
 - people skills
 
+
+> ```
+·      + 　　 　 . 
+　　　　· 　 · 　　.　 · 　　.　 
+ ˚  +  *  . .  　.　 .  　 ˚  +  *  . 
+ .  ⋆ 　　　 ˚ .　.🚀🐢🚀 . 
+ + ✷   ✦  .     +  .  　　 　　　　
+ 　  +  .  ·  　  　 ✧ . 　 .
+```
+--- yoshuawuyts / Fishrock123 / substack
+
+
 ## TOC
 
 <!-- TOC depth:1 withLinks:1 updateOnSave:1 -->

@@ -1,4 +1,4 @@
-# node-learnbook
+# node-handbook
 
 Lets learn node the node way! :dromedary_camel: :see_no_evil: :hatching_chick:
 
@@ -31,7 +31,7 @@ We may also cover a few other useful places to learn cool tools and skills like:
 ## TOC
 
 <!-- TOC depth:1 withLinks:1 updateOnSave:1 -->
-- [node-learnbook](#node-learnbook)
+- [node-handbook](#node-handbook)
 - [Getting started.](#getting-started)
 - [What is javascript?](#what-is-javascript)
 - [What is node?](#what-is-node)

@@ -127,9 +127,14 @@ It was invented by Brendan Eich in the days of the mosaic browser and netscape: 
 
 [Douglas Crockford](http://www.crockford.com) gave a good presentation that effectively answers the question: "What is Javascript?" in his 2012 "Javascript: Your New Overlord" presentation:
 
-[![Javascript: Your New Overlord](img/crockford.gif)](https://www.youtube.com/watch?v=Trurfqh_6fQ)
-
-[Javascript: Your New Overlord](https://www.youtube.com/watch?v=Trurfqh_6fQ)
+<figure>
+<img alt="Javascript: Your New Overlord" src="img/crockford.gif" />
+<figcaption>
+<a href="https://www.youtube.com/watch?v=Trurfqh_6fQ">
+Javascript: Your New Overlord
+</a>
+</figcaption>
+</figure>
 
 You should watch it!
 

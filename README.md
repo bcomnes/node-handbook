@@ -1079,6 +1079,7 @@ While its worth reading Eric and Doug's take on OOJS, lets check out a quick ref
 - https://github.com/calvinmetcalf/streams-a-love-story
 - http://streams.how/
 - https://nodesource.com/blog/understanding-object-streams/
+- http://dominictarr.com/post/145135293917/history-of-streams
 
 # What makes modules small(µ)?
 

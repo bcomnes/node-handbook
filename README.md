@@ -1285,3 +1285,4 @@ This document was created  after amassing a large collection of node related lin
 - https://github.com/denysdovhan/bash-handbook
 - http://mafintosh.com/learning-javascript.html
 - https://gist.github.com/chrisdickinson/3212df99d53851261597
+- https://git.cryto.net/Squatconf/Talks/src/master/accepted/day2/lessons-learned-presentation.md

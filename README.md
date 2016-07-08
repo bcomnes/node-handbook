@@ -1286,3 +1286,5 @@ This document was created  after amassing a large collection of node related lin
 - http://mafintosh.com/learning-javascript.html
 - https://gist.github.com/chrisdickinson/3212df99d53851261597
 - https://git.cryto.net/Squatconf/Talks/src/master/accepted/day2/lessons-learned-presentation.md
+- https://github.com/felixrieseberg/windows-build-tools
+

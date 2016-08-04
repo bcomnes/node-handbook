@@ -1254,6 +1254,12 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 
 - https://medium.com/@nodesource/c-add-ons-for-node-js-v4-be5d48832933
 
+# IRC
+
+- https://gist.github.com/maxogden/8610086
+- http://nodeirc.info
+- http://blog.izs.me/post/30036893703/policy-on-trolling
+
 # Link Dump
 
 This document was created  after amassing a large collection of node related links helpful to learning and understanding node.  Here is a partial linkdump until the rest of the guide can be written.

@@ -1293,4 +1293,5 @@ This document was created  after amassing a large collection of node related lin
 - https://gist.github.com/chrisdickinson/3212df99d53851261597
 - https://git.cryto.net/Squatconf/Talks/src/master/accepted/day2/lessons-learned-presentation.md
 - https://github.com/felixrieseberg/windows-build-tools
+- https://github.com/a0viedo/demystifying-js-engines
 

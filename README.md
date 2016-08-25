@@ -1296,4 +1296,5 @@ This document was created  after amassing a large collection of node related lin
 - https://github.com/a0viedo/demystifying-js-engines
 - https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/
 - https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4#.tlkjx37nj
+- https://github.com/ahdinosaur/mad-science-handbook
 

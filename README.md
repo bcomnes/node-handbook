@@ -1298,5 +1298,5 @@ This document was created  after amassing a large collection of node related lin
 - https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4#.tlkjx37nj
 - https://github.com/ahdinosaur/mad-science-handbook
 - https://nodesource.com/blog/eleven-npm-tricks-that-will-knock-your-wombat-socks-off/
-
+- https://web.archive.org/web/20160903203552/https:/twitter.com/izs/status/764295673625784320
 

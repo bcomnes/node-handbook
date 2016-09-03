@@ -1300,3 +1300,4 @@ This document was created  after amassing a large collection of node related lin
 - https://nodesource.com/blog/eleven-npm-tricks-that-will-knock-your-wombat-socks-off/
 - https://web.archive.org/web/20160903203552/https:/twitter.com/izs/status/764295673625784320
 - https://github.com/nodejs/node/commit/da2f4b2dc429df120188c5633ac3bd6f4a3c5373
+- https://gwenbell.com/dt-interview/

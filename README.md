@@ -1301,6 +1301,8 @@ This document was created  after amassing a large collection of node related lin
 - https://web.archive.org/web/20160903203552/https:/twitter.com/izs/status/764295673625784320
 - https://github.com/nodejs/node/commit/da2f4b2dc429df120188c5633ac3bd6f4a3c5373
 - https://gwenbell.com/dt-interview/
+- https://twitter.com/BrendanEich/status/773400732305358848
+
 
 
 > TC39 is powerless to ever remove [all the badness in JS].  All they can do is add more crap on top of it and they are busy doing that for you.

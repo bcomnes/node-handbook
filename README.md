@@ -1204,6 +1204,8 @@ Node has its share of weak points.  Articles that hate on it generally miss thes
 - [![](img/idiot.gif)](https://www.youtube.com/watch?v=1e1zzna-dNw)
 
   [Biz of Tech: Node.JS Is Stupid And If You Use It So Are You](https://www.youtube.com/watch?v=1e1zzna-dNw)
+  
+- [Should you Learn Node js in 2017](https://www.youtube.com/watch?v=ahXOaHv9XYo)
 
 # html + css
 

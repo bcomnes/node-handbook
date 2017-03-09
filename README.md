@@ -1305,6 +1305,7 @@ This document was created  after amassing a large collection of node related lin
 - https://gwenbell.com/dt-interview/
 - https://twitter.com/BrendanEich/status/773400732305358848
 - http://npm.anvaka.com/#/
+- http://web.archive.org/web/20150216184318/https://docs.npmjs.com/misc/faq#if-npm-is-an-acronym-why-is-it-never-capitalized
 
 
 

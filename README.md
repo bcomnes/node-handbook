@@ -1306,7 +1306,7 @@ This document was created  after amassing a large collection of node related lin
 - https://twitter.com/BrendanEich/status/773400732305358848
 - http://npm.anvaka.com/#/
 - http://web.archive.org/web/20150216184318/https://docs.npmjs.com/misc/faq#if-npm-is-an-acronym-why-is-it-never-capitalized
-
+- https://github.com/ungoldman/awesome-browserify
 
 
 > TC39 is powerless to ever remove [all the badness in JS].  All they can do is add more crap on top of it and they are busy doing that for you.

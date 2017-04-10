@@ -17,54 +17,16 @@ We may also cover a few other useful places to learn cool tools and skills like:
 - people skills
 
 
-> ```
-·      + 　　 　 . 
-　　　　· 　 · 　　.　 · 　　.　 
- ˚  +  *  . .  　.　 .  　 ˚  +  *  . 
- .  ⋆ 　　　 ˚ .　.🚀🐢🚀 . 
- + ✷   ✦  .     +  .  　　 　　　　
- 　  +  .  ·  　  　 ✧ . 　 .
+ ```
+  ·      + 　　 　 . 
+  ?　　　　· 　 · 　　.　 · 　　.　 
+   ˚  +  *  . .  　.　 .  　 ˚  +  *  . 
+   .  ⋆ 　　　 ˚ .　.🚀🐢🚀 . 
+   + ✷   ✦  .     +  .  　　 　　　　
+   　  +  .  ·  　  　 ✧ . 　 .
 ```
---- yoshuawuyts / Fishrock123 / substack
+> --- yoshuawuyts / Fishrock123 / substack
 
-
-## TOC
-
-<!-- TOC depth:1 withLinks:1 updateOnSave:1 -->
-- [node-handbook](#node-handbook)
-- [Getting started.](#getting-started)
-- [What is javascript?](#what-is-javascript)
-- [What is node?](#what-is-node)
-- [How to get node](#how-to-get-node)
-- [How to know node](#how-to-know-node)
-- [Callbacks visualized](#callbacks-visualized)
-- [Javascript the hard parts](#javascript-the-hard-parts)
-- [... [WIP]](#-wip)
-- [`npm` stuffs](#npm-stuffs)
-- [Semver](#semver)
-- [Node in the browser?](#node-in-the-browser)
-- [Event Emitters](#event-emitters)
-- [👻👻 Inheritance, Composition, and the Prototype Chain](#-inheritance-composition-and-the-prototype-chain)
-- [Write your tests, eat your greens](#write-your-tests-eat-your-greens)
-- [Whats the deal with Streams?](#whats-the-deal-with-streams)
-- [Node.js and io.js Anthropology](#nodejs-and-iojs-anthropology)
-- [Tools to write Node](#tools-to-write-node)
-- [Spellcheck for Javascript](#spellcheck-for-javascript)
-- [All the badges](#all-the-badges)
-- [Hex Stickers](#hex-stickers)
-- [An adventure of your own](#an-adventure-of-your-own)
-- [JS is the worlds polyglot assembly language now](#js-is-the-worlds-polyglot-assembly-language-now)
-- [ES6 and Beyond](#es6-and-beyond)
-- [Frameworks](#frameworks)
-- [Haters gonna hate](#haters-gonna-hate)
-- [html + css](#html-css)
-- [Community](#community)
-- [Mastering git](#mastering-git)
-- [Electron?](#electron)
-- [Cool Cats writing Cool Modules](#cool-cats-writing-cool-modules)
-- [People to watch](#people-to-watch)
-- [Link Dump](#link-dump)
-<!-- /TOC -->
 
 ## Required Provisions
 

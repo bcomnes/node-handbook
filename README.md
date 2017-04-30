@@ -1,5 +1,7 @@
 # node-handbook
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bcomnes/node-handbook.svg)](https://greenkeeper.io/)
+
 Lets learn node the node way! :dromedary_camel: :see_no_evil: :hatching_chick:
 
 ![](img/sparkle.gif)

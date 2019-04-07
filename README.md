@@ -1278,3 +1278,16 @@ This document was created  after amassing a large collection of node related lin
 > - https://youtu.be/O9AwYiwIvXE?t=12m46s Douglas Crockford
 
 
+http://archive.fo/ZMNgr NPM's api in a few tweets
+
+
+## Some more recent bickerings
+
+- Zeldman complains people builds apps instead of web pages: http://archive.fo/0uXJG
+- Frontend centric responds: http://archive.fo/Cc1pn
+- Alex Russel chimes in: http://archive.fo/raW9J
+- Mikeal responds http://archive.fo/PaapG
+- Mikeal threads some decent explainations, completely devoid from the original complainers persective: http://archive.fo/yUM6z
+- Why node is the way it is, from the perspective of a 2019 Izs:  http://archive.fo/i8n8x
+
+
